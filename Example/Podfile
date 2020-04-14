@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FFScanCodeKit_Example' do
+  pod 'FFScanCodeKit', :path => '../'
+
+  target 'FFScanCodeKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
