@@ -31,9 +31,6 @@ Pod::Spec.new do |s|
   s.subspec 'ZBar' do |ss|
     ss.public_header_files = 'FFScanCodeKit/Classes/ZBarSDK/ZBarSDK.h'
     ss.source_files = 'FFScanCodeKit/Classes/**/*'
-    ss.resource_bundles = {
-       'FFScanCodeKit' => ['FFScanCodeKit/Assets/*']
-     }
     ss.requires_arc = false
   end
   
@@ -55,9 +52,12 @@ Pod::Spec.new do |s|
   s.subspec 'Relative' do |ss|
       ss.public_header_files = 'FFScanCodeKit/Relative/FFScanRelative.h'
       ss.source_files = 'FFScanCodeKit/Relative/FFScanRelative.{h,m}'
-      ss.resource = 'FFScanCodeKit/FFScanCodeKit.bundle'
       ss.requires_arc = true
   end
+  
+  s.resource_bundles = {
+    'FFScanCodeKit' => ['FFScanCodeKit/Assets/*']
+  }
 
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics', 'AVFoundation', 'CoreMedia', 'CoreVideo', 'QuartzCore'
   

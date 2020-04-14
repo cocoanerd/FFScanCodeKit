@@ -18,6 +18,11 @@
   "platforms": {
     "ios": "9.0"
   },
+  "resource_bundles": {
+    "FFScanCodeKit": [
+      "FFScanCodeKit/Assets/*"
+    ]
+  },
   "frameworks": [
     "UIKit",
     "Foundation",
@@ -38,11 +43,6 @@
       "name": "ZBar",
       "public_header_files": "FFScanCodeKit/Classes/ZBarSDK/ZBarSDK.h",
       "source_files": "FFScanCodeKit/Classes/**/*",
-      "resource_bundles": {
-        "FFScanCodeKit": [
-          "FFScanCodeKit/Assets/*"
-        ]
-      },
       "requires_arc": false
     },
     {
@@ -82,7 +82,6 @@
       "name": "Relative",
       "public_header_files": "FFScanCodeKit/Relative/FFScanRelative.h",
       "source_files": "FFScanCodeKit/Relative/FFScanRelative.{h,m}",
-      "resources": "FFScanCodeKit/FFScanCodeKit.bundle",
       "requires_arc": true
     }
   ]

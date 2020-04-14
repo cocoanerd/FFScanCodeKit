@@ -7,152 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		011871F926D7772A1119B8E5C47B1A64 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = C17424BF670C7E8E42B01531D70E912C /* zbar-help.html */; };
+		0001C73A988C03267EB6E105B6A55462 /* ZBarReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA9D6A58633B1BDB19E1F8CD7021D43 /* ZBarReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02070DDAD50D2F85CE830EC765879A24 /* Pods-FFScanCodeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F8FB83080F2D254F2CD2ED1088E723 /* Pods-FFScanCodeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		044DAA35860C6DF1F43098C16EFFE4EE /* posix.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A3A3C845D3F6DCBB24766A956CECCD /* posix.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04AE021F5C05F4458D3AC38B731611FF /* prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = F5194ECEA54E6B0E0601FA0385061D10 /* prefix.pch */; };
-		07FCAD1256024F494DDF959AF5ADAF36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */; };
-		08E106DA0FF4EB35EE488A3873A4F2EE /* i25.c in Sources */ = {isa = PBXBuildFile; fileRef = EF303BFB9A7B41B4EF15C13F118855BD /* i25.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09CB7D9689708E63AFC8C98CD03230DE /* ZBarImageScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9E3CC284B9FC5D81BB23532A9DA98 /* ZBarImageScanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0AA8A6CD35AFC01156C620005A8508AB /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C73710667C093479D1901B25568CBAD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
-		0F586961126918F8AD99AB40BF29E482 /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E1FAB5DB5F03F37D775295D7E3C5B /* decoder.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		138EAAEAAEEFFDCE6D6986F1D80722BD /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 471C7E658B9B7E88E59598231FF9BC69 /* scanner.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		164BC4DDD870A8D5ECA04C6066C22086 /* ZBarReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B104C22E5DB1804E40D41D612280BD78 /* ZBarReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		164BE09F29FD27A40DEFF69CD0B7D019 /* ZBarReaderViewImpl_Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8349EA249B9FDFACE3C3359A161DFC /* ZBarReaderViewImpl_Capture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		176F2AD9EC1ECABFE5A7EE5E70E50963 /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = FAF1215438E9F84933B5A87EC47D9C37 /* rs.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1AD5AD3C94E83824B2211DDFCB4B7FA6 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
-		1D4D15AEAFD65EC609EA9AF74CD5FEE5 /* FFScanCodeKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FBE404BE9F1D6750B71D15DE4800EFE7 /* FFScanCodeKit.bundle */; };
-		1F21101F454E75B252E4B40FC0054A60 /* binarize.c in Sources */ = {isa = PBXBuildFile; fileRef = BA52AC630A423839D7B987580712AADC /* binarize.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		205387ECF04CF28D9BE4800595B57A44 /* code93.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5E34FFCCBE62881DB63F266FDF5897 /* code93.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		215478DD84BEFD715AEE1D049752CD08 /* FFScanCodeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CBFADD498FD951D78997C2CEFDE111 /* FFScanCodeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21DCCD64A031AAEDFD7CC8301AE72634 /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = A32BBB466E1059EBBA70C357EBC045DA /* image.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22652CC8B9BADB40D8C338A0DCAA2BB4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27126BA4FBAE431AB85F9EB5C4E942D8 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A666903CA173A77CBBA1AFEB48A3FC0 /* error.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		28C9B636BAFCD2318F9BD5A2EFC0C4DA /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = A9E17B2C07F06518E0D9220FFFAF7FDC /* image.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2A659AF028007FC60880A533194F9C4F /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CCE8B945E031C34CA0EBB66B50B764D /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E2E19C657BF9E5DA5A3F67A5A140D09 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EE510BA6BE09103D0DFC24FDB44E9B9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B15277B8085AE4A2CA2378A9F2494F /* AVFoundation.framework */; };
-		2F013E1F5AFF951E5AF77D84B637BA2F /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 37DEA065FB10282F6596947192864958 /* mutex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		316FAFD68208EC1B83AE1C41266C8872 /* ZBarHelpController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CD3D544C74BBF89C9BED3770C54B98 /* ZBarHelpController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35418867505FE0D25F3E72C00ED42EEF /* ZBarCaptureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 240BBFAACBDF32785F1EEF87F6E52F8B /* ZBarCaptureReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3651AD2F7C2CE96E8DBA8F6A0C4F1A00 /* ZBarReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FB2AF3F9E5A55D50DFEEF8AB3796DA /* ZBarReaderController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		36C47DCE280C3C2E42390FAE6863C727 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E407083D5DE078A48365892478A9932 /* UIKit.framework */; };
-		37AD4FF977EBEC47A06C46914532AA4A /* ZBarCaptureReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 436D8E7F224C83163AC3EFB01B1FD29E /* ZBarCaptureReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0222B95BB1EC754396898AEC6534873A /* FFScanningView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B7A55A5E160ECB2C1C39CE2CCA18FC /* FFScanningView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02919FF64F62C46C146631E5675753ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03539173BD1EE203865AE4E80BA95639 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 562DAD0A2CF8476A39372BC5B6DDC283 /* zbar-back.png */; };
+		0515FB9E31DB337FECF135B3C2C4340F /* refcnt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BCC4AA0E91B8CD07A05FCA44DC671A9 /* refcnt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0704A6725F108AD2F441E35D11DB4AAF /* code39.h in Headers */ = {isa = PBXBuildFile; fileRef = D6158E73AC4F8C5636115EB74B53111A /* code39.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C637226CF90D5C7705B8344A36BC0F7 /* ZBarCVImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 188BB21266D6B6A57EC060922BDF312E /* ZBarCVImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CFF190C0E5282E747FE0D14A15DCF8C /* i25.c in Sources */ = {isa = PBXBuildFile; fileRef = CB1AEE7D72F4FBD129EE30202C5EC883 /* i25.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0DD879F59379C41C7B109BDE1216DAD2 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 86CDD8581CFE38CB57F3955341BC88CE /* error.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0DD9A73B0A3ABB0F24FBCA5AFE1C2F61 /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B99A1A8FD31A24761E66365784A58E /* decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDDC66C06430A0E05C83100245EEF0C /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ED45B60E04ADCF558D99420267833A7 /* ean.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C33106E8C2BDE659B8366865AAC81D1 /* ean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100042239CCDF22792FEE75A82EC7193 /* code128.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A710AF220489E63AAB8CDC806C8AC84 /* code128.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		105C9D59E44E05B47E88F578FF60A07B /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13A05FEE86A98EE80FAB0DFF3C518849 /* ZBarReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = 642EEA56F62AB59188AEE33AD4EB819A /* ZBarReaderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		158CCE2BCDAAA0A79C09B1B262E59C46 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		173755EA95EBD3DC6A89A243F8782B4F /* FFScanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE367F4267F7D416985A3065B7C033 /* FFScanWrapper.m */; };
+		1A9351BAA1835CE0AA048851E3170AD0 /* codabar.c in Sources */ = {isa = PBXBuildFile; fileRef = EEA81E1D822BD7F1CFBB65D6ACE45AF4 /* codabar.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1B38CF3237138B8C9295522BC9705C8D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		1C4C04ADD59A28354209255E38F81C8F /* code128.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E247E20CD86B3B96004A9FB4FAA92D /* code128.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EF5A5BC81CD2ECF980FB876F1C5A41C /* FFScanningPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0665976D616F094427C4CAF664EC80 /* FFScanningPermissions.m */; };
+		1F1EA7F63DFBE9E385F34033D617D454 /* FFScanRelative.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF9DA21B83CE6CEC73984AF0AE6DBE2 /* FFScanRelative.m */; };
+		1F7719DD87F469B8396FD90DBB74D219 /* scan-code_btn_click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EEC5E1C9CE910FD234298162692ADA5 /* scan-code_btn_click@2x.png */; };
+		1FCDDBC341E82E8758931E7C55409B56 /* ZBarReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF87A70CAC95FB20FDF6A3A8EF286FEA /* ZBarReaderViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		225464843293F5E4EE91F8DC2AF964C2 /* codabar.h in Headers */ = {isa = PBXBuildFile; fileRef = A23C6773299AA551399B36F914D3F41D /* codabar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		239085871982AF3DC2313B160BFF21D2 /* scan-code_btn_flashlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A0D52A86B0B1DE19631F9AB33C657D /* scan-code_btn_flashlight@3x.png */; };
+		28F0B4CF8C76C22E564D47D91DDCC47B /* ZBarHelpController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59F63A0ACA8A96DDA480D48079FAD18 /* ZBarHelpController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2AD82163C4FBBE029B4E3AD6C2907ABE /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9A31B1B22DCACD134A73BA55B8FBDF /* mutex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCC7D3B88433CF2066A6DF1E928AC2C /* img_scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 187DB5A9DA8D52CA7728DF589559F8D3 /* img_scanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CDB64D93A491E6497EECC77B6416236 /* databar.c in Sources */ = {isa = PBXBuildFile; fileRef = D9C47A2F8823F3499C3A95CC916B8BAF /* databar.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2E4B8E8F6321179D71EA8569DE4D61AB /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = 22704C533D7901FB573F4777A7AFD821 /* window.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8DF6E74280774E678510AB263E98CE /* FFScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = B91F99CC5F811052E6019140146676F8 /* FFScanningView.m */; };
+		2F8BC0FBBBFA50528C5A69F56E4EDC4F /* qrdec.h in Headers */ = {isa = PBXBuildFile; fileRef = 76BAECC068B9DBDFEEF57A980D0FDBFA /* qrdec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32D94F05C6E616BD7B1842FC83275347 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		369DD389D7881A508B50699D6012A28F /* FFScanCodeKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FBE404BE9F1D6750B71D15DE4800EFE7 /* FFScanCodeKit.bundle */; };
+		37AB0EDD7FF9EA3A77C6495216B1F6A6 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 999BC7852680678C76979CF43BB62DEC /* zbar-samples.png */; };
+		3836D54CBA1CE9B5F87CF345C9DE9478 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B15277B8085AE4A2CA2378A9F2494F /* AVFoundation.framework */; };
+		38E4001ED505CDDC38E5C46B775C5334 /* bch15_5.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B87484A0F215A44BE08CA657FE94745 /* bch15_5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39D78FD569CDF2AFBECC2079778AAE8C /* Pods-FFScanCodeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E72260BB4E08092225FD377CDC3C0E /* Pods-FFScanCodeKit_Example-dummy.m */; };
-		3A4379F333F670205A00DA98371DA349 /* code128.c in Sources */ = {isa = PBXBuildFile; fileRef = 78979FDB618EC43B7C8BCD88C79262D3 /* code128.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3D0FA64B670E45347EA66CEC78F99675 /* FFScanCodeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E41751FF01002E21C3E8B2B335EDACC /* FFScanCodeKit-dummy.m */; };
-		3D2D55C5293BDAA4157462F2927013B5 /* FFScanningViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C3C05528A627E166EF73A0F0719205 /* FFScanningViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40C9848680536934664E5D43BA2A9312 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C260DFAD9F08504B2FEDEAC8F5778 /* config.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		41389867A191A87792F5610A9011147A /* qrdec.h in Headers */ = {isa = PBXBuildFile; fileRef = D37CE4CFE3E1D9F60DD6039F2BF9EE84 /* qrdec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		418A490F1F05C8A038A79618CB65F4C4 /* codabar.c in Sources */ = {isa = PBXBuildFile; fileRef = C71B76BBEFC2653931FED0EC6361025E /* codabar.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		43B0C869A0FEE9FA221A01B003B8E667 /* ZBarHelpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3244192AB345C78F065F3BB15606A4FE /* ZBarHelpController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		44072FDFAFCA12883F1C6A0A5BD89418 /* qr_finder.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B28CF875B44985BBAB8FC2D0967A2A0 /* qr_finder.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		45174848485A497CCB0BA11FB0DFF00B /* FFScanRelative.h in Headers */ = {isa = PBXBuildFile; fileRef = 038FD63EC78F377BB48BF1C6D589A3C4 /* FFScanRelative.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		461671AED41E533D5BB2F54816544ADC /* rs.h in Headers */ = {isa = PBXBuildFile; fileRef = 3786B0785C0DFEDF43A7DE2A1937DEB5 /* rs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D3D80A0212226953425B8AE720EA2C7 /* isaac.c in Sources */ = {isa = PBXBuildFile; fileRef = 57AC4534CE92FF4970E77ACEB6CFB95D /* isaac.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		461DC454ABA48983894A130153C5B253 /* scan-code_img_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E9BE74A5FE5B3666FBA2204B711048 /* scan-code_img_on@2x.png */; };
 		472FA20F701418FB9236D0F28BBC2624 /* Pods-FFScanCodeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CAECF1F4849DCE3FAA26F4B6D73716 /* Pods-FFScanCodeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4916D3383292E2E0BF2122AB46A38610 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = B38FEFF77D50256615D30582595B0259 /* debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B88DB9170A02EF4079B2620828BA224 /* isaac.h in Headers */ = {isa = PBXBuildFile; fileRef = E6746A0C73D914E8204D13225171699E /* isaac.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D7126B7D763007AE0B16446CD690D26 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A903897AB02F51DBA973F50ACAB46282 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FC3979F2FBA597769CF11B0A1F66BBF /* code128.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C6739AFACF439B5330C72E6CAE2323 /* code128.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50856DC16A7E56DA38A06F9A6BE90081 /* img_scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ACBC93CB47C0C921CEE85F57D8EBCDE /* img_scanner.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		54E34F45AC8290AC31A39435149A19DA /* FFScanCodeKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D5EE688A96E8D10B6B0F0D89EC939B5 /* FFScanCodeKit.bundle */; };
-		573CC40AF7C0E6AC81FB959A55BCC2BA /* qrdectxt.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EEC1FB33E717A1138C995CF2E340E /* qrdectxt.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		57D724D8514AE5E890D1BF761528AFAF /* ZBarReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB17382BCFBE74AD1249AA4BC2BB8FF /* ZBarReaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		57F78A4C24E5838AB28A0654CFDFAB4F /* FFScanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0A9E66252DDE0AC8FB27FECD05F6C3 /* FFScanWrapper.m */; };
-		58CD80502021A44E4507D3DBED0C5580 /* ZBarSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6248AED91BB4405741ADE652634C21 /* ZBarSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FDA6E3C46AAD8E6D355751D770B1FD /* databar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1245E12D22C8FEC9638C1385E4F8D152 /* databar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6F563BA072E0C23832CF1CA2FE3214 /* isaac.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD5B3ECB0BB7A7448C0D3B7541A482B /* isaac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BC456B0D1368518B7A53B243B70588D /* code93.c in Sources */ = {isa = PBXBuildFile; fileRef = DE354342B8CA766B1E9E1D27CC4791EA /* code93.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C929D7991A7FE0CFBD342C5614ADF56 /* FFScanCodeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFE5C9AB176C0EBC5145DE4740DFF9F /* FFScanCodeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D8B346815DF29312ABF2C31A1F887F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */; };
+		505E83AB959C6B514F0B961E018CFCC3 /* qrdectxt.c in Sources */ = {isa = PBXBuildFile; fileRef = 9041139C663882247A0891657DC1BEA9 /* qrdectxt.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5128BB6FC6748D4C79FDA111B92CA02A /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 3871AC40CE909EB16AD89AAF1BCDF289 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57436540FDF50982D4AE56560520CA95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E407083D5DE078A48365892478A9932 /* UIKit.framework */; };
+		578ACD4B67A3E51BBF079F7B6B6C4724 /* ZBarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ADFBB7547512969D5EC2E85631F3E8 /* ZBarImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		58FA248DDAA474736446C8A1D6DEDC6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */; };
-		59C32AFEF4357CB47DB08B08CA4E5954 /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 259958C335D8ED5172EFB62751D446BF /* symbol.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5EED78107E00C1D7E71259B8738DA454 /* symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D9FD525E85D07E494CA4DFB9452FCE /* symbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60C71949C07CA09C79D55E2DC6209236 /* code93.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FB132A5DFE8BB9A981E8B3DDB23813F /* code93.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		614E85F215E7DA2539B8683617C26F9B /* isaac.c in Sources */ = {isa = PBXBuildFile; fileRef = EE658D152FFD92A5E08CFB8DC5D71C63 /* isaac.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		641A5E3438082B12A63AA6930BD9872B /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64C85470A93300B7EF041D7B187DCA3A /* i25.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3BACFB3B15EDC6467554AD2DD94FD0 /* i25.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6981EB185A9DAFB2B3DFBBBEE7D35749 /* ZBarSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 766A34BBAAE8B186B4675ABBB5DBE3E8 /* ZBarSymbol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6EC7E0B4023137CF5739D83EB793125B /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC1266E4DE28778057CC6BDAE170304 /* util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F68334A7BD1153D67FF9F96C46A550 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		5A37A9C93FC7DAC620CB17105A920786 /* ean.c in Sources */ = {isa = PBXBuildFile; fileRef = 34F0F6CCB91C2468940D24F4FAB94728 /* ean.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A774117B8A83F6F0F01F85731686B46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0F635EFBFF5AC0C6E85F2AAB549E5E /* CoreGraphics.framework */; };
+		5E79343AE3AEA91C5C8BB53A4F8DD6AF /* ZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A17BDD28C1551AEC873AC653D71F618 /* ZBarImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5D40A56CC7E6A0A057900628A7BF56 /* img_scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = E792C209FE45FCA4C226AEB8FEE747BE /* img_scanner.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		613B6A019239B9D33EAB6F5A6199D1FB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A5C63E0FC9A867BDD4E910CB8D1256 /* FFScanCodeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E79FA5950BA6F5F9785ABAC80F00 /* FFScanCodeKit-dummy.m */; };
+		68978A23891A097A3D78ECC1A6F0FE2C /* FFScanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7227CD82936F079C65302A77CCA6BAD /* FFScanningViewController.m */; };
+		690C5EE173BD122C66F1D353A2DBC4B9 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = AEAC56DEB87D3D4A08F671AF43F3A37F /* config.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6ADA9397BE897767B6060C321B6BE3A4 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86009B64E77E8E8484F1CA9225F7F2B1 /* timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E08DEF4FDADB780C1301308A8D62E61 /* FFScanWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 816CFFA2CFA617D3C57B96DA89C0F6D4 /* FFScanWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FC87DDC58B37575123BAE599EF02517 /* rs.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A134D417ADFFF9BA9EDB675A79E4DB /* rs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		709E15AFCFF89A2A54E3A8CBE4E65412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */; };
-		76EED4D0E1CE51B6A1866D0448832EC5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BBA2653A9EA5BB9E1208E6C9EC2584 /* QuartzCore.framework */; };
-		771A4C099D955C721E19523FE1A9C496 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
-		77725A81D241B50FB0ED50B7A7FCEF33 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
-		79465EF5671A38D1DBA857F91A2D42C7 /* pdf417.h in Headers */ = {isa = PBXBuildFile; fileRef = B003C1A9A371809F69106230DCEDE800 /* pdf417.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A3C8B0BC21041F113FA68DBB1B70775 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 72480672A9FB0CF1DACA655A951F80CB /* zbar-samples.png */; };
-		7A6BDFE3E02FE93B5CEF589140D690A9 /* ean.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BF30BE68B36D39A212879434196065F /* ean.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7AC591C3FFC18B4DC274504D34A9A40D /* qr_finder.h in Headers */ = {isa = PBXBuildFile; fileRef = FED1AB85D91F05B1DBC268870CD4DA89 /* qr_finder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B95240D84A39A4EE8A5716C59E79213 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E407083D5DE078A48365892478A9932 /* UIKit.framework */; };
-		844A466DA5951B3B80B35C9E7B408291 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE9282D1575525A978EFDC76DB5DC83 /* CoreMedia.framework */; };
-		8639E05294DF346860A3F0471DA2B372 /* databar.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CC9046E4332F4D6644DABBF8A2234B /* databar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E3F6231BFE3B9EA084325DF6B27262 /* FFScanningView.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE9DD889AADC97E49016DDCB84EC578 /* FFScanningView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		913339B7FF9455B0FF9CF159959796A1 /* ZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 275D7E9484B97AB1B54B9CBA29E0519B /* ZBarImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93C2D0345095E5CA4984A4B4AFCD565F /* FFScanRelative.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A858053AE9FB78D90C1E6CDB6D1CC4 /* FFScanRelative.m */; };
+		70E0D54FC70CF76731C1F3A1F6E0152C /* ZBarImageScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C97F24CB62DE5EC14DF089D339E08D /* ZBarImageScanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		70F6BAE7F8A84A209DC880441B6E554A /* ZBarCameraSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C2486BD0DF5056337D6084BF5A0EA6 /* ZBarCameraSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71927281DE290D62027033A28E4A049B /* FFScanningViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A7CD03629C2010C788A8101A3FA266 /* FFScanningViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72BC211FCC5E38B20EB90B07977C152E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		74535C16FC173211C0063C388C4148F4 /* video.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBE29044A1B117953CA499E3EA8CF1C /* video.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C21FBEC4CEE93EDD767572B2DD43C3E /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E8A6F59ADD5A75FA4BDEE4A02256FE3 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EBA2EF34CEA75B0603DDEC80795F4F0 /* qrdec.c in Sources */ = {isa = PBXBuildFile; fileRef = D78D0BACBF4ACCC3365A1C158FCA165D /* qrdec.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F649E01394DC0AA5A04D3167CD0859E /* pdf417.h in Headers */ = {isa = PBXBuildFile; fileRef = D4971164496F08C4256A63164D26486B /* pdf417.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808B7F69E48B7CC193390D8E3D921AFA /* FFScanningPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = 09290DF6487E6B66FE2D34D3EE10C03F /* FFScanningPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		857F0F7F6D4D8792518E0A21BCAD05E1 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89D334C061D287B76429679721E8911F /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = F4573FCC95B10AAE7C6EED920176F6CB /* rs.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8B4F37AA159ED4151730B1B5030022B0 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB02FD7F7556D92C3197512516F78B2 /* code39.c in Sources */ = {isa = PBXBuildFile; fileRef = A99DF0E9DD30069DF3FA05F194CCC31E /* code39.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8FC53438AA0C8F7037EF310E3A1CA11B /* basc_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C101A32611658143690104EE9E452DDE /* basc_nav_back@2x.png */; };
+		9067361DCB09D0E3171488E15A5AA79A /* svg.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F24B731CA50095FA27F43B36A01759 /* svg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92B41EA6F277C6072E3FBC8E0C2D0F81 /* scan-code_img_middle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11227CCF77A93214F29B1D3C09111E8 /* scan-code_img_middle@3x.png */; };
 		94624E1B9F6B7B1540F5F024A2E42914 /* Pods-FFScanCodeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1295540A2169540ADEA7AD70E812CAB5 /* Pods-FFScanCodeKit_Tests-dummy.m */; };
-		96628D077D4E5E71851A1A8E05FD332A /* ZBarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D21F5A35BCF07D78F6E0310EA60FF5 /* ZBarImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9736AF73834C00F487CF109A53A0C016 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9992716FDE6FE81BC1EC766B5A447D29 /* codabar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3D508197B134AD4FFFCB2B22D88B45 /* codabar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99C8E85D17BCD0E0736482E9EBF473F4 /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = E4000D4E51EBB30B9375969EEC650466 /* window.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BAA1E6523C69582F217EC478C15D249 /* win.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D633348EF9DEAACE21FDFA6664525C /* win.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BB69C93547AF7CBAAD007ADBC7910F8 /* ZBarCameraSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F6D19E6ACE80F0867D438C347D758D /* ZBarCameraSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9ECA9FFB8430A6763E0AD94443726E13 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 343EB5CBC9D31834D68877922275871D /* timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0C0B74DE7AAFF1AC31CDF4EC25CDE42 /* databar.c in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7F7E6F9867DEA56D4E131F37B2688 /* databar.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A24CD39C529BD502569F7433DBE109F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */; };
-		A41248201348313B1E8C2C60198E1A26 /* qrcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C5A0E6896496B2BA8D3006990E4919 /* qrcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A450EF7C076E20532F06F172DC144E75 /* refcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7F2B573C226B2FABD98C24BAF10CF0 /* refcnt.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A6499944F1795AF5D6A2E12BFF918903 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
-		A915CAC69232DED5C0CBE3D74CEF2B27 /* video.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DA862BFF9C3A620401958B5EA688B9 /* video.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A96C15F712A835F781ED895A1E018921 /* bch15_5.h in Headers */ = {isa = PBXBuildFile; fileRef = E83E592463F93C15853E97D0BB02C2B6 /* bch15_5.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA78F3480584E12EB347BFEB257F05E1 /* ZBarReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = C109CB84313626339119D534A11892BB /* ZBarReaderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADCAB71FE7F13AD88D7664E0F9DBAD64 /* binarize.h in Headers */ = {isa = PBXBuildFile; fileRef = 0654023783A8AE851ECEFAC41C0A638D /* binarize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE96B4D003CA1412B48EFA194DB10249 /* FFScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AD28E60F592F78F26ABD67B7614AAA /* FFScanningView.m */; };
-		B109D56BDF413FD1C61F6CD4E4308770 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B13A4E74B72BF63752CA00EBE7DE2831 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		B4C109442F7FFAF4C130FE6543DFA907 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B816940D58E36CC14517454998310C92 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
-		BAA09D37F31B9536FEBACAC059743ADB /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC30EC72842B455745BACFDA62C9D94C /* bch15_5.c in Sources */ = {isa = PBXBuildFile; fileRef = 6197177B9C868C4EDF99E1CF247FC634 /* bch15_5.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BDFF72433520B1D9231D067BB3C8C82A /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 4499517899CD5437742D85D1C8C98822 /* util.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C00BE40EFB94DFFF04033FFA10172AC6 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C228EB190C2C2FA0BF6AC49771E2BEB0 /* processor.h in Headers */ = {isa = PBXBuildFile; fileRef = F09878DBB972E9A60310BCE379695EC8 /* processor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2632F53BA850AA3E68876AA6A40E034 /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 890A3B9FF251E5F950C2367F118A1B9E /* zbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C32E8C94A8DFD94FD107D42CA0F7CD1F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
-		C38ECE80B4AC09DEEE9E658062122D44 /* ZBarCVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 155C09667830FB6DCEDA6B721A2F5E63 /* ZBarCVImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C455478C2995366AFEA68F97C7D86F1B /* ZBarReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FFAEB74559191F9FD558D5F035293 /* ZBarReaderViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C4DBB60FCEA518EF7C44E123B1218866 /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 266738E2A2ED125A709C2A872614F575 /* decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4E2BFF0D9941C69EE704641769D0231 /* ZBarCVImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 957C9F08CA0407395D7D3CB1354F97D3 /* ZBarCVImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5BE603D55B98E31065B2E33D6CB668F /* svg.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C9729B5B7B44A44FA277402D6A427E /* svg.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8D01F8A74769A83E2DB1998991D0A5E /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = DC484B7BAA3F4218B169F155B70ED4BA /* zbar-helpicons.png */; };
-		C9E97DF52C62DC825672CF19999FE27F /* FFScanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A84669CD555F6B18AC6B9788C784D5 /* FFScanningViewController.m */; };
-		CBFCB28039705626A5F6CDCE1C5F213E /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC69C7459A5F7A9161872BBE33BB7312 /* code39.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E73E7F0845E09F7A583D709606B3C20 /* code39.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D006E7C1B150D7DDAD04832498AF0726 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0323DDD84D923F7D2306D30C86AE9B0 /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5C627FE1F1EBA3C2E3C826122102D5 /* event.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D051B45F1B38F5098446D83452C73CEB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12958307B07668A92A972F564981F33D /* CoreVideo.framework */; };
-		D08DB5274C5E54FB3D2A9D32503E9D2A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
-		D47D41635D3AFCC517814A1997D481F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0F635EFBFF5AC0C6E85F2AAB549E5E /* CoreGraphics.framework */; };
-		D5F0CDC68AB1FD144A9CAF441AF5312D /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3779A58E85014D5BA4972819915180E1 /* zbar-back.png */; };
-		D60C95C3B0FD61F134C279A110F266C1 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA4FBC30F637CC39DA66046E882814AE /* FFScanningPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2D527D1DA011FF33C05511E0879786 /* FFScanningPermissions.m */; };
-		DA894DF805D0E9651CCC7CBF14E3A1A8 /* pdf417_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 254FC418F79928D56E2F253A92D23CE7 /* pdf417_hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA9DC2B052D72F9CF4C1CDAD127E7410 /* refcnt.h in Headers */ = {isa = PBXBuildFile; fileRef = 629A1F261FF52EA8DD208D31C813B127 /* refcnt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEDA72AEE066B221AA4F535EB312889C /* ean.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C84A213765A04395A8DA11687D9600 /* ean.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0E3752A543D9B22EC7B2295E2297214 /* FFScanningPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACEBC49DDCF8A2CF0148A8B2A80C4BA /* FFScanningPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1DDB57ADCC6783DE6D9DE9CBFA8B491 /* FFScanWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD69340ED971917C700D710294FF709 /* FFScanWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E56F69EE6CE69310D1DEBCEFC4281EBB /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE236E6EDDAB37C44778CC437794F69 /* Masonry.framework */; };
-		E84C1A07943D3BE7F76E507EF6B6BBFE /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2063DE6DF42F6F13DCD802DF5B84CF78 /* ZBarSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E942A37C3F777111DC566C3CC0BB591B /* x.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9099470DACF4FDFA2820D973F316A2 /* x.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9C71BDADF35273AACB04A3CB5E38283 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA710CBFF43674B0941B17EDC4C5D7E3 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D238AAA66988EB4E1029CD253190D6 /* thread.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEE3AFA129301C8E9DA51897DBC8EAF5 /* ZBarImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E35A28A72571DF767D44D3BFB818EB /* ZBarImageScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1BCEA5426DC09103DC12FE0F8970165 /* ZBarReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F55BB9B548ADE35C532D6BE50CD273 /* ZBarReaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3A6C683A0D28F44B11D96162EA318A6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4202215058D008D593EAB7D38C991C6 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BCA28E87061973A6E998CBF677250F /* error.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71563C9866992F53BA0050380B78D12 /* img_scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E04FB7B4F1748B3C13BDD18DEE994B /* img_scanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7E017E1C15B4DBEA197564B7AD39F57 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
-		F8D5683F31FB32C596F2E5299D4CC934 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
-		FE388DA417B0B885E073A45F01C0F1F8 /* qrdec.c in Sources */ = {isa = PBXBuildFile; fileRef = D184589FD17031BBB1A61F081F56ED3F /* qrdec.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF7BFB27474A41252377AD2238D4955A /* code39.h in Headers */ = {isa = PBXBuildFile; fileRef = E87D994BF6999B3C7ED92EF4B7B30C18 /* code39.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		994FEEB7414ED3324DAE39A8EA2AE0D2 /* refcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = CA94702B89FE7CE8EB68A9971BB72395 /* refcnt.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9952D71BE0C82D4263BD2D2014B03992 /* binarize.c in Sources */ = {isa = PBXBuildFile; fileRef = B2DDF8F992B3A595854F5055B688EE27 /* binarize.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AB94807E3DDD5FF32FC1B4D6A8AB787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E407083D5DE078A48365892478A9932 /* UIKit.framework */; };
+		9D44981881CCA2D4356AC39580FE6A65 /* basc_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210CCED2798D62AC70142DE23BBDEF0 /* basc_nav_back@3x.png */; };
+		9EFE2CB48F988C476C410A9E62057E7A /* scan-code_btn_flashlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B36FDEFFBF732D5E24A9D7BF6EF57593 /* scan-code_btn_flashlight@2x.png */; };
+		9F9995E6AD6C8CB7A8DDC65F77ADDA1E /* win.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA4BB794A925A74EC29686919BFD324 /* win.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2E91113B3957B94F9C9E989921AE5A5 /* ZBarSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F44FAA955246E73A4596340E55999611 /* ZBarSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A443F5B49E33F429B01234653402B4CE /* i25.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EDFAD309DEC2BC1E8C9D849AC44BED7 /* i25.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5FB18B0AC69600852EFECF220F03E53 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = B64D913C730D161566FF061FB941B9D3 /* zbar-helpicons.png */; };
+		A7A42A4A51D5AD79B39415E63B15A6AE /* scan-code_img_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 220C37D2C760AA3D8FA33184ED133EBF /* scan-code_img_on@3x.png */; };
+		A9E11A81F31E56607EC1732C5C7A8A13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BBA2653A9EA5BB9E1208E6C9EC2584 /* QuartzCore.framework */; };
+		ACC8E2D55BAC6792D5BEC906684933FC /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = FE41EBE36A911C89CA1D9C5518EEB0C5 /* thread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF37BDF5B9BCBC4A8BFC9D3B1BA2E937 /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EAC1BC6942C6AAD35D25D0EBC68E40 /* event.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B18B9C362177CD181DF048376D45E947 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = A90458B05DD3B72A64CDECD73A7C63E9 /* image.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1BFF4533F7D8A312DF141133F79D90A /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 5E49B513793C50F6654C0B657E239258 /* zbar-help.html */; };
+		B2656088AB2B523D771241875B94366B /* posix.h in Headers */ = {isa = PBXBuildFile; fileRef = AC259F07C7C122D2586288511CED4CF1 /* posix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B27115821D902B4D1D687F5EDC0A0164 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		B278C3B822F16225DCAF11DCF4547A08 /* processor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6E11FD821801B48FE0553B6A32A9FB /* processor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2F9EFB5130E8F56291162DFCE2B1DD8 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B455232497544683C7300C43E847E490 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4F42092DE5075950242349E8B7F0517 /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = E1964C6C1A9C93FBAC0E6AA16A256EF8 /* decoder.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B59ED2D603F31E6D957F6B98FE28ABEB /* ZBarCaptureReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD5979680417211B140FB8B9999F204 /* ZBarCaptureReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B894A5BEBF0B5858A62F966EFD20AEB8 /* ZBarSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95FDE8B00D66345EBCA300D3BF152D /* ZBarSymbol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8FE1DF9A00E4DD185A260A513736485 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = F155B8E865D9C81457C9FB44BA921960 /* scanner.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BBD849184A01237C06671A32E6105970 /* qr_finder.c in Sources */ = {isa = PBXBuildFile; fileRef = B637D2F6978980002E99CB7F56D15975 /* qr_finder.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCBCDCCFD0BD1C0B5816B15879CEDCE3 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		C0FAF578625DCF020B914E9A55387118 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = C2977374E730211D5B779EC7400C0F70 /* debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0FB184C48ECE4041E3BD2A7EE086D62 /* ZBarHelpController.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B515BFA67D0716441CF0B999304857 /* ZBarHelpController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1BFA9260F3EA794321421FB0D7E26EA /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 4733E362D2FE31F500939888AC2381D2 /* error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2DDC03091A584D2FB297B30C5BCF38B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */; };
+		C3CA18D1B9FEEBD80C238B7AACCAF68C /* ZBarImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C3B1D2B862E3198A8C117108145BC8 /* ZBarImageScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C59A92914CE75A22DFEB0435B25CCCC9 /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E54833B4651741742690B9B57D233C /* image.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C793431A283CB98F7F0F9976E8B85AF6 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C97F853F7C5179359328619AED7E5772 /* bch15_5.c in Sources */ = {isa = PBXBuildFile; fileRef = C896E4EEDE30D7DC67621B5A84BDC778 /* bch15_5.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CBA3DE15EBDF79E4C50A41CCA31C6455 /* qr_finder.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF8777DB7E7162297E4645FB85D9881 /* qr_finder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCC412D5F8D4924D107AE8EF6380404C /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFA4CF54890CBD582662A636CAE6F699 /* code93.h in Headers */ = {isa = PBXBuildFile; fileRef = 7144506D518513E1805DB8EE09A71C2B /* code93.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFE959F521AF4CB043793BDF54D07194 /* ZBarReaderViewImpl_Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0D29CFFF58F426AA254D1678181E79 /* ZBarReaderViewImpl_Capture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D0FEC7616B9B6C6F0F39E4CFA0F2D0C1 /* ZBarReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC7D3A1B57B4F3F45ABD001A648115 /* ZBarReaderController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D12380EF73DEDF3833F761EFED6A1D1C /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE236E6EDDAB37C44778CC437794F69 /* Masonry.framework */; };
+		D4390850EBE19F865B4A7BD702C6BA96 /* prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4F5985BB9C1A2B666D03DB6BF964C /* prefix.pch */; };
+		D495004784B9841992354FF3B2A0F93E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		D60D5F1B63C9C682BEDC528935179129 /* ZBarCaptureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6D0EBEFF8C3876E3EA5C9FEF714DB1 /* ZBarCaptureReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D860D4A876C40CC5D13019BC1A1A126F /* qrcode.h in Headers */ = {isa = PBXBuildFile; fileRef = BD73D364E575130EB847AE0CCFE2E315 /* qrcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E432227616D8CA9A37677AB8509370 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		DB4F44BC59CBF5A683E2769133D05863 /* symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A2C97373D667C83721E442AAF7E190 /* symbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC344436A9E3AF72E212B2B5A31545E7 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA0FD1EA9A68DC971FB7232A62AB4CF /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB50ED5BD0D76ED3F99787E03EC4A3C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		DE6C9151E508D0925DD2C44A83891841 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C0FB255AB68028EE029164CE1C72BA /* util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E07A377EE0C7B1FD3C402C8225DE3E4C /* scan-code_img_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C47542E9F476F6EA5723BDB74F99EA6C /* scan-code_img_down@3x.png */; };
+		E10F0DA1FFF72704EFE72802B7F3811D /* scan-code_img_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B151966DEA034B10874BE364206DA0B /* scan-code_img_down@2x.png */; };
+		E28C2DCEC3A60BD9EBAE6D97902D5C1D /* FFScanRelative.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A14FE185D5EFFE30B6391543876F27 /* FFScanRelative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35643DFDD3CAEEF89F2C1EB769A5242 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39DFD547E14B0F9B594C2D3F2DFBC6C /* ZBarCVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E27A90CE976A651CFD301BCBEB1A0E /* ZBarCVImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E639277B747AF31EEE93235D41562345 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		E741F0455DC26F4A0E164B8B8C6FDDD0 /* x.h in Headers */ = {isa = PBXBuildFile; fileRef = CE74FAA92F65C08D1E902D201B9B0171 /* x.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7FB1C2096D2A621E26DDA0914B8E3EA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12958307B07668A92A972F564981F33D /* CoreVideo.framework */; };
+		E8D2637EDA7D8BF2EBB205FF7E63FA07 /* ZBarReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4701DCDABDE01D473E2A33542A30FB35 /* ZBarReaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC096AAF0B60B649B6492CB34C066951 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC59649A3895CC24C375CDB5E615A727 /* ZBarReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4C5F905C1656333C0D8F0059D86B50 /* ZBarReaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC974D7261AC055EC1C99252F7008419 /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D263FBB64FF37A9EAAE71BBEA0A10 /* symbol.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ED6B4284C515AD4E6802B846ECD0F2C4 /* scan-code_img_middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8349E6BEFF2AFF5848988759D9402D7D /* scan-code_img_middle@2x.png */; };
+		ED877DFCFDC5CFF4E558DCA78EBF0C0C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE9282D1575525A978EFDC76DB5DC83 /* CoreMedia.framework */; };
+		F0E52D4E373B89D585700CDFFD4E1557 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 697BB04A3E2FFD88FE253E33632D8712 /* util.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F15BD01741530FF55E7746C78394F104 /* scan-code_btn_click@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC71D455002CA51CA3BE973BB771862 /* scan-code_btn_click@3x.png */; };
+		F3B4901FF29D5E9794EED1A425E82216 /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 13184F9D7EDC532C731B7576D89C0AE4 /* ZBarSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F566A8FC9E3ADFD1DA9B62EC23093647 /* binarize.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D7FDC7E76ACCA60D5A4B418B48DBE9 /* binarize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA9AE7616A2F89280780F8F74DC785D0 /* pdf417_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = F43CA70E436FA00C2E3BDD3CCEA843A2 /* pdf417_hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAEFAB55E0B7CA547E502C93D94C0DDC /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = C102D31648DD71D62AC2646906B4C9FA /* zbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		01ABB271AA7BBCAA67FD16FBA771FBBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
 		332CF34C4370BD14AA25F2E9ABCD4FDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -167,7 +185,7 @@
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		3B7FADA0827FFCF0C859E96FAD43A683 /* PBXContainerItemProxy */ = {
+		750C194F8D505CA7BDF6A7E744B7E319 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -181,219 +199,223 @@
 			remoteGlobalIDString = 07BCAC72F2436F23550828E3CCD21350;
 			remoteInfo = FFScanCodeKit;
 		};
-		DB189D6F6B52EF0AC14055D997455215 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CD3D544C74BBF89C9BED3770C54B98 /* ZBarHelpController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
-		00DA862BFF9C3A620401958B5EA688B9 /* video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = video.h; sourceTree = "<group>"; };
+		00ADFBB7547512969D5EC2E85631F3E8 /* ZBarImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarImage.m; sourceTree = "<group>"; };
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		038FD63EC78F377BB48BF1C6D589A3C4 /* FFScanRelative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanRelative.h; path = FFScanCodeKit/Relative/FFScanRelative.h; sourceTree = "<group>"; };
+		02ED38FA934328412BC36564D7B26C7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		04E54833B4651741742690B9B57D233C /* image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
 		059CEAE57A57EFC872CB3619CDD3114C /* Pods-FFScanCodeKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFScanCodeKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		0654023783A8AE851ECEFAC41C0A638D /* binarize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = binarize.h; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		07B7A55A5E160ECB2C1C39CE2CCA18FC /* FFScanningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanningView.h; path = FFScanCodeKit/View/FFScanningView.h; sourceTree = "<group>"; };
+		09290DF6487E6B66FE2D34D3EE10C03F /* FFScanningPermissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanningPermissions.h; path = FFScanCodeKit/View/FFScanningPermissions.h; sourceTree = "<group>"; };
 		0958729EFA3137AD793E305928C91863 /* Pods-FFScanCodeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFScanCodeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0967F0C307B4752D60BE6606C2B6C51D /* Pods-FFScanCodeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFScanCodeKit_Tests.modulemap"; sourceTree = "<group>"; };
+		0A17BDD28C1551AEC873AC653D71F618 /* ZBarImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		0A710AF220489E63AAB8CDC806C8AC84 /* code128.c */ = {isa = PBXFileReference; includeInIndex = 1; path = code128.c; sourceTree = "<group>"; };
+		0F4C5F905C1656333C0D8F0059D86B50 /* ZBarReaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderView.m; sourceTree = "<group>"; };
+		0FD5979680417211B140FB8B9999F204 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		1245E12D22C8FEC9638C1385E4F8D152 /* databar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = databar.h; sourceTree = "<group>"; };
 		1295540A2169540ADEA7AD70E812CAB5 /* Pods-FFScanCodeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFScanCodeKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		12958307B07668A92A972F564981F33D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
-		155C09667830FB6DCEDA6B721A2F5E63 /* ZBarCVImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarCVImage.m; sourceTree = "<group>"; };
+		12C3B1D2B862E3198A8C117108145BC8 /* ZBarImageScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		13184F9D7EDC532C731B7576D89C0AE4 /* ZBarSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		14D892FAB99710149621240B4C4F4049 /* FFScanCodeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFScanCodeKit.release.xcconfig; sourceTree = "<group>"; };
 		17CAECF1F4849DCE3FAA26F4B6D73716 /* Pods-FFScanCodeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFScanCodeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1817B7581A22AE9574428947D30D4776 /* Pods-FFScanCodeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFScanCodeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1ACEBC49DDCF8A2CF0148A8B2A80C4BA /* FFScanningPermissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanningPermissions.h; path = FFScanCodeKit/View/FFScanningPermissions.h; sourceTree = "<group>"; };
-		1B28CF875B44985BBAB8FC2D0967A2A0 /* qr_finder.c */ = {isa = PBXFileReference; includeInIndex = 1; path = qr_finder.c; sourceTree = "<group>"; };
-		1E5E34FFCCBE62881DB63F266FDF5897 /* code93.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = code93.h; sourceTree = "<group>"; };
-		1E73E7F0845E09F7A583D709606B3C20 /* code39.c */ = {isa = PBXFileReference; includeInIndex = 1; path = code39.c; sourceTree = "<group>"; };
-		1FB132A5DFE8BB9A981E8B3DDB23813F /* code93.c */ = {isa = PBXFileReference; includeInIndex = 1; path = code93.c; sourceTree = "<group>"; };
+		187DB5A9DA8D52CA7728DF589559F8D3 /* img_scanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = img_scanner.h; sourceTree = "<group>"; };
+		188BB21266D6B6A57EC060922BDF312E /* ZBarCVImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarCVImage.h; sourceTree = "<group>"; };
+		19CC7D3A1B57B4F3F45ABD001A648115 /* ZBarReaderController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderController.m; sourceTree = "<group>"; };
+		1BB4F5985BB9C1A2B666D03DB6BF964C /* prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		1C33106E8C2BDE659B8366865AAC81D1 /* ean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ean.h; sourceTree = "<group>"; };
+		1F4D263FBB64FF37A9EAAE71BBEA0A10 /* symbol.c */ = {isa = PBXFileReference; includeInIndex = 1; path = symbol.c; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2063DE6DF42F6F13DCD802DF5B84CF78 /* ZBarSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
-		240BBFAACBDF32785F1EEF87F6E52F8B /* ZBarCaptureReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarCaptureReader.m; sourceTree = "<group>"; };
-		254FC418F79928D56E2F253A92D23CE7 /* pdf417_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pdf417_hash.h; sourceTree = "<group>"; };
-		259958C335D8ED5172EFB62751D446BF /* symbol.c */ = {isa = PBXFileReference; includeInIndex = 1; path = symbol.c; sourceTree = "<group>"; };
-		25C5A0E6896496B2BA8D3006990E4919 /* qrcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qrcode.h; sourceTree = "<group>"; };
-		266738E2A2ED125A709C2A872614F575 /* decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = decoder.h; sourceTree = "<group>"; };
-		275D7E9484B97AB1B54B9CBA29E0519B /* ZBarImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		220C37D2C760AA3D8FA33184ED133EBF /* scan-code_img_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan-code_img_on@3x.png"; path = "FFScanCodeKit/Assets/scan-code_img_on@3x.png"; sourceTree = "<group>"; };
+		22704C533D7901FB573F4777A7AFD821 /* window.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
+		24E27A90CE976A651CFD301BCBEB1A0E /* ZBarCVImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarCVImage.m; sourceTree = "<group>"; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		2A666903CA173A77CBBA1AFEB48A3FC0 /* error.c */ = {isa = PBXFileReference; includeInIndex = 1; path = error.c; sourceTree = "<group>"; };
-		2E9EEC1FB33E717A1138C995CF2E340E /* qrdectxt.c */ = {isa = PBXFileReference; includeInIndex = 1; path = qrdectxt.c; sourceTree = "<group>"; };
+		2B87484A0F215A44BE08CA657FE94745 /* bch15_5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bch15_5.h; sourceTree = "<group>"; };
+		2C95FDE8B00D66345EBCA300D3BF152D /* ZBarSymbol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarSymbol.m; sourceTree = "<group>"; };
 		2F48A05F6C003531064039DFFC85B189 /* Pods-FFScanCodeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFScanCodeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		3244192AB345C78F065F3BB15606A4FE /* ZBarHelpController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarHelpController.m; sourceTree = "<group>"; };
-		33F55BB9B548ADE35C532D6BE50CD273 /* ZBarReaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
 		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		343EB5CBC9D31834D68877922275871D /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
-		36E12298B2D86E36553E162E83DFC2EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3779A58E85014D5BA4972819915180E1 /* zbar-back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "zbar-back.png"; path = "FFScanCodeKit/Assets/zbar-back.png"; sourceTree = "<group>"; };
-		3786B0785C0DFEDF43A7DE2A1937DEB5 /* rs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rs.h; sourceTree = "<group>"; };
-		37DEA065FB10282F6596947192864958 /* mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mutex.h; sourceTree = "<group>"; };
+		34F0F6CCB91C2468940D24F4FAB94728 /* ean.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ean.c; sourceTree = "<group>"; };
+		35A2C97373D667C83721E442AAF7E190 /* symbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = symbol.h; sourceTree = "<group>"; };
+		3871AC40CE909EB16AD89AAF1BCDF289 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		38F24B731CA50095FA27F43B36A01759 /* svg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = svg.h; sourceTree = "<group>"; };
 		3A8125B912352C6C4E0E2C2AA61A39A8 /* Pods_FFScanCodeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFScanCodeKit_Example.framework; path = "Pods-FFScanCodeKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0665976D616F094427C4CAF664EC80 /* FFScanningPermissions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanningPermissions.m; path = FFScanCodeKit/View/FFScanningPermissions.m; sourceTree = "<group>"; };
 		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3EEC5E1C9CE910FD234298162692ADA5 /* scan-code_btn_click@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan-code_btn_click@2x.png"; path = "FFScanCodeKit/Assets/scan-code_btn_click@2x.png"; sourceTree = "<group>"; };
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		436D8E7F224C83163AC3EFB01B1FD29E /* ZBarCaptureReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
-		4499517899CD5437742D85D1C8C98822 /* util.c */ = {isa = PBXFileReference; includeInIndex = 1; path = util.c; sourceTree = "<group>"; };
+		41A7CD03629C2010C788A8101A3FA266 /* FFScanningViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanningViewController.h; path = FFScanCodeKit/Controller/FFScanningViewController.h; sourceTree = "<group>"; };
 		45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4701DCDABDE01D473E2A33542A30FB35 /* ZBarReaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		471C7E658B9B7E88E59598231FF9BC69 /* scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; path = scanner.c; sourceTree = "<group>"; };
-		47C9729B5B7B44A44FA277402D6A427E /* svg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = svg.h; sourceTree = "<group>"; };
-		47D633348EF9DEAACE21FDFA6664525C /* win.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = win.h; sourceTree = "<group>"; };
-		4AB17382BCFBE74AD1249AA4BC2BB8FF /* ZBarReaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderView.m; sourceTree = "<group>"; };
+		4733E362D2FE31F500939888AC2381D2 /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		54FB2AF3F9E5A55D50DFEEF8AB3796DA /* ZBarReaderController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderController.m; sourceTree = "<group>"; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		562DAD0A2CF8476A39372BC5B6DDC283 /* zbar-back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "zbar-back.png"; path = "FFScanCodeKit/Assets/zbar-back.png"; sourceTree = "<group>"; };
+		57AC4534CE92FF4970E77ACEB6CFB95D /* isaac.c */ = {isa = PBXFileReference; includeInIndex = 1; path = isaac.c; sourceTree = "<group>"; };
 		592575A7115F81E3B3E06128CDBFD9D3 /* Pods-FFScanCodeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFScanCodeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5ACBC93CB47C0C921CEE85F57D8EBCDE /* img_scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; path = img_scanner.c; sourceTree = "<group>"; };
-		5BC1266E4DE28778057CC6BDAE170304 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
-		5BF30BE68B36D39A212879434196065F /* ean.c */ = {isa = PBXFileReference; includeInIndex = 1; path = ean.c; sourceTree = "<group>"; };
+		5E49B513793C50F6654C0B657E239258 /* zbar-help.html */ = {isa = PBXFileReference; includeInIndex = 1; name = "zbar-help.html"; path = "FFScanCodeKit/Assets/zbar-help.html"; sourceTree = "<group>"; };
 		5F4732498AA77FA09CD39F1FCBCE3361 /* Pods-FFScanCodeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFScanCodeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		6197177B9C868C4EDF99E1CF247FC634 /* bch15_5.c */ = {isa = PBXFileReference; includeInIndex = 1; path = bch15_5.c; sourceTree = "<group>"; };
-		629A1F261FF52EA8DD208D31C813B127 /* refcnt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refcnt.h; sourceTree = "<group>"; };
-		66F25A933AFAF93DEEA6999D9E8BB517 /* FFScanCodeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFScanCodeKit.release.xcconfig; sourceTree = "<group>"; };
-		6B0A9E66252DDE0AC8FB27FECD05F6C3 /* FFScanWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanWrapper.m; path = FFScanCodeKit/View/FFScanWrapper.m; sourceTree = "<group>"; };
-		6B8349EA249B9FDFACE3C3359A161DFC /* ZBarReaderViewImpl_Capture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderViewImpl_Capture.m; sourceTree = "<group>"; };
+		642EEA56F62AB59188AEE33AD4EB819A /* ZBarReaderController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		697BB04A3E2FFD88FE253E33632D8712 /* util.c */ = {isa = PBXFileReference; includeInIndex = 1; path = util.c; sourceTree = "<group>"; };
 		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		6D3A2FC97AD04A606ED4A1635CF61E4C /* Pods-FFScanCodeKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFScanCodeKit_Example-Info.plist"; sourceTree = "<group>"; };
-		6D5EE688A96E8D10B6B0F0D89EC939B5 /* FFScanCodeKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FFScanCodeKit.bundle; path = FFScanCodeKit/FFScanCodeKit.bundle; sourceTree = "<group>"; };
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6EFE3900B0D72DD3E4D816FDE9E87912 /* FFScanCodeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFScanCodeKit-Info.plist"; sourceTree = "<group>"; };
+		6FD5B3ECB0BB7A7448C0D3B7541A482B /* isaac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = isaac.h; sourceTree = "<group>"; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		7144506D518513E1805DB8EE09A71C2B /* code93.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = code93.h; sourceTree = "<group>"; };
+		71B99A1A8FD31A24761E66365784A58E /* decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = decoder.h; sourceTree = "<group>"; };
 		7221DC0654561A05A078D19CC001CF69 /* FFScanCodeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFScanCodeKit.framework; path = FFScanCodeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72480672A9FB0CF1DACA655A951F80CB /* zbar-samples.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "zbar-samples.png"; path = "FFScanCodeKit/Assets/zbar-samples.png"; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		766A34BBAAE8B186B4675ABBB5DBE3E8 /* ZBarSymbol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarSymbol.m; sourceTree = "<group>"; };
-		76CC9046E4332F4D6644DABBF8A2234B /* databar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = databar.h; sourceTree = "<group>"; };
-		76F6D19E6ACE80F0867D438C347D758D /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
-		78979FDB618EC43B7C8BCD88C79262D3 /* code128.c */ = {isa = PBXFileReference; includeInIndex = 1; path = code128.c; sourceTree = "<group>"; };
-		79A3A3C845D3F6DCBB24766A956CECCD /* posix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = posix.h; sourceTree = "<group>"; };
-		80E04FB7B4F1748B3C13BDD18DEE994B /* img_scanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = img_scanner.h; sourceTree = "<group>"; };
+		768C16D012EFE599A917E244149DB83B /* debug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		76BAECC068B9DBDFEEF57A980D0FDBFA /* qrdec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qrdec.h; sourceTree = "<group>"; };
+		79A14FE185D5EFFE30B6391543876F27 /* FFScanRelative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanRelative.h; path = FFScanCodeKit/Relative/FFScanRelative.h; sourceTree = "<group>"; };
+		7BCC4AA0E91B8CD07A05FCA44DC671A9 /* refcnt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refcnt.h; sourceTree = "<group>"; };
+		7EDFAD309DEC2BC1E8C9D849AC44BED7 /* i25.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = i25.h; sourceTree = "<group>"; };
+		7EFE367F4267F7D416985A3065B7C033 /* FFScanWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanWrapper.m; path = FFScanCodeKit/View/FFScanWrapper.m; sourceTree = "<group>"; };
+		816CFFA2CFA617D3C57B96DA89C0F6D4 /* FFScanWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanWrapper.h; path = FFScanCodeKit/View/FFScanWrapper.h; sourceTree = "<group>"; };
+		81C0898201B660E24F1B53356A6945A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		81C0FB255AB68028EE029164CE1C72BA /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		8210CCED2798D62AC70142DE23BBDEF0 /* basc_nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "basc_nav_back@3x.png"; path = "FFScanCodeKit/Assets/basc_nav_back@3x.png"; sourceTree = "<group>"; };
+		8349E6BEFF2AFF5848988759D9402D7D /* scan-code_img_middle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan-code_img_middle@2x.png"; path = "FFScanCodeKit/Assets/scan-code_img_middle@2x.png"; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		8435E79FA5950BA6F5F9785ABAC80F00 /* FFScanCodeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFScanCodeKit-dummy.m"; sourceTree = "<group>"; };
+		86009B64E77E8E8484F1CA9225F7F2B1 /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
 		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		890A3B9FF251E5F950C2367F118A1B9E /* zbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
-		89AD28E60F592F78F26ABD67B7614AAA /* FFScanningView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanningView.m; path = FFScanCodeKit/View/FFScanningView.m; sourceTree = "<group>"; };
-		89E35A28A72571DF767D44D3BFB818EB /* ZBarImageScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
-		8A9C260DFAD9F08504B2FEDEAC8F5778 /* config.c */ = {isa = PBXFileReference; includeInIndex = 1; path = config.c; sourceTree = "<group>"; };
+		86CDD8581CFE38CB57F3955341BC88CE /* error.c */ = {isa = PBXFileReference; includeInIndex = 1; path = error.c; sourceTree = "<group>"; };
+		86EAC1BC6942C6AAD35D25D0EBC68E40 /* event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		89D7FDC7E76ACCA60D5A4B418B48DBE9 /* binarize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = binarize.h; sourceTree = "<group>"; };
+		89E247E20CD86B3B96004A9FB4FAA92D /* code128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = code128.h; sourceTree = "<group>"; };
+		8A6E11FD821801B48FE0553B6A32A9FB /* processor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = processor.h; sourceTree = "<group>"; };
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		8D6248AED91BB4405741ADE652634C21 /* ZBarSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
-		8DA7F7E6F9867DEA56D4E131F37B2688 /* databar.c */ = {isa = PBXFileReference; includeInIndex = 1; path = databar.c; sourceTree = "<group>"; };
-		8E41751FF01002E21C3E8B2B335EDACC /* FFScanCodeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFScanCodeKit-dummy.m"; sourceTree = "<group>"; };
-		8F3D508197B134AD4FFFCB2B22D88B45 /* codabar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = codabar.h; sourceTree = "<group>"; };
+		8B151966DEA034B10874BE364206DA0B /* scan-code_img_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan-code_img_down@2x.png"; path = "FFScanCodeKit/Assets/scan-code_img_down@2x.png"; sourceTree = "<group>"; };
+		9041139C663882247A0891657DC1BEA9 /* qrdectxt.c */ = {isa = PBXFileReference; includeInIndex = 1; path = qrdectxt.c; sourceTree = "<group>"; };
 		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		937583D3DBDE0BB3585AAC3941DF0C8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		957B433D060737DEE65C7CF0E2274C1F /* FFScanCodeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFScanCodeKit-prefix.pch"; sourceTree = "<group>"; };
-		957C9F08CA0407395D7D3CB1354F97D3 /* ZBarCVImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarCVImage.h; sourceTree = "<group>"; };
-		98A858053AE9FB78D90C1E6CDB6D1CC4 /* FFScanRelative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanRelative.m; path = FFScanCodeKit/Relative/FFScanRelative.m; sourceTree = "<group>"; };
-		99CBFADD498FD951D78997C2CEFDE111 /* FFScanCodeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFScanCodeKit-umbrella.h"; sourceTree = "<group>"; };
+		98B515BFA67D0716441CF0B999304857 /* ZBarHelpController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		999BC7852680678C76979CF43BB62DEC /* zbar-samples.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "zbar-samples.png"; path = "FFScanCodeKit/Assets/zbar-samples.png"; sourceTree = "<group>"; };
+		9CCC812266D2357C0AD02FD47D588324 /* FFScanCodeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFScanCodeKit-prefix.pch"; sourceTree = "<group>"; };
+		9CFE5C9AB176C0EBC5145DE4740DFF9F /* FFScanCodeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFScanCodeKit-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE236E6EDDAB37C44778CC437794F69 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E407083D5DE078A48365892478A9932 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		9F1E1FAB5DB5F03F37D775295D7E3C5B /* decoder.c */ = {isa = PBXFileReference; includeInIndex = 1; path = decoder.c; sourceTree = "<group>"; };
-		9F9099470DACF4FDFA2820D973F316A2 /* x.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x.h; sourceTree = "<group>"; };
-		A24FFAEB74559191F9FD558D5F035293 /* ZBarReaderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderViewController.m; sourceTree = "<group>"; };
-		A32BBB466E1059EBBA70C357EBC045DA /* image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		A23C6773299AA551399B36F914D3F41D /* codabar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = codabar.h; sourceTree = "<group>"; };
 		A47BF4A92DE322C9AAB9C28DDC1B4174 /* Pods-FFScanCodeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFScanCodeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A7227CD82936F079C65302A77CCA6BAD /* FFScanningViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanningViewController.m; path = FFScanCodeKit/Controller/FFScanningViewController.m; sourceTree = "<group>"; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		A903897AB02F51DBA973F50ACAB46282 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		A9E17B2C07F06518E0D9220FFFAF7FDC /* image.c */ = {isa = PBXFileReference; includeInIndex = 1; path = image.c; sourceTree = "<group>"; };
-		AB4945B9D6B86627CA83B4A5D3CB13F1 /* debug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		A90458B05DD3B72A64CDECD73A7C63E9 /* image.c */ = {isa = PBXFileReference; includeInIndex = 1; path = image.c; sourceTree = "<group>"; };
+		A99DF0E9DD30069DF3FA05F194CCC31E /* code39.c */ = {isa = PBXFileReference; includeInIndex = 1; path = code39.c; sourceTree = "<group>"; };
+		AC259F07C7C122D2586288511CED4CF1 /* posix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = posix.h; sourceTree = "<group>"; };
+		ADF8777DB7E7162297E4645FB85D9881 /* qr_finder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qr_finder.h; sourceTree = "<group>"; };
+		AEAC56DEB87D3D4A08F671AF43F3A37F /* config.c */ = {isa = PBXFileReference; includeInIndex = 1; path = config.c; sourceTree = "<group>"; };
 		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		B003C1A9A371809F69106230DCEDE800 /* pdf417.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pdf417.h; sourceTree = "<group>"; };
-		B0A84669CD555F6B18AC6B9788C784D5 /* FFScanningViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanningViewController.m; path = FFScanCodeKit/Controller/FFScanningViewController.m; sourceTree = "<group>"; };
-		B0BCA28E87061973A6E998CBF677250F /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
-		B104C22E5DB1804E40D41D612280BD78 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
 		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		B2D21F5A35BCF07D78F6E0310EA60FF5 /* ZBarImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarImage.m; sourceTree = "<group>"; };
-		B38FEFF77D50256615D30582595B0259 /* debug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
-		B9C6739AFACF439B5330C72E6CAE2323 /* code128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = code128.h; sourceTree = "<group>"; };
+		B2DDF8F992B3A595854F5055B688EE27 /* binarize.c */ = {isa = PBXFileReference; includeInIndex = 1; path = binarize.c; sourceTree = "<group>"; };
+		B36FDEFFBF732D5E24A9D7BF6EF57593 /* scan-code_btn_flashlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan-code_btn_flashlight@2x.png"; path = "FFScanCodeKit/Assets/scan-code_btn_flashlight@2x.png"; sourceTree = "<group>"; };
+		B637D2F6978980002E99CB7F56D15975 /* qr_finder.c */ = {isa = PBXFileReference; includeInIndex = 1; path = qr_finder.c; sourceTree = "<group>"; };
+		B64D913C730D161566FF061FB941B9D3 /* zbar-helpicons.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "zbar-helpicons.png"; path = "FFScanCodeKit/Assets/zbar-helpicons.png"; sourceTree = "<group>"; };
+		B91F99CC5F811052E6019140146676F8 /* FFScanningView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanningView.m; path = FFScanCodeKit/View/FFScanningView.m; sourceTree = "<group>"; };
 		B9EFB8CB9023A15DD061D9836E7ED93F /* Pods-FFScanCodeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFScanCodeKit_Example.modulemap"; sourceTree = "<group>"; };
-		BA52AC630A423839D7B987580712AADC /* binarize.c */ = {isa = PBXFileReference; includeInIndex = 1; path = binarize.c; sourceTree = "<group>"; };
-		BB3BACFB3B15EDC6467554AD2DD94FD0 /* i25.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = i25.h; sourceTree = "<group>"; };
+		BD73D364E575130EB847AE0CCFE2E315 /* qrcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qrcode.h; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		BEE9282D1575525A978EFDC76DB5DC83 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		C109CB84313626339119D534A11892BB /* ZBarReaderController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
-		C17424BF670C7E8E42B01531D70E912C /* zbar-help.html */ = {isa = PBXFileReference; includeInIndex = 1; name = "zbar-help.html"; path = "FFScanCodeKit/Assets/zbar-help.html"; sourceTree = "<group>"; };
+		C101A32611658143690104EE9E452DDE /* basc_nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "basc_nav_back@2x.png"; path = "FFScanCodeKit/Assets/basc_nav_back@2x.png"; sourceTree = "<group>"; };
+		C102D31648DD71D62AC2646906B4C9FA /* zbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		C2977374E730211D5B779EC7400C0F70 /* debug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		C38FB353E57CA86813964E7C4D94A78C /* FFScanCodeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFScanCodeKit.debug.xcconfig; sourceTree = "<group>"; };
 		C3B15277B8085AE4A2CA2378A9F2494F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		C47542E9F476F6EA5723BDB74F99EA6C /* scan-code_img_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan-code_img_down@3x.png"; path = "FFScanCodeKit/Assets/scan-code_img_down@3x.png"; sourceTree = "<group>"; };
 		C568E92935B3443B6799C1424199FEDA /* Pods-FFScanCodeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFScanCodeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C5D9FD525E85D07E494CA4DFB9452FCE /* symbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = symbol.h; sourceTree = "<group>"; };
-		C71B76BBEFC2653931FED0EC6361025E /* codabar.c */ = {isa = PBXFileReference; includeInIndex = 1; path = codabar.c; sourceTree = "<group>"; };
-		CC2D527D1DA011FF33C05511E0879786 /* FFScanningPermissions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanningPermissions.m; path = FFScanCodeKit/View/FFScanningPermissions.m; sourceTree = "<group>"; };
-		CDD69340ED971917C700D710294FF709 /* FFScanWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanWrapper.h; path = FFScanCodeKit/View/FFScanWrapper.h; sourceTree = "<group>"; };
+		C896E4EEDE30D7DC67621B5A84BDC778 /* bch15_5.c */ = {isa = PBXFileReference; includeInIndex = 1; path = bch15_5.c; sourceTree = "<group>"; };
+		CA94702B89FE7CE8EB68A9971BB72395 /* refcnt.c */ = {isa = PBXFileReference; includeInIndex = 1; path = refcnt.c; sourceTree = "<group>"; };
+		CB1AEE7D72F4FBD129EE30202C5EC883 /* i25.c */ = {isa = PBXFileReference; includeInIndex = 1; path = i25.c; sourceTree = "<group>"; };
+		CE74FAA92F65C08D1E902D201B9B0171 /* x.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x.h; sourceTree = "<group>"; };
+		CEE56B19CB4E43E5B339FE769433F5AC /* FFScanCodeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFScanCodeKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEF9DA21B83CE6CEC73984AF0AE6DBE2 /* FFScanRelative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanRelative.m; path = FFScanCodeKit/Relative/FFScanRelative.m; sourceTree = "<group>"; };
+		D0A0D52A86B0B1DE19631F9AB33C657D /* scan-code_btn_flashlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan-code_btn_flashlight@3x.png"; path = "FFScanCodeKit/Assets/scan-code_btn_flashlight@3x.png"; sourceTree = "<group>"; };
 		D0F8FB83080F2D254F2CD2ED1088E723 /* Pods-FFScanCodeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFScanCodeKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		D184589FD17031BBB1A61F081F56ED3F /* qrdec.c */ = {isa = PBXFileReference; includeInIndex = 1; path = qrdec.c; sourceTree = "<group>"; };
-		D37CE4CFE3E1D9F60DD6039F2BF9EE84 /* qrdec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qrdec.h; sourceTree = "<group>"; };
-		D5D238AAA66988EB4E1029CD253190D6 /* thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
-		D5F6583906F9DB81E9721EEF82847CCD /* FFScanCodeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFScanCodeKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4971164496F08C4256A63164D26486B /* pdf417.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pdf417.h; sourceTree = "<group>"; };
+		D4E9BE74A5FE5B3666FBA2204B711048 /* scan-code_img_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan-code_img_on@2x.png"; path = "FFScanCodeKit/Assets/scan-code_img_on@2x.png"; sourceTree = "<group>"; };
+		D59F63A0ACA8A96DDA480D48079FAD18 /* ZBarHelpController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarHelpController.m; sourceTree = "<group>"; };
+		D6158E73AC4F8C5636115EB74B53111A /* code39.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = code39.h; sourceTree = "<group>"; };
 		D6AA915E744CF5C267B78D19CD96642A /* Pods-FFScanCodeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFScanCodeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D78D0BACBF4ACCC3365A1C158FCA165D /* qrdec.c */ = {isa = PBXFileReference; includeInIndex = 1; path = qrdec.c; sourceTree = "<group>"; };
+		D9C47A2F8823F3499C3A95CC916B8BAF /* databar.c */ = {isa = PBXFileReference; includeInIndex = 1; path = databar.c; sourceTree = "<group>"; };
 		DB0F635EFBFF5AC0C6E85F2AAB549E5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		DB5C627FE1F1EBA3C2E3C826122102D5 /* event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
-		DB7F2B573C226B2FABD98C24BAF10CF0 /* refcnt.c */ = {isa = PBXFileReference; includeInIndex = 1; path = refcnt.c; sourceTree = "<group>"; };
-		DC484B7BAA3F4218B169F155B70ED4BA /* zbar-helpicons.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "zbar-helpicons.png"; path = "FFScanCodeKit/Assets/zbar-helpicons.png"; sourceTree = "<group>"; };
+		DBBE29044A1B117953CA499E3EA8CF1C /* video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = video.h; sourceTree = "<group>"; };
+		DDA4BB794A925A74EC29686919BFD324 /* win.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = win.h; sourceTree = "<group>"; };
+		DE354342B8CA766B1E9E1D27CC4791EA /* code93.c */ = {isa = PBXFileReference; includeInIndex = 1; path = code93.c; sourceTree = "<group>"; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		E0C3C05528A627E166EF73A0F0719205 /* FFScanningViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanningViewController.h; path = FFScanCodeKit/Controller/FFScanningViewController.h; sourceTree = "<group>"; };
-		E4000D4E51EBB30B9375969EEC650466 /* window.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
-		E6746A0C73D914E8204D13225171699E /* isaac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = isaac.h; sourceTree = "<group>"; };
+		E1964C6C1A9C93FBAC0E6AA16A256EF8 /* decoder.c */ = {isa = PBXFileReference; includeInIndex = 1; path = decoder.c; sourceTree = "<group>"; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		E807258487970EE769B170F918FDC011 /* FFScanCodeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFScanCodeKit-Info.plist"; sourceTree = "<group>"; };
-		E83E592463F93C15853E97D0BB02C2B6 /* bch15_5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bch15_5.h; sourceTree = "<group>"; };
-		E87D994BF6999B3C7ED92EF4B7B30C18 /* code39.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = code39.h; sourceTree = "<group>"; };
+		E792C209FE45FCA4C226AEB8FEE747BE /* img_scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; path = img_scanner.c; sourceTree = "<group>"; };
+		EB26FC275D0EC9F8A15FAF2CB27D8898 /* ResourceBundle-FFScanCodeKit-FFScanCodeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FFScanCodeKit-FFScanCodeKit-Info.plist"; sourceTree = "<group>"; };
 		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		ED6D0EBEFF8C3876E3EA5C9FEF714DB1 /* ZBarCaptureReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarCaptureReader.m; sourceTree = "<group>"; };
 		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		EE658D152FFD92A5E08CFB8DC5D71C63 /* isaac.c */ = {isa = PBXFileReference; includeInIndex = 1; path = isaac.c; sourceTree = "<group>"; };
-		EF303BFB9A7B41B4EF15C13F118855BD /* i25.c */ = {isa = PBXFileReference; includeInIndex = 1; path = i25.c; sourceTree = "<group>"; };
-		F024360820B1B2F6DB663B0B80D9ECEB /* ResourceBundle-FFScanCodeKit-FFScanCodeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FFScanCodeKit-FFScanCodeKit-Info.plist"; sourceTree = "<group>"; };
-		F09878DBB972E9A60310BCE379695EC8 /* processor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = processor.h; sourceTree = "<group>"; };
+		EDEE459DC6BB672D09ACA65413CFD3D9 /* FFScanCodeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFScanCodeKit.modulemap; sourceTree = "<group>"; };
+		EEA81E1D822BD7F1CFBB65D6ACE45AF4 /* codabar.c */ = {isa = PBXFileReference; includeInIndex = 1; path = codabar.c; sourceTree = "<group>"; };
+		EF87A70CAC95FB20FDF6A3A8EF286FEA /* ZBarReaderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderViewController.m; sourceTree = "<group>"; };
 		F0E72260BB4E08092225FD377CDC3C0E /* Pods-FFScanCodeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFScanCodeKit_Example-dummy.m"; sourceTree = "<group>"; };
-		F1B9E3CC284B9FC5D81BB23532A9DA98 /* ZBarImageScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarImageScanner.m; sourceTree = "<group>"; };
+		F11227CCF77A93214F29B1D3C09111E8 /* scan-code_img_middle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan-code_img_middle@3x.png"; path = "FFScanCodeKit/Assets/scan-code_img_middle@3x.png"; sourceTree = "<group>"; };
+		F155B8E865D9C81457C9FB44BA921960 /* scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; path = scanner.c; sourceTree = "<group>"; };
 		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		F4C297A8D363DC5D882380D9144E2194 /* FFScanCodeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFScanCodeKit.debug.xcconfig; sourceTree = "<group>"; };
-		F5194ECEA54E6B0E0601FA0385061D10 /* prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		F43CA70E436FA00C2E3BDD3CCEA843A2 /* pdf417_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pdf417_hash.h; sourceTree = "<group>"; };
+		F44FAA955246E73A4596340E55999611 /* ZBarSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		F4573FCC95B10AAE7C6EED920176F6CB /* rs.c */ = {isa = PBXFileReference; includeInIndex = 1; path = rs.c; sourceTree = "<group>"; };
+		F4C2486BD0DF5056337D6084BF5A0EA6 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		F5A134D417ADFFF9BA9EDB675A79E4DB /* rs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rs.h; sourceTree = "<group>"; };
 		F5A64B1BDDC63B4014CC66D6BDB10630 /* Pods_FFScanCodeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFScanCodeKit_Tests.framework; path = "Pods-FFScanCodeKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6B91769478EF9D1D6FDA72C053DC313 /* FFScanCodeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFScanCodeKit.modulemap; sourceTree = "<group>"; };
 		F6BBA2653A9EA5BB9E1208E6C9EC2584 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		F6F6B4A61C77C98983EB1025BD1E6BF1 /* Pods-FFScanCodeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFScanCodeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F9C84A213765A04395A8DA11687D9600 /* ean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ean.h; sourceTree = "<group>"; };
-		FAF1215438E9F84933B5A87EC47D9C37 /* rs.c */ = {isa = PBXFileReference; includeInIndex = 1; path = rs.c; sourceTree = "<group>"; };
+		F8C97F24CB62DE5EC14DF089D339E08D /* ZBarImageScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarImageScanner.m; sourceTree = "<group>"; };
+		FB9A31B1B22DCACD134A73BA55B8FBDF /* mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mutex.h; sourceTree = "<group>"; };
 		FBE404BE9F1D6750B71D15DE4800EFE7 /* FFScanCodeKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FFScanCodeKit.bundle; path = "FFScanCodeKit-FFScanCodeKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBE9DD889AADC97E49016DDCB84EC578 /* FFScanningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanningView.h; path = FFScanCodeKit/View/FFScanningView.h; sourceTree = "<group>"; };
-		FED1AB85D91F05B1DBC268870CD4DA89 /* qr_finder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qr_finder.h; sourceTree = "<group>"; };
+		FDC71D455002CA51CA3BE973BB771862 /* scan-code_btn_click@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan-code_btn_click@3x.png"; path = "FFScanCodeKit/Assets/scan-code_btn_click@3x.png"; sourceTree = "<group>"; };
+		FE41EBE36A911C89CA1D9C5518EEB0C5 /* thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		FEA9D6A58633B1BDB19E1F8CD7021D43 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		FF0D29CFFF58F426AA254D1678181E79 /* ZBarReaderViewImpl_Capture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderViewImpl_Capture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		76104F870640ED64C47ED7C11D8806B6 /* Frameworks */ = {
+		3BBE3FC2FBCF4E3EF1D5259D910713AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07FCAD1256024F494DDF959AF5ADAF36 /* Foundation.framework in Frameworks */,
-				7B95240D84A39A4EE8A5716C59E79213 /* UIKit.framework in Frameworks */,
+				3836D54CBA1CE9B5F87CF345C9DE9478 /* AVFoundation.framework in Frameworks */,
+				5A774117B8A83F6F0F01F85731686B46 /* CoreGraphics.framework in Frameworks */,
+				ED877DFCFDC5CFF4E558DCA78EBF0C0C /* CoreMedia.framework in Frameworks */,
+				E7FB1C2096D2A621E26DDA0914B8E3EA /* CoreVideo.framework in Frameworks */,
+				4D8B346815DF29312ABF2C31A1F887F5 /* Foundation.framework in Frameworks */,
+				D12380EF73DEDF3833F761EFED6A1D1C /* Masonry.framework in Frameworks */,
+				A9E11A81F31E56607EC1732C5C7A8A13 /* QuartzCore.framework in Frameworks */,
+				9AB94807E3DDD5FF32FC1B4D6A8AB787 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C148CB95A1AF9DAFBB63025D634F6B4F /* Frameworks */ = {
+		529705798EB5A5777F4CE6AA6C5319DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EE510BA6BE09103D0DFC24FDB44E9B9 /* AVFoundation.framework in Frameworks */,
-				D47D41635D3AFCC517814A1997D481F5 /* CoreGraphics.framework in Frameworks */,
-				844A466DA5951B3B80B35C9E7B408291 /* CoreMedia.framework in Frameworks */,
-				D051B45F1B38F5098446D83452C73CEB /* CoreVideo.framework in Frameworks */,
-				A24CD39C529BD502569F7433DBE109F6 /* Foundation.framework in Frameworks */,
-				E56F69EE6CE69310D1DEBCEFC4281EBB /* Masonry.framework in Frameworks */,
-				76EED4D0E1CE51B6A1866D0448832EC5 /* QuartzCore.framework in Frameworks */,
-				36C47DCE280C3C2E42390FAE6863C727 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C16EEF1E01EB234FCAEAD9D1629CD7C4 /* Frameworks */ = {
+		AD0FEA6A9A4DA222FE7AE864E85FD772 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2DDC03091A584D2FB297B30C5BCF38B /* Foundation.framework in Frameworks */,
+				57436540FDF50982D4AE56560520CA95 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,22 +438,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03CE00D1727F2D142C1C57D7DC1C61EE /* ZBarSDK */ = {
+		029DF227F79A4CBD04730D7754C8A6D4 /* zbar */ = {
 			isa = PBXGroup;
 			children = (
-				76F6D19E6ACE80F0867D438C347D758D /* ZBarCameraSimulator.h */,
-				436D8E7F224C83163AC3EFB01B1FD29E /* ZBarCaptureReader.h */,
-				00CD3D544C74BBF89C9BED3770C54B98 /* ZBarHelpController.h */,
-				275D7E9484B97AB1B54B9CBA29E0519B /* ZBarImage.h */,
-				89E35A28A72571DF767D44D3BFB818EB /* ZBarImageScanner.h */,
-				C109CB84313626339119D534A11892BB /* ZBarReaderController.h */,
-				33F55BB9B548ADE35C532D6BE50CD273 /* ZBarReaderView.h */,
-				B104C22E5DB1804E40D41D612280BD78 /* ZBarReaderViewController.h */,
-				8D6248AED91BB4405741ADE652634C21 /* ZBarSDK.h */,
-				2063DE6DF42F6F13DCD802DF5B84CF78 /* ZBarSymbol.h */,
+				AEAC56DEB87D3D4A08F671AF43F3A37F /* config.c */,
+				C2977374E730211D5B779EC7400C0F70 /* debug.h */,
+				E1964C6C1A9C93FBAC0E6AA16A256EF8 /* decoder.c */,
+				71B99A1A8FD31A24761E66365784A58E /* decoder.h */,
+				86CDD8581CFE38CB57F3955341BC88CE /* error.c */,
+				4733E362D2FE31F500939888AC2381D2 /* error.h */,
+				86EAC1BC6942C6AAD35D25D0EBC68E40 /* event.h */,
+				A90458B05DD3B72A64CDECD73A7C63E9 /* image.c */,
+				04E54833B4651741742690B9B57D233C /* image.h */,
+				E792C209FE45FCA4C226AEB8FEE747BE /* img_scanner.c */,
+				187DB5A9DA8D52CA7728DF589559F8D3 /* img_scanner.h */,
+				FB9A31B1B22DCACD134A73BA55B8FBDF /* mutex.h */,
+				8A6E11FD821801B48FE0553B6A32A9FB /* processor.h */,
+				BD73D364E575130EB847AE0CCFE2E315 /* qrcode.h */,
+				CA94702B89FE7CE8EB68A9971BB72395 /* refcnt.c */,
+				7BCC4AA0E91B8CD07A05FCA44DC671A9 /* refcnt.h */,
+				F155B8E865D9C81457C9FB44BA921960 /* scanner.c */,
+				38F24B731CA50095FA27F43B36A01759 /* svg.h */,
+				1F4D263FBB64FF37A9EAAE71BBEA0A10 /* symbol.c */,
+				35A2C97373D667C83721E442AAF7E190 /* symbol.h */,
+				FE41EBE36A911C89CA1D9C5518EEB0C5 /* thread.h */,
+				86009B64E77E8E8484F1CA9225F7F2B1 /* timer.h */,
+				DBBE29044A1B117953CA499E3EA8CF1C /* video.h */,
+				22704C533D7901FB573F4777A7AFD821 /* window.h */,
+				3F47A3ABC44D69F3B38B480C720BA655 /* decoder */,
+				4C70B6A19529E980BCB4CDD37DDB0DDB /* processor */,
+				BFD8212B5CE7498CCD36D94F585FC752 /* qrcode */,
+				C77D841451CE9AA6E9A0E9498E5C29C5 /* window */,
 			);
-			name = ZBarSDK;
-			path = ZBarSDK;
+			name = zbar;
+			path = FFScanCodeKit/Classes/ZBarSDK/zbar;
 			sourceTree = "<group>";
 		};
 		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
@@ -468,20 +508,46 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		11F4D28ABAA78DEA473E4A6D12F71224 /* Support Files */ = {
+		164CEFB23B794BB8CB477CB7E7894014 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F6B91769478EF9D1D6FDA72C053DC313 /* FFScanCodeKit.modulemap */,
-				8E41751FF01002E21C3E8B2B335EDACC /* FFScanCodeKit-dummy.m */,
-				E807258487970EE769B170F918FDC011 /* FFScanCodeKit-Info.plist */,
-				957B433D060737DEE65C7CF0E2274C1F /* FFScanCodeKit-prefix.pch */,
-				99CBFADD498FD951D78997C2CEFDE111 /* FFScanCodeKit-umbrella.h */,
-				F4C297A8D363DC5D882380D9144E2194 /* FFScanCodeKit.debug.xcconfig */,
-				66F25A933AFAF93DEEA6999D9E8BB517 /* FFScanCodeKit.release.xcconfig */,
-				F024360820B1B2F6DB663B0B80D9ECEB /* ResourceBundle-FFScanCodeKit-FFScanCodeKit-Info.plist */,
+				CEE56B19CB4E43E5B339FE769433F5AC /* FFScanCodeKit.podspec */,
+				81C0898201B660E24F1B53356A6945A3 /* LICENSE */,
+				02ED38FA934328412BC36564D7B26C7B /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FFScanCodeKit";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		24D91DF7608CD53BA62E2DD902F16C9F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C102D31648DD71D62AC2646906B4C9FA /* zbar.h */,
+			);
+			name = include;
+			path = FFScanCodeKit/Classes/ZBarSDK/include;
+			sourceTree = "<group>";
+		};
+		28FE483D1534C800C8A16CE030B90F38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C101A32611658143690104EE9E452DDE /* basc_nav_back@2x.png */,
+				8210CCED2798D62AC70142DE23BBDEF0 /* basc_nav_back@3x.png */,
+				3EEC5E1C9CE910FD234298162692ADA5 /* scan-code_btn_click@2x.png */,
+				FDC71D455002CA51CA3BE973BB771862 /* scan-code_btn_click@3x.png */,
+				B36FDEFFBF732D5E24A9D7BF6EF57593 /* scan-code_btn_flashlight@2x.png */,
+				D0A0D52A86B0B1DE19631F9AB33C657D /* scan-code_btn_flashlight@3x.png */,
+				8B151966DEA034B10874BE364206DA0B /* scan-code_img_down@2x.png */,
+				C47542E9F476F6EA5723BDB74F99EA6C /* scan-code_img_down@3x.png */,
+				8349E6BEFF2AFF5848988759D9402D7D /* scan-code_img_middle@2x.png */,
+				F11227CCF77A93214F29B1D3C09111E8 /* scan-code_img_middle@3x.png */,
+				D4E9BE74A5FE5B3666FBA2204B711048 /* scan-code_img_on@2x.png */,
+				220C37D2C760AA3D8FA33184ED133EBF /* scan-code_img_on@3x.png */,
+				562DAD0A2CF8476A39372BC5B6DDC283 /* zbar-back.png */,
+				5E49B513793C50F6654C0B657E239258 /* zbar-help.html */,
+				B64D913C730D161566FF061FB941B9D3 /* zbar-helpicons.png */,
+				999BC7852680678C76979CF43BB62DEC /* zbar-samples.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2D5E3C847B0CA1EF692D6C36550EFE72 /* Products */ = {
@@ -505,23 +571,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3454D273F304691B5ED9DCC15C596913 /* include */ = {
+		39F586EAA7A443A161CC4EB8DDCE62FB /* ZBarSDK */ = {
 			isa = PBXGroup;
 			children = (
-				890A3B9FF251E5F950C2367F118A1B9E /* zbar.h */,
+				F4C2486BD0DF5056337D6084BF5A0EA6 /* ZBarCameraSimulator.h */,
+				0FD5979680417211B140FB8B9999F204 /* ZBarCaptureReader.h */,
+				98B515BFA67D0716441CF0B999304857 /* ZBarHelpController.h */,
+				0A17BDD28C1551AEC873AC653D71F618 /* ZBarImage.h */,
+				12C3B1D2B862E3198A8C117108145BC8 /* ZBarImageScanner.h */,
+				642EEA56F62AB59188AEE33AD4EB819A /* ZBarReaderController.h */,
+				4701DCDABDE01D473E2A33542A30FB35 /* ZBarReaderView.h */,
+				FEA9D6A58633B1BDB19E1F8CD7021D43 /* ZBarReaderViewController.h */,
+				F44FAA955246E73A4596340E55999611 /* ZBarSDK.h */,
+				13184F9D7EDC532C731B7576D89C0AE4 /* ZBarSymbol.h */,
 			);
-			name = include;
-			path = FFScanCodeKit/Classes/ZBarSDK/include;
+			name = ZBarSDK;
+			path = ZBarSDK;
 			sourceTree = "<group>";
 		};
-		3B4148F27CF5C9248D69841366AA1F93 /* Pod */ = {
+		3F47A3ABC44D69F3B38B480C720BA655 /* decoder */ = {
 			isa = PBXGroup;
 			children = (
-				D5F6583906F9DB81E9721EEF82847CCD /* FFScanCodeKit.podspec */,
-				937583D3DBDE0BB3585AAC3941DF0C8D /* LICENSE */,
-				36E12298B2D86E36553E162E83DFC2EB /* README.md */,
+				EEA81E1D822BD7F1CFBB65D6ACE45AF4 /* codabar.c */,
+				A23C6773299AA551399B36F914D3F41D /* codabar.h */,
+				0A710AF220489E63AAB8CDC806C8AC84 /* code128.c */,
+				89E247E20CD86B3B96004A9FB4FAA92D /* code128.h */,
+				A99DF0E9DD30069DF3FA05F194CCC31E /* code39.c */,
+				D6158E73AC4F8C5636115EB74B53111A /* code39.h */,
+				DE354342B8CA766B1E9E1D27CC4791EA /* code93.c */,
+				7144506D518513E1805DB8EE09A71C2B /* code93.h */,
+				D9C47A2F8823F3499C3A95CC916B8BAF /* databar.c */,
+				1245E12D22C8FEC9638C1385E4F8D152 /* databar.h */,
+				34F0F6CCB91C2468940D24F4FAB94728 /* ean.c */,
+				1C33106E8C2BDE659B8366865AAC81D1 /* ean.h */,
+				CB1AEE7D72F4FBD129EE30202C5EC883 /* i25.c */,
+				7EDFAD309DEC2BC1E8C9D849AC44BED7 /* i25.h */,
+				D4971164496F08C4256A63164D26486B /* pdf417.h */,
+				F43CA70E436FA00C2E3BDD3CCEA843A2 /* pdf417_hash.h */,
+				B637D2F6978980002E99CB7F56D15975 /* qr_finder.c */,
+				ADF8777DB7E7162297E4645FB85D9881 /* qr_finder.h */,
 			);
-			name = Pod;
+			name = decoder;
+			path = decoder;
 			sourceTree = "<group>";
 		};
 		414365D05E5E6E647DF1C46A69DA2E60 /* Pods-FFScanCodeKit_Example */ = {
@@ -541,106 +632,32 @@
 			path = "Target Support Files/Pods-FFScanCodeKit_Example";
 			sourceTree = "<group>";
 		};
-		57A963CA41635DF52180FB970D71B9C5 /* zbar */ = {
+		4C70B6A19529E980BCB4CDD37DDB0DDB /* processor */ = {
 			isa = PBXGroup;
 			children = (
-				8A9C260DFAD9F08504B2FEDEAC8F5778 /* config.c */,
-				B38FEFF77D50256615D30582595B0259 /* debug.h */,
-				9F1E1FAB5DB5F03F37D775295D7E3C5B /* decoder.c */,
-				266738E2A2ED125A709C2A872614F575 /* decoder.h */,
-				2A666903CA173A77CBBA1AFEB48A3FC0 /* error.c */,
-				B0BCA28E87061973A6E998CBF677250F /* error.h */,
-				DB5C627FE1F1EBA3C2E3C826122102D5 /* event.h */,
-				A9E17B2C07F06518E0D9220FFFAF7FDC /* image.c */,
-				A32BBB466E1059EBBA70C357EBC045DA /* image.h */,
-				5ACBC93CB47C0C921CEE85F57D8EBCDE /* img_scanner.c */,
-				80E04FB7B4F1748B3C13BDD18DEE994B /* img_scanner.h */,
-				37DEA065FB10282F6596947192864958 /* mutex.h */,
-				F09878DBB972E9A60310BCE379695EC8 /* processor.h */,
-				25C5A0E6896496B2BA8D3006990E4919 /* qrcode.h */,
-				DB7F2B573C226B2FABD98C24BAF10CF0 /* refcnt.c */,
-				629A1F261FF52EA8DD208D31C813B127 /* refcnt.h */,
-				471C7E658B9B7E88E59598231FF9BC69 /* scanner.c */,
-				47C9729B5B7B44A44FA277402D6A427E /* svg.h */,
-				259958C335D8ED5172EFB62751D446BF /* symbol.c */,
-				C5D9FD525E85D07E494CA4DFB9452FCE /* symbol.h */,
-				D5D238AAA66988EB4E1029CD253190D6 /* thread.h */,
-				343EB5CBC9D31834D68877922275871D /* timer.h */,
-				00DA862BFF9C3A620401958B5EA688B9 /* video.h */,
-				E4000D4E51EBB30B9375969EEC650466 /* window.h */,
-				A1172A7DD97E182A8113D95911353B33 /* decoder */,
-				ED9E0D2D3696DAE5AD6777FA05ABD9A2 /* processor */,
-				CF72999439FA14D07CEE59D78D7C83C6 /* qrcode */,
-				675F0934940D2A0678BF789FBB59CCED /* window */,
+				AC259F07C7C122D2586288511CED4CF1 /* posix.h */,
 			);
-			name = zbar;
-			path = FFScanCodeKit/Classes/ZBarSDK/zbar;
+			name = processor;
+			path = processor;
 			sourceTree = "<group>";
 		};
-		5B3DEA89CB839EA710C8B49259210E79 /* FFScanCodeKit */ = {
+		6B2FA21C36798C7A6A61EC1167B4E6AC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D098C67FF13215B505BF3946DB6F8818 /* Controller */,
-				3B4148F27CF5C9248D69841366AA1F93 /* Pod */,
-				6322AC67811D4143349A5B8FBFA9CC61 /* Relative */,
-				11F4D28ABAA78DEA473E4A6D12F71224 /* Support Files */,
-				834807C51DE0394A26F13DCE936EA5B0 /* View */,
-				B7ECE49FB2A41CA0474A5F0E9BCCBBD1 /* ZBar */,
+				C551F486579DB5114FA9E1C4C8ABBF83 /* FFScanCodeKit */,
 			);
-			name = FFScanCodeKit;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5E70DB5125ACCD2DC0672A7878E216A7 /* Resources */ = {
+		71DB93A30CAD111004868F6BAA162100 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				3779A58E85014D5BA4972819915180E1 /* zbar-back.png */,
-				C17424BF670C7E8E42B01531D70E912C /* zbar-help.html */,
-				DC484B7BAA3F4218B169F155B70ED4BA /* zbar-helpicons.png */,
-				72480672A9FB0CF1DACA655A951F80CB /* zbar-samples.png */,
+				3871AC40CE909EB16AD89AAF1BCDF289 /* config.h */,
+				1BB4F5985BB9C1A2B666D03DB6BF964C /* prefix.pch */,
+				39F586EAA7A443A161CC4EB8DDCE62FB /* ZBarSDK */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		6322AC67811D4143349A5B8FBFA9CC61 /* Relative */ = {
-			isa = PBXGroup;
-			children = (
-				038FD63EC78F377BB48BF1C6D589A3C4 /* FFScanRelative.h */,
-				98A858053AE9FB78D90C1E6CDB6D1CC4 /* FFScanRelative.m */,
-				93C6F67C9C66682BC6A4F74321222291 /* Resources */,
-			);
-			name = Relative;
-			sourceTree = "<group>";
-		};
-		675F0934940D2A0678BF789FBB59CCED /* window */ = {
-			isa = PBXGroup;
-			children = (
-				47D633348EF9DEAACE21FDFA6664525C /* win.h */,
-				9F9099470DACF4FDFA2820D973F316A2 /* x.h */,
-			);
-			name = window;
-			path = window;
-			sourceTree = "<group>";
-		};
-		6D1A4C26364ED03EA9BE2AF617860B0E /* iphone */ = {
-			isa = PBXGroup;
-			children = (
-				AB4945B9D6B86627CA83B4A5D3CB13F1 /* debug.h */,
-				240BBFAACBDF32785F1EEF87F6E52F8B /* ZBarCaptureReader.m */,
-				957C9F08CA0407395D7D3CB1354F97D3 /* ZBarCVImage.h */,
-				155C09667830FB6DCEDA6B721A2F5E63 /* ZBarCVImage.m */,
-				3244192AB345C78F065F3BB15606A4FE /* ZBarHelpController.m */,
-				B2D21F5A35BCF07D78F6E0310EA60FF5 /* ZBarImage.m */,
-				F1B9E3CC284B9FC5D81BB23532A9DA98 /* ZBarImageScanner.m */,
-				54FB2AF3F9E5A55D50DFEEF8AB3796DA /* ZBarReaderController.m */,
-				4AB17382BCFBE74AD1249AA4BC2BB8FF /* ZBarReaderView.m */,
-				A24FFAEB74559191F9FD558D5F035293 /* ZBarReaderViewController.m */,
-				6B8349EA249B9FDFACE3C3359A161DFC /* ZBarReaderViewImpl_Capture.m */,
-				766A34BBAAE8B186B4675ABBB5DBE3E8 /* ZBarSymbol.m */,
-				BA05A690752D52DB619E1C414D6C518A /* include */,
-			);
-			name = iphone;
-			path = FFScanCodeKit/Classes/ZBarSDK/iphone;
+			name = include;
+			path = include;
 			sourceTree = "<group>";
 		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
@@ -649,6 +666,15 @@
 				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		79CB3D0C7787A87DB2C24D85744B850F /* Relative */ = {
+			isa = PBXGroup;
+			children = (
+				79A14FE185D5EFFE30B6391543876F27 /* FFScanRelative.h */,
+				CEF9DA21B83CE6CEC73984AF0AE6DBE2 /* FFScanRelative.m */,
+			);
+			name = Relative;
 			sourceTree = "<group>";
 		};
 		7A07D53DD037DBFF73C322B3D4B4598E /* Targets Support Files */ = {
@@ -676,59 +702,25 @@
 			path = "Target Support Files/Pods-FFScanCodeKit_Tests";
 			sourceTree = "<group>";
 		};
-		834807C51DE0394A26F13DCE936EA5B0 /* View */ = {
+		8510CF148884EDED72875D736B3A7CC5 /* iphone */ = {
 			isa = PBXGroup;
 			children = (
-				1ACEBC49DDCF8A2CF0148A8B2A80C4BA /* FFScanningPermissions.h */,
-				CC2D527D1DA011FF33C05511E0879786 /* FFScanningPermissions.m */,
-				FBE9DD889AADC97E49016DDCB84EC578 /* FFScanningView.h */,
-				89AD28E60F592F78F26ABD67B7614AAA /* FFScanningView.m */,
-				CDD69340ED971917C700D710294FF709 /* FFScanWrapper.h */,
-				6B0A9E66252DDE0AC8FB27FECD05F6C3 /* FFScanWrapper.m */,
+				768C16D012EFE599A917E244149DB83B /* debug.h */,
+				ED6D0EBEFF8C3876E3EA5C9FEF714DB1 /* ZBarCaptureReader.m */,
+				188BB21266D6B6A57EC060922BDF312E /* ZBarCVImage.h */,
+				24E27A90CE976A651CFD301BCBEB1A0E /* ZBarCVImage.m */,
+				D59F63A0ACA8A96DDA480D48079FAD18 /* ZBarHelpController.m */,
+				00ADFBB7547512969D5EC2E85631F3E8 /* ZBarImage.m */,
+				F8C97F24CB62DE5EC14DF089D339E08D /* ZBarImageScanner.m */,
+				19CC7D3A1B57B4F3F45ABD001A648115 /* ZBarReaderController.m */,
+				0F4C5F905C1656333C0D8F0059D86B50 /* ZBarReaderView.m */,
+				EF87A70CAC95FB20FDF6A3A8EF286FEA /* ZBarReaderViewController.m */,
+				FF0D29CFFF58F426AA254D1678181E79 /* ZBarReaderViewImpl_Capture.m */,
+				2C95FDE8B00D66345EBCA300D3BF152D /* ZBarSymbol.m */,
+				71DB93A30CAD111004868F6BAA162100 /* include */,
 			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		93C6F67C9C66682BC6A4F74321222291 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6D5EE688A96E8D10B6B0F0D89EC939B5 /* FFScanCodeKit.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A1172A7DD97E182A8113D95911353B33 /* decoder */ = {
-			isa = PBXGroup;
-			children = (
-				C71B76BBEFC2653931FED0EC6361025E /* codabar.c */,
-				8F3D508197B134AD4FFFCB2B22D88B45 /* codabar.h */,
-				78979FDB618EC43B7C8BCD88C79262D3 /* code128.c */,
-				B9C6739AFACF439B5330C72E6CAE2323 /* code128.h */,
-				1E73E7F0845E09F7A583D709606B3C20 /* code39.c */,
-				E87D994BF6999B3C7ED92EF4B7B30C18 /* code39.h */,
-				1FB132A5DFE8BB9A981E8B3DDB23813F /* code93.c */,
-				1E5E34FFCCBE62881DB63F266FDF5897 /* code93.h */,
-				8DA7F7E6F9867DEA56D4E131F37B2688 /* databar.c */,
-				76CC9046E4332F4D6644DABBF8A2234B /* databar.h */,
-				5BF30BE68B36D39A212879434196065F /* ean.c */,
-				F9C84A213765A04395A8DA11687D9600 /* ean.h */,
-				EF303BFB9A7B41B4EF15C13F118855BD /* i25.c */,
-				BB3BACFB3B15EDC6467554AD2DD94FD0 /* i25.h */,
-				B003C1A9A371809F69106230DCEDE800 /* pdf417.h */,
-				254FC418F79928D56E2F253A92D23CE7 /* pdf417_hash.h */,
-				1B28CF875B44985BBAB8FC2D0967A2A0 /* qr_finder.c */,
-				FED1AB85D91F05B1DBC268870CD4DA89 /* qr_finder.h */,
-			);
-			name = decoder;
-			path = decoder;
-			sourceTree = "<group>";
-		};
-		A3B3FB11447A82BC9681E4355A300896 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B3DEA89CB839EA710C8B49259210E79 /* FFScanCodeKit */,
-			);
-			name = "Development Pods";
+			name = iphone;
+			path = FFScanCodeKit/Classes/ZBarSDK/iphone;
 			sourceTree = "<group>";
 		};
 		B1FC3C29193B3D2C15B7E63AE860AF54 /* iOS */ = {
@@ -745,26 +737,75 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B7ECE49FB2A41CA0474A5F0E9BCCBBD1 /* ZBar */ = {
+		BFD8212B5CE7498CCD36D94F585FC752 /* qrcode */ = {
 			isa = PBXGroup;
 			children = (
-				3454D273F304691B5ED9DCC15C596913 /* include */,
-				6D1A4C26364ED03EA9BE2AF617860B0E /* iphone */,
-				5E70DB5125ACCD2DC0672A7878E216A7 /* Resources */,
-				57A963CA41635DF52180FB970D71B9C5 /* zbar */,
+				C896E4EEDE30D7DC67621B5A84BDC778 /* bch15_5.c */,
+				2B87484A0F215A44BE08CA657FE94745 /* bch15_5.h */,
+				B2DDF8F992B3A595854F5055B688EE27 /* binarize.c */,
+				89D7FDC7E76ACCA60D5A4B418B48DBE9 /* binarize.h */,
+				57AC4534CE92FF4970E77ACEB6CFB95D /* isaac.c */,
+				6FD5B3ECB0BB7A7448C0D3B7541A482B /* isaac.h */,
+				D78D0BACBF4ACCC3365A1C158FCA165D /* qrdec.c */,
+				76BAECC068B9DBDFEEF57A980D0FDBFA /* qrdec.h */,
+				9041139C663882247A0891657DC1BEA9 /* qrdectxt.c */,
+				F4573FCC95B10AAE7C6EED920176F6CB /* rs.c */,
+				F5A134D417ADFFF9BA9EDB675A79E4DB /* rs.h */,
+				697BB04A3E2FFD88FE253E33632D8712 /* util.c */,
+				81C0FB255AB68028EE029164CE1C72BA /* util.h */,
 			);
-			name = ZBar;
+			name = qrcode;
+			path = qrcode;
 			sourceTree = "<group>";
 		};
-		BA05A690752D52DB619E1C414D6C518A /* include */ = {
+		C29FAEEA73ED91D42E07BEF3AC88FDC2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A903897AB02F51DBA973F50ACAB46282 /* config.h */,
-				F5194ECEA54E6B0E0601FA0385061D10 /* prefix.pch */,
-				03CE00D1727F2D142C1C57D7DC1C61EE /* ZBarSDK */,
+				EDEE459DC6BB672D09ACA65413CFD3D9 /* FFScanCodeKit.modulemap */,
+				8435E79FA5950BA6F5F9785ABAC80F00 /* FFScanCodeKit-dummy.m */,
+				6EFE3900B0D72DD3E4D816FDE9E87912 /* FFScanCodeKit-Info.plist */,
+				9CCC812266D2357C0AD02FD47D588324 /* FFScanCodeKit-prefix.pch */,
+				9CFE5C9AB176C0EBC5145DE4740DFF9F /* FFScanCodeKit-umbrella.h */,
+				C38FB353E57CA86813964E7C4D94A78C /* FFScanCodeKit.debug.xcconfig */,
+				14D892FAB99710149621240B4C4F4049 /* FFScanCodeKit.release.xcconfig */,
+				EB26FC275D0EC9F8A15FAF2CB27D8898 /* ResourceBundle-FFScanCodeKit-FFScanCodeKit-Info.plist */,
 			);
-			name = include;
-			path = include;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FFScanCodeKit";
+			sourceTree = "<group>";
+		};
+		C41C44EBF1C21AC839516092114E1A32 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41A7CD03629C2010C788A8101A3FA266 /* FFScanningViewController.h */,
+				A7227CD82936F079C65302A77CCA6BAD /* FFScanningViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C551F486579DB5114FA9E1C4C8ABBF83 /* FFScanCodeKit */ = {
+			isa = PBXGroup;
+			children = (
+				C41C44EBF1C21AC839516092114E1A32 /* Controller */,
+				164CEFB23B794BB8CB477CB7E7894014 /* Pod */,
+				79CB3D0C7787A87DB2C24D85744B850F /* Relative */,
+				28FE483D1534C800C8A16CE030B90F38 /* Resources */,
+				C29FAEEA73ED91D42E07BEF3AC88FDC2 /* Support Files */,
+				FA2865A86451382BEED9A1DCF9B39DC7 /* View */,
+				CE565DAF45A4793161A889A2A871329D /* ZBar */,
+			);
+			name = FFScanCodeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C77D841451CE9AA6E9A0E9498E5C29C5 /* window */ = {
+			isa = PBXGroup;
+			children = (
+				DDA4BB794A925A74EC29686919BFD324 /* win.h */,
+				CE74FAA92F65C08D1E902D201B9B0171 /* x.h */,
+			);
+			name = window;
+			path = window;
 			sourceTree = "<group>";
 		};
 		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
@@ -782,11 +823,21 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
+		CE565DAF45A4793161A889A2A871329D /* ZBar */ = {
+			isa = PBXGroup;
+			children = (
+				24D91DF7608CD53BA62E2DD902F16C9F /* include */,
+				8510CF148884EDED72875D736B3A7CC5 /* iphone */,
+				029DF227F79A4CBD04730D7754C8A6D4 /* zbar */,
+			);
+			name = ZBar;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A3B3FB11447A82BC9681E4355A300896 /* Development Pods */,
+				6B2FA21C36798C7A6A61EC1167B4E6AC /* Development Pods */,
 				2DD8DB5993ABA3F0EBF63BF6B12AB822 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
 				2D5E3C847B0CA1EF692D6C36550EFE72 /* Products */,
@@ -794,68 +845,42 @@
 			);
 			sourceTree = "<group>";
 		};
-		CF72999439FA14D07CEE59D78D7C83C6 /* qrcode */ = {
+		FA2865A86451382BEED9A1DCF9B39DC7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6197177B9C868C4EDF99E1CF247FC634 /* bch15_5.c */,
-				E83E592463F93C15853E97D0BB02C2B6 /* bch15_5.h */,
-				BA52AC630A423839D7B987580712AADC /* binarize.c */,
-				0654023783A8AE851ECEFAC41C0A638D /* binarize.h */,
-				EE658D152FFD92A5E08CFB8DC5D71C63 /* isaac.c */,
-				E6746A0C73D914E8204D13225171699E /* isaac.h */,
-				D184589FD17031BBB1A61F081F56ED3F /* qrdec.c */,
-				D37CE4CFE3E1D9F60DD6039F2BF9EE84 /* qrdec.h */,
-				2E9EEC1FB33E717A1138C995CF2E340E /* qrdectxt.c */,
-				FAF1215438E9F84933B5A87EC47D9C37 /* rs.c */,
-				3786B0785C0DFEDF43A7DE2A1937DEB5 /* rs.h */,
-				4499517899CD5437742D85D1C8C98822 /* util.c */,
-				5BC1266E4DE28778057CC6BDAE170304 /* util.h */,
+				09290DF6487E6B66FE2D34D3EE10C03F /* FFScanningPermissions.h */,
+				3D0665976D616F094427C4CAF664EC80 /* FFScanningPermissions.m */,
+				07B7A55A5E160ECB2C1C39CE2CCA18FC /* FFScanningView.h */,
+				B91F99CC5F811052E6019140146676F8 /* FFScanningView.m */,
+				816CFFA2CFA617D3C57B96DA89C0F6D4 /* FFScanWrapper.h */,
+				7EFE367F4267F7D416985A3065B7C033 /* FFScanWrapper.m */,
 			);
-			name = qrcode;
-			path = qrcode;
-			sourceTree = "<group>";
-		};
-		D098C67FF13215B505BF3946DB6F8818 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E0C3C05528A627E166EF73A0F0719205 /* FFScanningViewController.h */,
-				B0A84669CD555F6B18AC6B9788C784D5 /* FFScanningViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		ED9E0D2D3696DAE5AD6777FA05ABD9A2 /* processor */ = {
-			isa = PBXGroup;
-			children = (
-				79A3A3C845D3F6DCBB24766A956CECCD /* posix.h */,
-			);
-			name = processor;
-			path = processor;
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		076860AD2401E65A54018E72A49F2321 /* Headers */ = {
+		1A9430094E877AC277493C753B96CDED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9736AF73834C00F487CF109A53A0C016 /* MASCompositeConstraint.h in Headers */,
-				2CCE8B945E031C34CA0EBB66B50B764D /* MASConstraint+Private.h in Headers */,
-				BAA09D37F31B9536FEBACAC059743ADB /* MASConstraint.h in Headers */,
-				2A659AF028007FC60880A533194F9C4F /* MASConstraintMaker.h in Headers */,
-				641A5E3438082B12A63AA6930BD9872B /* MASLayoutConstraint.h in Headers */,
-				E9C71BDADF35273AACB04A3CB5E38283 /* Masonry-umbrella.h in Headers */,
-				22652CC8B9BADB40D8C338A0DCAA2BB4 /* Masonry.h in Headers */,
-				D006E7C1B150D7DDAD04832498AF0726 /* MASUtilities.h in Headers */,
-				CBFCB28039705626A5F6CDCE1C5F213E /* MASViewAttribute.h in Headers */,
-				2E2E19C657BF9E5DA5A3F67A5A140D09 /* MASViewConstraint.h in Headers */,
-				C00BE40EFB94DFFF04033FFA10172AC6 /* NSArray+MASAdditions.h in Headers */,
-				0AA8A6CD35AFC01156C620005A8508AB /* NSArray+MASShorthandAdditions.h in Headers */,
-				F3A6C683A0D28F44B11D96162EA318A6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				D60C95C3B0FD61F134C279A110F266C1 /* View+MASAdditions.h in Headers */,
-				B4C109442F7FFAF4C130FE6543DFA907 /* View+MASShorthandAdditions.h in Headers */,
-				B109D56BDF413FD1C61F6CD4E4308770 /* ViewController+MASAdditions.h in Headers */,
+				7E8A6F59ADD5A75FA4BDEE4A02256FE3 /* MASCompositeConstraint.h in Headers */,
+				DC344436A9E3AF72E212B2B5A31545E7 /* MASConstraint+Private.h in Headers */,
+				0DDDC66C06430A0E05C83100245EEF0C /* MASConstraint.h in Headers */,
+				EC096AAF0B60B649B6492CB34C066951 /* MASConstraintMaker.h in Headers */,
+				E35643DFDD3CAEEF89F2C1EB769A5242 /* MASLayoutConstraint.h in Headers */,
+				7C21FBEC4CEE93EDD767572B2DD43C3E /* Masonry-umbrella.h in Headers */,
+				CCC412D5F8D4924D107AE8EF6380404C /* Masonry.h in Headers */,
+				857F0F7F6D4D8792518E0A21BCAD05E1 /* MASUtilities.h in Headers */,
+				C793431A283CB98F7F0F9976E8B85AF6 /* MASViewAttribute.h in Headers */,
+				02919FF64F62C46C146631E5675753ED /* MASViewConstraint.h in Headers */,
+				DCA0FD1EA9A68DC971FB7232A62AB4CF /* NSArray+MASAdditions.h in Headers */,
+				B455232497544683C7300C43E847E490 /* NSArray+MASShorthandAdditions.h in Headers */,
+				613B6A019239B9D33EAB6F5A6199D1FB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				8B4F37AA159ED4151730B1B5030022B0 /* View+MASAdditions.h in Headers */,
+				B2F9EFB5130E8F56291162DFCE2B1DD8 /* View+MASShorthandAdditions.h in Headers */,
+				105C9D59E44E05B47E88F578FF60A07B /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,68 +892,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D041E94CD958A96AB1984433D53E9C8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A96C15F712A835F781ED895A1E018921 /* bch15_5.h in Headers */,
-				ADCAB71FE7F13AD88D7664E0F9DBAD64 /* binarize.h in Headers */,
-				9992716FDE6FE81BC1EC766B5A447D29 /* codabar.h in Headers */,
-				4FC3979F2FBA597769CF11B0A1F66BBF /* code128.h in Headers */,
-				FF7BFB27474A41252377AD2238D4955A /* code39.h in Headers */,
-				205387ECF04CF28D9BE4800595B57A44 /* code93.h in Headers */,
-				4D7126B7D763007AE0B16446CD690D26 /* config.h in Headers */,
-				8639E05294DF346860A3F0471DA2B372 /* databar.h in Headers */,
-				4916D3383292E2E0BF2122AB46A38610 /* debug.h in Headers */,
-				4916D3383292E2E0BF2122AB46A38610 /* debug.h in Headers */,
-				C4DBB60FCEA518EF7C44E123B1218866 /* decoder.h in Headers */,
-				DEDA72AEE066B221AA4F535EB312889C /* ean.h in Headers */,
-				F4202215058D008D593EAB7D38C991C6 /* error.h in Headers */,
-				D0323DDD84D923F7D2306D30C86AE9B0 /* event.h in Headers */,
-				215478DD84BEFD715AEE1D049752CD08 /* FFScanCodeKit-umbrella.h in Headers */,
-				E0E3752A543D9B22EC7B2295E2297214 /* FFScanningPermissions.h in Headers */,
-				86E3F6231BFE3B9EA084325DF6B27262 /* FFScanningView.h in Headers */,
-				3D2D55C5293BDAA4157462F2927013B5 /* FFScanningViewController.h in Headers */,
-				45174848485A497CCB0BA11FB0DFF00B /* FFScanRelative.h in Headers */,
-				E1DDB57ADCC6783DE6D9DE9CBFA8B491 /* FFScanWrapper.h in Headers */,
-				64C85470A93300B7EF041D7B187DCA3A /* i25.h in Headers */,
-				21DCCD64A031AAEDFD7CC8301AE72634 /* image.h in Headers */,
-				F71563C9866992F53BA0050380B78D12 /* img_scanner.h in Headers */,
-				4B88DB9170A02EF4079B2620828BA224 /* isaac.h in Headers */,
-				2F013E1F5AFF951E5AF77D84B637BA2F /* mutex.h in Headers */,
-				79465EF5671A38D1DBA857F91A2D42C7 /* pdf417.h in Headers */,
-				DA894DF805D0E9651CCC7CBF14E3A1A8 /* pdf417_hash.h in Headers */,
-				044DAA35860C6DF1F43098C16EFFE4EE /* posix.h in Headers */,
-				C228EB190C2C2FA0BF6AC49771E2BEB0 /* processor.h in Headers */,
-				7AC591C3FFC18B4DC274504D34A9A40D /* qr_finder.h in Headers */,
-				A41248201348313B1E8C2C60198E1A26 /* qrcode.h in Headers */,
-				41389867A191A87792F5610A9011147A /* qrdec.h in Headers */,
-				DA9DC2B052D72F9CF4C1CDAD127E7410 /* refcnt.h in Headers */,
-				461671AED41E533D5BB2F54816544ADC /* rs.h in Headers */,
-				C5BE603D55B98E31065B2E33D6CB668F /* svg.h in Headers */,
-				5EED78107E00C1D7E71259B8738DA454 /* symbol.h in Headers */,
-				EA710CBFF43674B0941B17EDC4C5D7E3 /* thread.h in Headers */,
-				9ECA9FFB8430A6763E0AD94443726E13 /* timer.h in Headers */,
-				6EC7E0B4023137CF5739D83EB793125B /* util.h in Headers */,
-				A915CAC69232DED5C0CBE3D74CEF2B27 /* video.h in Headers */,
-				9BAA1E6523C69582F217EC478C15D249 /* win.h in Headers */,
-				99C8E85D17BCD0E0736482E9EBF473F4 /* window.h in Headers */,
-				E942A37C3F777111DC566C3CC0BB591B /* x.h in Headers */,
-				C2632F53BA850AA3E68876AA6A40E034 /* zbar.h in Headers */,
-				9BB69C93547AF7CBAAD007ADBC7910F8 /* ZBarCameraSimulator.h in Headers */,
-				37AD4FF977EBEC47A06C46914532AA4A /* ZBarCaptureReader.h in Headers */,
-				C4E2BFF0D9941C69EE704641769D0231 /* ZBarCVImage.h in Headers */,
-				316FAFD68208EC1B83AE1C41266C8872 /* ZBarHelpController.h in Headers */,
-				913339B7FF9455B0FF9CF159959796A1 /* ZBarImage.h in Headers */,
-				EEE3AFA129301C8E9DA51897DBC8EAF5 /* ZBarImageScanner.h in Headers */,
-				AA78F3480584E12EB347BFEB257F05E1 /* ZBarReaderController.h in Headers */,
-				F1BCEA5426DC09103DC12FE0F8970165 /* ZBarReaderView.h in Headers */,
-				164BC4DDD870A8D5ECA04C6066C22086 /* ZBarReaderViewController.h in Headers */,
-				58CD80502021A44E4507D3DBED0C5580 /* ZBarSDK.h in Headers */,
-				E84C1A07943D3BE7F76E507EF6B6BBFE /* ZBarSymbol.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E5BE524B2459EB70CA4A6B2E686DF142 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -937,23 +900,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF4A855EC95CD7BAD97FCBBE50449D79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E4001ED505CDDC38E5C46B775C5334 /* bch15_5.h in Headers */,
+				F566A8FC9E3ADFD1DA9B62EC23093647 /* binarize.h in Headers */,
+				225464843293F5E4EE91F8DC2AF964C2 /* codabar.h in Headers */,
+				1C4C04ADD59A28354209255E38F81C8F /* code128.h in Headers */,
+				0704A6725F108AD2F441E35D11DB4AAF /* code39.h in Headers */,
+				CFA4CF54890CBD582662A636CAE6F699 /* code93.h in Headers */,
+				5128BB6FC6748D4C79FDA111B92CA02A /* config.h in Headers */,
+				49FDA6E3C46AAD8E6D355751D770B1FD /* databar.h in Headers */,
+				C0FAF578625DCF020B914E9A55387118 /* debug.h in Headers */,
+				C0FAF578625DCF020B914E9A55387118 /* debug.h in Headers */,
+				0DD9A73B0A3ABB0F24FBCA5AFE1C2F61 /* decoder.h in Headers */,
+				0ED45B60E04ADCF558D99420267833A7 /* ean.h in Headers */,
+				C1BFA9260F3EA794321421FB0D7E26EA /* error.h in Headers */,
+				AF37BDF5B9BCBC4A8BFC9D3B1BA2E937 /* event.h in Headers */,
+				4C929D7991A7FE0CFBD342C5614ADF56 /* FFScanCodeKit-umbrella.h in Headers */,
+				808B7F69E48B7CC193390D8E3D921AFA /* FFScanningPermissions.h in Headers */,
+				0222B95BB1EC754396898AEC6534873A /* FFScanningView.h in Headers */,
+				71927281DE290D62027033A28E4A049B /* FFScanningViewController.h in Headers */,
+				E28C2DCEC3A60BD9EBAE6D97902D5C1D /* FFScanRelative.h in Headers */,
+				6E08DEF4FDADB780C1301308A8D62E61 /* FFScanWrapper.h in Headers */,
+				A443F5B49E33F429B01234653402B4CE /* i25.h in Headers */,
+				C59A92914CE75A22DFEB0435B25CCCC9 /* image.h in Headers */,
+				2CCC7D3B88433CF2066A6DF1E928AC2C /* img_scanner.h in Headers */,
+				4A6F563BA072E0C23832CF1CA2FE3214 /* isaac.h in Headers */,
+				2AD82163C4FBBE029B4E3AD6C2907ABE /* mutex.h in Headers */,
+				7F649E01394DC0AA5A04D3167CD0859E /* pdf417.h in Headers */,
+				FA9AE7616A2F89280780F8F74DC785D0 /* pdf417_hash.h in Headers */,
+				B2656088AB2B523D771241875B94366B /* posix.h in Headers */,
+				B278C3B822F16225DCAF11DCF4547A08 /* processor.h in Headers */,
+				CBA3DE15EBDF79E4C50A41CCA31C6455 /* qr_finder.h in Headers */,
+				D860D4A876C40CC5D13019BC1A1A126F /* qrcode.h in Headers */,
+				2F8BC0FBBBFA50528C5A69F56E4EDC4F /* qrdec.h in Headers */,
+				0515FB9E31DB337FECF135B3C2C4340F /* refcnt.h in Headers */,
+				6FC87DDC58B37575123BAE599EF02517 /* rs.h in Headers */,
+				9067361DCB09D0E3171488E15A5AA79A /* svg.h in Headers */,
+				DB4F44BC59CBF5A683E2769133D05863 /* symbol.h in Headers */,
+				ACC8E2D55BAC6792D5BEC906684933FC /* thread.h in Headers */,
+				6ADA9397BE897767B6060C321B6BE3A4 /* timer.h in Headers */,
+				DE6C9151E508D0925DD2C44A83891841 /* util.h in Headers */,
+				74535C16FC173211C0063C388C4148F4 /* video.h in Headers */,
+				9F9995E6AD6C8CB7A8DDC65F77ADDA1E /* win.h in Headers */,
+				2E4B8E8F6321179D71EA8569DE4D61AB /* window.h in Headers */,
+				E741F0455DC26F4A0E164B8B8C6FDDD0 /* x.h in Headers */,
+				FAEFAB55E0B7CA547E502C93D94C0DDC /* zbar.h in Headers */,
+				70F6BAE7F8A84A209DC880441B6E554A /* ZBarCameraSimulator.h in Headers */,
+				B59ED2D603F31E6D957F6B98FE28ABEB /* ZBarCaptureReader.h in Headers */,
+				0C637226CF90D5C7705B8344A36BC0F7 /* ZBarCVImage.h in Headers */,
+				C0FB184C48ECE4041E3BD2A7EE086D62 /* ZBarHelpController.h in Headers */,
+				5E79343AE3AEA91C5C8BB53A4F8DD6AF /* ZBarImage.h in Headers */,
+				C3CA18D1B9FEEBD80C238B7AACCAF68C /* ZBarImageScanner.h in Headers */,
+				13A05FEE86A98EE80FAB0DFF3C518849 /* ZBarReaderController.h in Headers */,
+				E8D2637EDA7D8BF2EBB205FF7E63FA07 /* ZBarReaderView.h in Headers */,
+				0001C73A988C03267EB6E105B6A55462 /* ZBarReaderViewController.h in Headers */,
+				A2E91113B3957B94F9C9E989921AE5A5 /* ZBarSDK.h in Headers */,
+				F3B4901FF29D5E9794EED1A425E82216 /* ZBarSymbol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		07BCAC72F2436F23550828E3CCD21350 /* FFScanCodeKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CCD262C2C9C08A0CF125E862686D606 /* Build configuration list for PBXNativeTarget "FFScanCodeKit" */;
+			buildConfigurationList = 280C8C38B6041D66B53052ABA091534F /* Build configuration list for PBXNativeTarget "FFScanCodeKit" */;
 			buildPhases = (
-				3D041E94CD958A96AB1984433D53E9C8 /* Headers */,
-				E468956885BA85197EA2375CDA6F0ADB /* Sources */,
-				C148CB95A1AF9DAFBB63025D634F6B4F /* Frameworks */,
-				00FE7287874061007A8B1277E59F9125 /* Resources */,
+				FF4A855EC95CD7BAD97FCBBE50449D79 /* Headers */,
+				AC8B64C260A7F202A99B14E4AB2FDB3E /* Sources */,
+				3BBE3FC2FBCF4E3EF1D5259D910713AE /* Frameworks */,
+				64C6C49E2E2F0425A37B397E105F6E89 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F61921C384E9DE1C05FA201C89CEF2A2 /* PBXTargetDependency */,
-				86C4788F7A496FF0747F73995024D57C /* PBXTargetDependency */,
+				F237BEA0A3B7FE99ABDD69E0671594D1 /* PBXTargetDependency */,
+				04CE964FAAB8FFC1745DA870AEC726F0 /* PBXTargetDependency */,
 			);
 			name = FFScanCodeKit;
 			productName = FFScanCodeKit;
@@ -962,11 +987,11 @@
 		};
 		456EFE4E30F480A19BB429404DE94F7C /* FFScanCodeKit-FFScanCodeKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59A6E0E7F2E39126A7D90216DAF9E0E8 /* Build configuration list for PBXNativeTarget "FFScanCodeKit-FFScanCodeKit" */;
+			buildConfigurationList = 1C16FA701AD0EFCE7C4B0C781CD488D0 /* Build configuration list for PBXNativeTarget "FFScanCodeKit-FFScanCodeKit" */;
 			buildPhases = (
-				92AF252412676FA753CB295C67F0085E /* Sources */,
-				C16EEF1E01EB234FCAEAD9D1629CD7C4 /* Frameworks */,
-				9B69AD87121B5EE1968A202370654E3F /* Resources */,
+				66B07F07E453D82FB041A3ED6B0EF2D7 /* Sources */,
+				529705798EB5A5777F4CE6AA6C5319DA /* Frameworks */,
+				51B734308DBC711C6491AC7B176D4B8F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -999,12 +1024,12 @@
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E8B9C4E01C94975F9DB5ADB74521182 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 2147E5D07B3D94EF936DF165921B770D /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				076860AD2401E65A54018E72A49F2321 /* Headers */,
-				674D50E421C34891762AD470FA8B8C5C /* Sources */,
-				76104F870640ED64C47ED7C11D8806B6 /* Frameworks */,
-				7CD913BECEF1CC251BF38ABDA45E8A60 /* Resources */,
+				1A9430094E877AC277493C753B96CDED /* Headers */,
+				072C27F16BB7538492A860BD95905634 /* Sources */,
+				AD0FEA6A9A4DA222FE7AE864E85FD772 /* Frameworks */,
+				F0A0770D12B83A21062C71644CE2B33B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1066,15 +1091,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00FE7287874061007A8B1277E59F9125 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54E34F45AC8290AC31A39435149A19DA /* FFScanCodeKit.bundle in Resources */,
-				1D4D15AEAFD65EC609EA9AF74CD5FEE5 /* FFScanCodeKit.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		336052A032245340B73263D92D759282 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1089,96 +1105,116 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CD913BECEF1CC251BF38ABDA45E8A60 /* Resources */ = {
+		51B734308DBC711C6491AC7B176D4B8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC53438AA0C8F7037EF310E3A1CA11B /* basc_nav_back@2x.png in Resources */,
+				9D44981881CCA2D4356AC39580FE6A65 /* basc_nav_back@3x.png in Resources */,
+				1F7719DD87F469B8396FD90DBB74D219 /* scan-code_btn_click@2x.png in Resources */,
+				F15BD01741530FF55E7746C78394F104 /* scan-code_btn_click@3x.png in Resources */,
+				9EFE2CB48F988C476C410A9E62057E7A /* scan-code_btn_flashlight@2x.png in Resources */,
+				239085871982AF3DC2313B160BFF21D2 /* scan-code_btn_flashlight@3x.png in Resources */,
+				E10F0DA1FFF72704EFE72802B7F3811D /* scan-code_img_down@2x.png in Resources */,
+				E07A377EE0C7B1FD3C402C8225DE3E4C /* scan-code_img_down@3x.png in Resources */,
+				ED6B4284C515AD4E6802B846ECD0F2C4 /* scan-code_img_middle@2x.png in Resources */,
+				92B41EA6F277C6072E3FBC8E0C2D0F81 /* scan-code_img_middle@3x.png in Resources */,
+				461DC454ABA48983894A130153C5B253 /* scan-code_img_on@2x.png in Resources */,
+				A7A42A4A51D5AD79B39415E63B15A6AE /* scan-code_img_on@3x.png in Resources */,
+				03539173BD1EE203865AE4E80BA95639 /* zbar-back.png in Resources */,
+				B1BFF4533F7D8A312DF141133F79D90A /* zbar-help.html in Resources */,
+				A5FB18B0AC69600852EFECF220F03E53 /* zbar-helpicons.png in Resources */,
+				37AB0EDD7FF9EA3A77C6495216B1F6A6 /* zbar-samples.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B69AD87121B5EE1968A202370654E3F /* Resources */ = {
+		64C6C49E2E2F0425A37B397E105F6E89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5F0CDC68AB1FD144A9CAF441AF5312D /* zbar-back.png in Resources */,
-				011871F926D7772A1119B8E5C47B1A64 /* zbar-help.html in Resources */,
-				C8D01F8A74769A83E2DB1998991D0A5E /* zbar-helpicons.png in Resources */,
-				7A3C8B0BC21041F113FA68DBB1B70775 /* zbar-samples.png in Resources */,
+				369DD389D7881A508B50699D6012A28F /* FFScanCodeKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A0770D12B83A21062C71644CE2B33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		674D50E421C34891762AD470FA8B8C5C /* Sources */ = {
+		072C27F16BB7538492A860BD95905634 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C73710667C093479D1901B25568CBAD /* MASCompositeConstraint.m in Sources */,
-				D08DB5274C5E54FB3D2A9D32503E9D2A /* MASConstraint.m in Sources */,
-				C32E8C94A8DFD94FD107D42CA0F7CD1F /* MASConstraintMaker.m in Sources */,
-				F7E017E1C15B4DBEA197564B7AD39F57 /* MASLayoutConstraint.m in Sources */,
-				F8D5683F31FB32C596F2E5299D4CC934 /* Masonry-dummy.m in Sources */,
-				A6499944F1795AF5D6A2E12BFF918903 /* MASViewAttribute.m in Sources */,
-				771A4C099D955C721E19523FE1A9C496 /* MASViewConstraint.m in Sources */,
-				B816940D58E36CC14517454998310C92 /* NSArray+MASAdditions.m in Sources */,
-				B13A4E74B72BF63752CA00EBE7DE2831 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				77725A81D241B50FB0ED50B7A7FCEF33 /* View+MASAdditions.m in Sources */,
-				1AD5AD3C94E83824B2211DDFCB4B7FA6 /* ViewController+MASAdditions.m in Sources */,
+				72BC211FCC5E38B20EB90B07977C152E /* MASCompositeConstraint.m in Sources */,
+				BCBCDCCFD0BD1C0B5816B15879CEDCE3 /* MASConstraint.m in Sources */,
+				32D94F05C6E616BD7B1842FC83275347 /* MASConstraintMaker.m in Sources */,
+				DDB50ED5BD0D76ED3F99787E03EC4A3C /* MASLayoutConstraint.m in Sources */,
+				158CCE2BCDAAA0A79C09B1B262E59C46 /* Masonry-dummy.m in Sources */,
+				59F68334A7BD1153D67FF9F96C46A550 /* MASViewAttribute.m in Sources */,
+				B27115821D902B4D1D687F5EDC0A0164 /* MASViewConstraint.m in Sources */,
+				D9E432227616D8CA9A37677AB8509370 /* NSArray+MASAdditions.m in Sources */,
+				E639277B747AF31EEE93235D41562345 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D495004784B9841992354FF3B2A0F93E /* View+MASAdditions.m in Sources */,
+				1B38CF3237138B8C9295522BC9705C8D /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92AF252412676FA753CB295C67F0085E /* Sources */ = {
+		66B07F07E453D82FB041A3ED6B0EF2D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E468956885BA85197EA2375CDA6F0ADB /* Sources */ = {
+		AC8B64C260A7F202A99B14E4AB2FDB3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC30EC72842B455745BACFDA62C9D94C /* bch15_5.c in Sources */,
-				1F21101F454E75B252E4B40FC0054A60 /* binarize.c in Sources */,
-				418A490F1F05C8A038A79618CB65F4C4 /* codabar.c in Sources */,
-				3A4379F333F670205A00DA98371DA349 /* code128.c in Sources */,
-				CC69C7459A5F7A9161872BBE33BB7312 /* code39.c in Sources */,
-				60C71949C07CA09C79D55E2DC6209236 /* code93.c in Sources */,
-				40C9848680536934664E5D43BA2A9312 /* config.c in Sources */,
-				A0C0B74DE7AAFF1AC31CDF4EC25CDE42 /* databar.c in Sources */,
-				0F586961126918F8AD99AB40BF29E482 /* decoder.c in Sources */,
-				7A6BDFE3E02FE93B5CEF589140D690A9 /* ean.c in Sources */,
-				27126BA4FBAE431AB85F9EB5C4E942D8 /* error.c in Sources */,
-				3D0FA64B670E45347EA66CEC78F99675 /* FFScanCodeKit-dummy.m in Sources */,
-				DA4FBC30F637CC39DA66046E882814AE /* FFScanningPermissions.m in Sources */,
-				AE96B4D003CA1412B48EFA194DB10249 /* FFScanningView.m in Sources */,
-				C9E97DF52C62DC825672CF19999FE27F /* FFScanningViewController.m in Sources */,
-				93C2D0345095E5CA4984A4B4AFCD565F /* FFScanRelative.m in Sources */,
-				57F78A4C24E5838AB28A0654CFDFAB4F /* FFScanWrapper.m in Sources */,
-				08E106DA0FF4EB35EE488A3873A4F2EE /* i25.c in Sources */,
-				28C9B636BAFCD2318F9BD5A2EFC0C4DA /* image.c in Sources */,
-				50856DC16A7E56DA38A06F9A6BE90081 /* img_scanner.c in Sources */,
-				614E85F215E7DA2539B8683617C26F9B /* isaac.c in Sources */,
-				04AE021F5C05F4458D3AC38B731611FF /* prefix.pch in Sources */,
-				44072FDFAFCA12883F1C6A0A5BD89418 /* qr_finder.c in Sources */,
-				FE388DA417B0B885E073A45F01C0F1F8 /* qrdec.c in Sources */,
-				573CC40AF7C0E6AC81FB959A55BCC2BA /* qrdectxt.c in Sources */,
-				A450EF7C076E20532F06F172DC144E75 /* refcnt.c in Sources */,
-				176F2AD9EC1ECABFE5A7EE5E70E50963 /* rs.c in Sources */,
-				138EAAEAAEEFFDCE6D6986F1D80722BD /* scanner.c in Sources */,
-				59C32AFEF4357CB47DB08B08CA4E5954 /* symbol.c in Sources */,
-				BDFF72433520B1D9231D067BB3C8C82A /* util.c in Sources */,
-				35418867505FE0D25F3E72C00ED42EEF /* ZBarCaptureReader.m in Sources */,
-				C38ECE80B4AC09DEEE9E658062122D44 /* ZBarCVImage.m in Sources */,
-				43B0C869A0FEE9FA221A01B003B8E667 /* ZBarHelpController.m in Sources */,
-				96628D077D4E5E71851A1A8E05FD332A /* ZBarImage.m in Sources */,
-				09CB7D9689708E63AFC8C98CD03230DE /* ZBarImageScanner.m in Sources */,
-				3651AD2F7C2CE96E8DBA8F6A0C4F1A00 /* ZBarReaderController.m in Sources */,
-				57D724D8514AE5E890D1BF761528AFAF /* ZBarReaderView.m in Sources */,
-				C455478C2995366AFEA68F97C7D86F1B /* ZBarReaderViewController.m in Sources */,
-				164BE09F29FD27A40DEFF69CD0B7D019 /* ZBarReaderViewImpl_Capture.m in Sources */,
-				6981EB185A9DAFB2B3DFBBBEE7D35749 /* ZBarSymbol.m in Sources */,
+				C97F853F7C5179359328619AED7E5772 /* bch15_5.c in Sources */,
+				9952D71BE0C82D4263BD2D2014B03992 /* binarize.c in Sources */,
+				1A9351BAA1835CE0AA048851E3170AD0 /* codabar.c in Sources */,
+				100042239CCDF22792FEE75A82EC7193 /* code128.c in Sources */,
+				8BB02FD7F7556D92C3197512516F78B2 /* code39.c in Sources */,
+				4BC456B0D1368518B7A53B243B70588D /* code93.c in Sources */,
+				690C5EE173BD122C66F1D353A2DBC4B9 /* config.c in Sources */,
+				2CDB64D93A491E6497EECC77B6416236 /* databar.c in Sources */,
+				B4F42092DE5075950242349E8B7F0517 /* decoder.c in Sources */,
+				5A37A9C93FC7DAC620CB17105A920786 /* ean.c in Sources */,
+				0DD879F59379C41C7B109BDE1216DAD2 /* error.c in Sources */,
+				61A5C63E0FC9A867BDD4E910CB8D1256 /* FFScanCodeKit-dummy.m in Sources */,
+				1EF5A5BC81CD2ECF980FB876F1C5A41C /* FFScanningPermissions.m in Sources */,
+				2E8DF6E74280774E678510AB263E98CE /* FFScanningView.m in Sources */,
+				68978A23891A097A3D78ECC1A6F0FE2C /* FFScanningViewController.m in Sources */,
+				1F1EA7F63DFBE9E385F34033D617D454 /* FFScanRelative.m in Sources */,
+				173755EA95EBD3DC6A89A243F8782B4F /* FFScanWrapper.m in Sources */,
+				0CFF190C0E5282E747FE0D14A15DCF8C /* i25.c in Sources */,
+				B18B9C362177CD181DF048376D45E947 /* image.c in Sources */,
+				5F5D40A56CC7E6A0A057900628A7BF56 /* img_scanner.c in Sources */,
+				3D3D80A0212226953425B8AE720EA2C7 /* isaac.c in Sources */,
+				D4390850EBE19F865B4A7BD702C6BA96 /* prefix.pch in Sources */,
+				BBD849184A01237C06671A32E6105970 /* qr_finder.c in Sources */,
+				7EBA2EF34CEA75B0603DDEC80795F4F0 /* qrdec.c in Sources */,
+				505E83AB959C6B514F0B961E018CFCC3 /* qrdectxt.c in Sources */,
+				994FEEB7414ED3324DAE39A8EA2AE0D2 /* refcnt.c in Sources */,
+				89D334C061D287B76429679721E8911F /* rs.c in Sources */,
+				B8FE1DF9A00E4DD185A260A513736485 /* scanner.c in Sources */,
+				EC974D7261AC055EC1C99252F7008419 /* symbol.c in Sources */,
+				F0E52D4E373B89D585700CDFFD4E1557 /* util.c in Sources */,
+				D60D5F1B63C9C682BEDC528935179129 /* ZBarCaptureReader.m in Sources */,
+				E39DFD547E14B0F9B594C2D3F2DFBC6C /* ZBarCVImage.m in Sources */,
+				28F0B4CF8C76C22E564D47D91DDCC47B /* ZBarHelpController.m in Sources */,
+				578ACD4B67A3E51BBF079F7B6B6C4724 /* ZBarImage.m in Sources */,
+				70E0D54FC70CF76731C1F3A1F6E0152C /* ZBarImageScanner.m in Sources */,
+				D0FEC7616B9B6C6F0F39E4CFA0F2D0C1 /* ZBarReaderController.m in Sources */,
+				EC59649A3895CC24C375CDB5E615A727 /* ZBarReaderView.m in Sources */,
+				1FCDDBC341E82E8758931E7C55409B56 /* ZBarReaderViewController.m in Sources */,
+				CFE959F521AF4CB043793BDF54D07194 /* ZBarReaderViewImpl_Capture.m in Sources */,
+				B894A5BEBF0B5858A62F966EFD20AEB8 /* ZBarSymbol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1201,17 +1237,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		04CE964FAAB8FFC1745DA870AEC726F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 01ABB271AA7BBCAA67FD16FBA771FBBA /* PBXContainerItemProxy */;
+		};
 		528E841459A6D70D0363B93F4B6AE3C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FFScanCodeKit;
 			target = 07BCAC72F2436F23550828E3CCD21350 /* FFScanCodeKit */;
 			targetProxy = AB8EAFAEF5323982D70971CB514944BA /* PBXContainerItemProxy */;
-		};
-		86C4788F7A496FF0747F73995024D57C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = DB189D6F6B52EF0AC14055D997455215 /* PBXContainerItemProxy */;
 		};
 		8DD9E1543F841E19E68189E73A93D9FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1225,44 +1261,29 @@
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = 39CA2B5F64749571F78293607C2CE653 /* PBXContainerItemProxy */;
 		};
-		F61921C384E9DE1C05FA201C89CEF2A2 /* PBXTargetDependency */ = {
+		F237BEA0A3B7FE99ABDD69E0671594D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FFScanCodeKit-FFScanCodeKit";
 			target = 456EFE4E30F480A19BB429404DE94F7C /* FFScanCodeKit-FFScanCodeKit */;
-			targetProxy = 3B7FADA0827FFCF0C859E96FAD43A683 /* PBXContainerItemProxy */;
+			targetProxy = 750C194F8D505CA7BDF6A7E744B7E319 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AB12027AD7F93E28BBD0EFA01204188 /* Release */ = {
+		0D61D5DFF635A0447A235392DD747699 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66F25A933AFAF93DEEA6999D9E8BB517 /* FFScanCodeKit.release.xcconfig */;
+			baseConfigurationReference = 14D892FAB99710149621240B4C4F4049 /* FFScanCodeKit.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FFScanCodeKit/FFScanCodeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFScanCodeKit";
+				IBSC_MODULE = FFScanCodeKit;
+				INFOPLIST_FILE = "Target Support Files/FFScanCodeKit/ResourceBundle-FFScanCodeKit-FFScanCodeKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit.modulemap";
-				PRODUCT_MODULE_NAME = FFScanCodeKit;
 				PRODUCT_NAME = FFScanCodeKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1300,26 +1321,9 @@
 			};
 			name = Release;
 		};
-		33F5C9FEA3B393488EFC652424AC4564 /* Release */ = {
+		26762B80C01ABD04B78047182E1E4A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66F25A933AFAF93DEEA6999D9E8BB517 /* FFScanCodeKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFScanCodeKit";
-				IBSC_MODULE = FFScanCodeKit;
-				INFOPLIST_FILE = "Target Support Files/FFScanCodeKit/ResourceBundle-FFScanCodeKit-FFScanCodeKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = FFScanCodeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		4DB5E05BB139FD09A385E4EAE1837936 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4C297A8D363DC5D882380D9144E2194 /* FFScanCodeKit.debug.xcconfig */;
+			baseConfigurationReference = C38FB353E57CA86813964E7C4D94A78C /* FFScanCodeKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFScanCodeKit";
@@ -1334,7 +1338,38 @@
 			};
 			name = Debug;
 		};
-		52BD692C726FBE64E2E006F6167821C6 /* Debug */ = {
+		445C30D1EE37FB56D0BC1370AECA9EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38FB353E57CA86813964E7C4D94A78C /* FFScanCodeKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFScanCodeKit/FFScanCodeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit.modulemap";
+				PRODUCT_MODULE_NAME = FFScanCodeKit;
+				PRODUCT_NAME = FFScanCodeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		818D1FED28C80C59B66D85768EF5A9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
 			buildSettings = {
@@ -1364,38 +1399,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5E7175E11BB11B4831CB942FC9EB51B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1521,6 +1524,38 @@
 			};
 			name = Debug;
 		};
+		9EE9AA9DA81D4E3CF2579D65F0512172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		AA5074F3DFEDA736F18FF98B6DF80871 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 592575A7115F81E3B3E06128CDBFD9D3 /* Pods-FFScanCodeKit_Example.debug.xcconfig */;
@@ -1554,37 +1589,6 @@
 			};
 			name = Debug;
 		};
-		B4841D2426DB6721F445178A4AF46AA9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4C297A8D363DC5D882380D9144E2194 /* FFScanCodeKit.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FFScanCodeKit/FFScanCodeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit.modulemap";
-				PRODUCT_MODULE_NAME = FFScanCodeKit;
-				PRODUCT_NAME = FFScanCodeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B7C9BF73D5F83A3494AB53CC7069EBD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A47BF4A92DE322C9AAB9C28DDC1B4174 /* Pods-FFScanCodeKit_Tests.release.xcconfig */;
@@ -1612,6 +1616,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F503E2013640E428D0A321A8AF57A072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D892FAB99710149621240B4C4F4049 /* FFScanCodeKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFScanCodeKit/FFScanCodeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit.modulemap";
+				PRODUCT_MODULE_NAME = FFScanCodeKit;
+				PRODUCT_NAME = FFScanCodeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1655,11 +1691,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E8B9C4E01C94975F9DB5ADB74521182 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		1C16FA701AD0EFCE7C4B0C781CD488D0 /* Build configuration list for PBXNativeTarget "FFScanCodeKit-FFScanCodeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52BD692C726FBE64E2E006F6167821C6 /* Debug */,
-				5E7175E11BB11B4831CB942FC9EB51B9 /* Release */,
+				26762B80C01ABD04B78047182E1E4A32 /* Debug */,
+				0D61D5DFF635A0447A235392DD747699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2147E5D07B3D94EF936DF165921B770D /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818D1FED28C80C59B66D85768EF5A9C8 /* Debug */,
+				9EE9AA9DA81D4E3CF2579D65F0512172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280C8C38B6041D66B53052ABA091534F /* Build configuration list for PBXNativeTarget "FFScanCodeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445C30D1EE37FB56D0BC1370AECA9EF6 /* Debug */,
+				F503E2013640E428D0A321A8AF57A072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1669,24 +1723,6 @@
 			buildConfigurations = (
 				916E0404255105F480DC4950B7625F7A /* Debug */,
 				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CCD262C2C9C08A0CF125E862686D606 /* Build configuration list for PBXNativeTarget "FFScanCodeKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4841D2426DB6721F445178A4AF46AA9 /* Debug */,
-				0AB12027AD7F93E28BBD0EFA01204188 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		59A6E0E7F2E39126A7D90216DAF9E0E8 /* Build configuration list for PBXNativeTarget "FFScanCodeKit-FFScanCodeKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DB5E05BB139FD09A385E4EAE1837936 /* Debug */,
-				33F5C9FEA3B393488EFC652424AC4564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
