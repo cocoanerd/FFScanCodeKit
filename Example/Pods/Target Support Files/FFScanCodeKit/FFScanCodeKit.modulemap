@@ -1,0 +1,6 @@
+framework module FFScanCodeKit {
+  umbrella header "FFScanCodeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

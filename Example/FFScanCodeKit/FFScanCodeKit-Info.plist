@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>“FFScanCodeKit”会在扫一扫，商品评价等服务中使用您的媒体资料库功能。</string>
+	<key>NSCameraUsageDescription</key>
+	<string>“FFScanCodeKit”会在扫一扫，商品评价等服务中使用您的相机功能。</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>

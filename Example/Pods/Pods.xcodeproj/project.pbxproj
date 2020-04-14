@@ -1,0 +1,1605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C7EE3249C7C72307EDC16176DA896C /* ZBarSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 580830170475DDB67C7C96C148D5DD70 /* ZBarSymbol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		02070DDAD50D2F85CE830EC765879A24 /* Pods-FFScanCodeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F8FB83080F2D254F2CD2ED1088E723 /* Pods-FFScanCodeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		029BAF609517740AEACD203072B93975 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0389A44083F9982BF557D5731DC1748D /* ZBarImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 880FB1E329E2490C147E20D1CEE2DFAB /* ZBarImageScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0888D68BC72E1A1DAC6154FF9D5C2833 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E407083D5DE078A48365892478A9932 /* UIKit.framework */; };
+		0DB60B1D678525574EA1FAC1F0C967AC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		0E4D11BFB33E4A21FFE51C67EEA4662B /* FFScanCodeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FE715FE5D8D80A739532CAA21A48FB /* FFScanCodeKit-dummy.m */; };
+		11051AC46D38431A7320AF41511F3F1F /* i25.h in Headers */ = {isa = PBXBuildFile; fileRef = F53F11D1C467C4440B17C2A42A5812B1 /* i25.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1157A5760D13C6550B5D1B7EFCE1047C /* img_scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A4AF856852D513A7252436774E0B82 /* img_scanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D788C0CF6C66FC122FF6FA0A7368774 /* FFScanningPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2EE77FFB5F5C62EF8D87504CCC10DA /* FFScanningPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2368E8A34D0555ABA0A395BF43B89D8E /* FFScanRelative.m in Sources */ = {isa = PBXBuildFile; fileRef = A17790E3C790823EB51DBD56CF70E81A /* FFScanRelative.m */; };
+		25AB668E9CE90B9FDF0982688AC56D1A /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A5ECFC9E0430A606855A9C6646C8FC /* timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		260215AE86A6862B3857788D92A23846 /* ZBarSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6518DAF1DE3BAFA542E142C98A8711 /* ZBarSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27C280CE37DCCB3B53EFC5F5AD4FBD0D /* qrdectxt.c in Sources */ = {isa = PBXBuildFile; fileRef = F2F66AFE38350A7BA0828731E6E29111 /* qrdectxt.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		281A8E18D7F885F612C4444A1863E85F /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA4EC7658F87361DC81C8CE5051DA91 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BC23D99ED237F63523CBBBCFE55AD8 /* FFScanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578CD1D153967067BDB4360D43D6B7ED /* FFScanningViewController.m */; };
+		2B3CEB58EA4586C36B41DC7C32851AAE /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC51E68488EC03CC0377DBFB620062A /* pdf417.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8013D23404E1949ADA4A391E4A4A8C /* pdf417.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BEA2C7E93EF0D76F397CE561DB556E4 /* zbar-back.png in Sources */ = {isa = PBXBuildFile; fileRef = DD2D0526D12DF49AB9E76B813AACD80B /* zbar-back.png */; };
+		2D8B116EE6E15D74266AF5B48E92DE52 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2F45756396C55CC001E6807E1381F308 /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F260020D57BA34AF21C0FADFA3517D /* zbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		302E562A66952B3F18AE923A10B080D6 /* win.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8A4EBA115C47D39CBED1957554717B /* win.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30CC2FD3637C192B226943879394BA2B /* ZBarCaptureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E176D9C708F6202FCF47B7A18349B /* ZBarCaptureReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3798D5A754CD0DB5D50BFCF0787A6D57 /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0129A71142923949D7A17BE5085B48 /* mutex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B5752E7076D2DE5A5542D9EAB52C76 /* img_scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = D33C39B74FEF1C4259E4843D5690E517 /* img_scanner.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		39D78FD569CDF2AFBECC2079778AAE8C /* Pods-FFScanCodeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E72260BB4E08092225FD377CDC3C0E /* Pods-FFScanCodeKit_Example-dummy.m */; };
+		3B5EFC1EFF7B6F9B578ACF3505D0EDEB /* pdf417_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B527A01D6562609B3051CD713A29C1B /* pdf417_hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F53C434FEA8E5F373DB4D3014EAD794 /* zbar-samples.png in Sources */ = {isa = PBXBuildFile; fileRef = 7E9C5872C14BC88C3843A0466AC284AA /* zbar-samples.png */; };
+		41BF7713D1624F069B8DE897C984411F /* svg.h in Headers */ = {isa = PBXBuildFile; fileRef = C7273D5DE2374A07DACA1685E858F248 /* svg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42398F1EAB8D40AD8DCB964268B799A1 /* FFScanRelative.h in Headers */ = {isa = PBXBuildFile; fileRef = D694F4F1634ABA5CE6835F11A63C3D81 /* FFScanRelative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43EED9534AE480FBB871D75E9017EC71 /* FFScanCodeKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40F67047ACB9594E005F2CFC04459857 /* FFScanCodeKit.bundle */; };
+		441B13904E9B4804F2FC28E04B51F899 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4A205ACB419E51FE924826355FA5E8 /* thread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44FB49C36B79CFE0B80DF3A312085C8C /* codabar.c in Sources */ = {isa = PBXBuildFile; fileRef = 37E426A9D60275763E11E5FD90229B10 /* codabar.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		472FA20F701418FB9236D0F28BBC2624 /* Pods-FFScanCodeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CAECF1F4849DCE3FAA26F4B6D73716 /* Pods-FFScanCodeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47EF65B23501B5785E8DD62C69E233C4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE9282D1575525A978EFDC76DB5DC83 /* CoreMedia.framework */; };
+		4807C05FC8C8CC708BDDB3759855663A /* isaac.h in Headers */ = {isa = PBXBuildFile; fileRef = 632FFEA18291DBA915D7E68CFDBE22AF /* isaac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A07111A54A12D8007B7D6F880D63D18 /* ZBarReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E51CC03C18FA235C85F4A2112E2141 /* ZBarReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C2E08CA791452D26D0C17351D0443BC /* bch15_5.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC5C4E786EF024A9EA4FE49B758C7AF /* bch15_5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DDDBFE99CB0720573C26B0F7DBAD6F1 /* bch15_5.c in Sources */ = {isa = PBXBuildFile; fileRef = 773635A74BC8BA4614A24A2A764C28A8 /* bch15_5.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4FF912A89430AC6CD21154B6122CC745 /* prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = B8D52DB9B596A5227DB3B553D77D15E4 /* prefix.pch */; };
+		524C8A730EF7740CDAD2FF10E18C2691 /* FFScanCodeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F97027006EC583E29C7DBE28A0AC734A /* FFScanCodeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54102D4C77DAE0DDE4A31D03A40693D7 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C91267CAA3A601D223D78B65F7814A /* error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57744529FAC851F6903F961F718932A5 /* code93.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF7F62CA39EA9594F8984693B6B64C /* code93.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		57C9BB4AE6286DF0BB7D099B36AE017B /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 6AE35823060735FA80D725FEFACB46CD /* scanner.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		58CAF3B55B17FA5E571BE7132C3E5C3A /* refcnt.h in Headers */ = {isa = PBXBuildFile; fileRef = 17380FCB6B8DD5AEF8EDBEDAC5C0D4B8 /* refcnt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58F0157F304B741FCAA249636BBDD90F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58F842E34C4E5DAB6C0541FB20EB7374 /* ZBarReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37626B8B6CE5B6E965623DD12F13EF66 /* ZBarReaderController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		58FA248DDAA474736446C8A1D6DEDC6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */; };
+		5959D64155AA1A82FB8889F690DD857A /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E66417E1702FE3807D6312AB803CDF9 /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDE3416C33956B593792BEC87AE7CB6 /* event.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6475B561D0677AF2198EC81F97A349F0 /* code39.h in Headers */ = {isa = PBXBuildFile; fileRef = 7324113F82828EDE4619C051A7D05F1A /* code39.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64ACCCAF0FD913849305B00DAD526C6A /* qr_finder.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BC3EF8D1B5586F46DAB39DBD1383AD /* qr_finder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6724EF043C6DB7B968D286930D908F0D /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 3144F001B8651D262AF19C7E68A6C1C6 /* symbol.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6C17485C3AA73E86BC9F4D96C923F844 /* qrdec.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA224F243428410308982EC9C54E9B9 /* qrdec.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6FD83C2C3BD154EA0C7F1868D79CE85D /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = 394F5CBB16D5FCFEDA3C5030A572457D /* image.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709E15AFCFF89A2A54E3A8CBE4E65412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */; };
+		70F7ABACF19BD54A7C69241CDF034177 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		714E6D777930FA03D8B52213F5A47715 /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = C305ADD25194FD25B1B5C33BA408A496 /* decoder.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		71E04583FC5D5E719F7313D77E0E85E4 /* zbar-help.html in Sources */ = {isa = PBXBuildFile; fileRef = 23E7D243056102E37061D1DDFFCA2A6C /* zbar-help.html */; };
+		75D31C7FC935BB9CB5AB3B07EF54BC43 /* FFScanningViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE915167F18E23EAF084E70CAFBE802 /* FFScanningViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7657E598DD2853EBE62A6744C370932D /* code128.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA9172F0D984C8E35E6D07ED6813470 /* code128.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		769C8DE0E0842AD40C35BE0F88E0567D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4206AD1D147C9C870B25CD51DF3153 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0F635EFBFF5AC0C6E85F2AAB549E5E /* CoreGraphics.framework */; };
+		7BC8AFDCA52B7894A9E0FF2E9BB8AA1F /* ZBarReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFABEBC7184FDC42DAAECC7800AC9597 /* ZBarReaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CED151A47288092C1A4CCC6C79D2B4E /* qrcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 95AC182B385FF87ABEEFF2A681055A42 /* qrcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DCBA0C673B6D52BDE96A6F5303FDC2 /* ZBarCVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA238FF16DAFB18C68C670344BE1C3A0 /* ZBarCVImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		81E81BA33D083D8AA3CCA8C0AC2930D5 /* rs.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C234FA588F06C6975E87AE7AA9ED1B /* rs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		820AE8B0F860AED756D05C31051A9B00 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8231AE5DB2123D09097B0C682E4CC913 /* code128.c in Sources */ = {isa = PBXBuildFile; fileRef = C7554A0A65C9422949D28631677D64EF /* code128.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		826F2F7D24426BA99B658CE750A46125 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D329AA5FBDDBC1FE18C195E14F6B68 /* ean.c in Sources */ = {isa = PBXBuildFile; fileRef = CEDB7023B70E2313842F1ADCCC771A33 /* ean.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		851BC7F9E145B2FE559285F33A900A02 /* qrdec.h in Headers */ = {isa = PBXBuildFile; fileRef = 534293734E8EBE5A7FE10E1BC1073457 /* qrdec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859FD5F224293315E32D17493D2854CD /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE236E6EDDAB37C44778CC437794F69 /* Masonry.framework */; };
+		89F091AF99EF8022700728A3F64B6A86 /* ZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEAF41BD7C8F88ED689928C87842CAF /* ZBarImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ADE2856E5C171D4B52BA1D3D59C1409 /* ZBarImageScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = D303E0598DB5EC303AF29747861BDC3D /* ZBarImageScanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8C46165794AFC7231DB4301B62A024A0 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DF2CDC875613B36867CDAC97A239D83 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EF4150C098985FE3884DE6C18613462 /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CB639464B044D834D67C52A33B22969D /* decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F59F3722F826B93C3BC9D67D3F20480 /* isaac.c in Sources */ = {isa = PBXBuildFile; fileRef = 96796C9C76F96888F40140E5703A0CD2 /* isaac.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8FA47BA2BFDFAB6F4D6B1E1B2361EBA3 /* x.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B9635746CFED6146DA5DE6DA062471 /* x.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C216C10DBD3700C424C29592B4E6C8 /* ZBarCaptureReader.h in Headers */ = {isa = PBXBuildFile; fileRef = ADDE582CB7453C699E45A9180C0F83FE /* ZBarCaptureReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923669E1356BAACB947494CD67FFB351 /* databar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1281188BC311A203A670362AD2267D77 /* databar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94624E1B9F6B7B1540F5F024A2E42914 /* Pods-FFScanCodeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1295540A2169540ADEA7AD70E812CAB5 /* Pods-FFScanCodeKit_Tests-dummy.m */; };
+		96D687AB18754FC73A46FA63F7127514 /* processor.h in Headers */ = {isa = PBXBuildFile; fileRef = 798C37CEC23B2D8277439837C892DF72 /* processor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		976E1CC03E814B41986CB9C8FE7274BA /* FFScanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F0F5D94E507E0C7F75E2DD23C2638 /* FFScanWrapper.m */; };
+		9EBD0E022633C49BBCF6F8D624ECE6FD /* binarize.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D676391D9B5AC2F935BEB5EE16E28D /* binarize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A046CE7F82F34FBDE8A8B2E3E95E4BD5 /* FFScanningPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F771301976FCC5BA306D44F76A9465 /* FFScanningPermissions.m */; };
+		A58FC3F7277A483C0BF2750EC7A78A8B /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA06A1BB1E7BFB9D98089D6BB743A62 /* debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A67F9103CCBF687DA5FE40E15F7B07A9 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B14995AA847D64C9AA692F5F9309B29 /* image.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6B2111E2E8D3CCB23030562C5F3204E /* ZBarHelpController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB97710155933A15E8FAB9393D8305DF /* ZBarHelpController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A807D4A0DD94085A4447034AE6CCC98F /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = A8387A5EAC48C0F7334FA5EBFE5A65F6 /* rs.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AA8F60BC5854480DD532287500E6B415 /* FFScanningView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8484EA9EEB162DAD2312C7A4B4AC7EC4 /* FFScanningView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADFD38685660A501922A103884C978DE /* ZBarReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273998909B472A2CD95CE212E56D5E9C /* ZBarReaderViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AEB52352E1C53B8C32C4FF9162AE83E3 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2A0CE6C6F2021EE655F44D5DA8973E1 /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4755687C6D4E21A41A1247002290FBD5 /* ZBarSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B417E5D1D2421EF8557916FD2CF37835 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B73C8E875332BD771F3BA9738E8F76E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */; };
+		B9F21A9CB9B87153FDCB4B81B8C8D302 /* zbar-helpicons.png in Sources */ = {isa = PBXBuildFile; fileRef = 38C79980E3B4065F69117BCCCA9B8097 /* zbar-helpicons.png */; };
+		BB1C0E96ABA7CCDF8E47994680CB6E41 /* code93.h in Headers */ = {isa = PBXBuildFile; fileRef = 158C0258CD5DECF4F5E0C750F1C52DC6 /* code93.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB370A4759A5C44C8AED44BAD99AEED7 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BAD7508A7B28AEB3BD9652BF08C8C0 /* util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBAC905B1274DDB9F3CB4EB2FC4096A8 /* ZBarHelpController.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EF406B239A7115981B94A71DD01851 /* ZBarHelpController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC82C857B6C9D8379979D4650DDC4C83 /* binarize.c in Sources */ = {isa = PBXBuildFile; fileRef = 966FE139CC4244A14507AC47B878581A /* binarize.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD8852817DFD14D3B60BAA37C5BFD741 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		BF7D5C80C90ACDCAE6EB23A88EA5AF40 /* databar.c in Sources */ = {isa = PBXBuildFile; fileRef = 1025453BB15033A1051AAA1BDE7F7B0A /* databar.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C22414A9BD547F7F53A26DD44183D13B /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E0A1E95779290D22A3DF8410ED751D /* window.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6503F4358419F8715E275C97821D8B7 /* ZBarReaderViewImpl_Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D28387E79F45B88B667B1DF0170BAE /* ZBarReaderViewImpl_Capture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6D584CD182690F69EC549446CE120F0 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C70DC004DFCB66E501FC6FAEAAEF9AAE /* ZBarCameraSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3768AC7EDDD07F287CB3D90E291A6890 /* ZBarCameraSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C74E1E127D81B645FC33762526A72126 /* symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C916A6A03D25680AB1039C5BABFB57C /* symbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD73A4CE07E52B666DDB70DE7687FA8F /* codabar.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E8091B42F9A92C2800FDBB1299BC3A /* codabar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC8CB515CDBBF774E69813C5E504717 /* FFScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF01472FD290B9454E9E0BB42C8D286 /* FFScanningView.m */; };
+		CEC929FB8144A4E6D05C4876DC7311F3 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF6F99BE1ADAF9B2BD261B32D99490E1 /* ZBarReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7051F3CD7AB8330815CE8E21EA5FE9CD /* ZBarReaderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2992703A3E05B97E97C9C6BDB54F148 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		D3502921A2CF1EE3FAAA3A776F8EF23C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BBA2653A9EA5BB9E1208E6C9EC2584 /* QuartzCore.framework */; };
+		D3BD6D95A6C1A11C380DA6C9B65BC5A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E407083D5DE078A48365892478A9932 /* UIKit.framework */; };
+		D3C8DD1ACC84EE4C0FAAFC5F191170CB /* qr_finder.c in Sources */ = {isa = PBXBuildFile; fileRef = 638E0842177F413F91DA4F72E34F63C4 /* qr_finder.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DB0725FB65F768339942C1D4EA27565F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B15277B8085AE4A2CA2378A9F2494F /* AVFoundation.framework */; };
+		DCA5F978B0CAA543D1C204236D537553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */; };
+		DE4DEB387E6A7CABAED94F5E8392A7A4 /* refcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D2093668AE7AC0D1F40823E96782788 /* refcnt.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DEE0536B9434C8574F7B18BBB003AA50 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0BB7C3966CA5085860407FEA29C1D6 /* posix.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FA8B71C8240FCF9DE20E6F67AC4415 /* posix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22D3F66D346CBB8936C3F675A5C51E2 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = EDDAA49CB47496004FF6CC00EE190E0A /* util.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E55D2497DE1F6717490DBD636D423FD9 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 12514F7369ED74302A108D4865C52238 /* config.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E5CC218E5D7A699B3C01E9D071307733 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		E9C891A137BAE6900DDF95481543254E /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D86F7CFC9DB272B34BD3BC8A94EEB02 /* error.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E9E5C26B38AF9887184C66177245C59D /* video.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BED35028A7020CB4F75005ADCAEC6B5 /* video.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED470060BFB0C2E5C2BF8B2AD1D0B2ED /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		EF2F999A5AB2F9F97B2BAA1DCFC3A51D /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		EF5BEB3D251F7E61C861B77C9665E47D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		F00706FCC5471D22D384EF1325591912 /* ZBarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A2439BA5EA8756E27E8BB1D945140527 /* ZBarImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0EA3B1F7018520525881572D83F61C7 /* code39.c in Sources */ = {isa = PBXBuildFile; fileRef = 44F7B0E9043F3BB765D742FDD6A8C81B /* code39.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F14803FBBF650578089781400FAE0C7C /* ean.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4108E05EFB8C600CF834D3D0E54AF7 /* ean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F256916459D5719DD7D2B44A0EB1F7CF /* FFScanWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B96E2EBA25E3348C046F7DACA5830892 /* FFScanWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2DCB1E1A0BD854187A41C61C8A1CF0E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12958307B07668A92A972F564981F33D /* CoreVideo.framework */; };
+		F58584883C8E14602644846234493C8F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5E6D26239A5E6B76C038ABE6A597EED /* ZBarReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AA7535703FF4D980589954B232C01E /* ZBarReaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F673B433557C55F0071FAC71FE06366E /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		F84DBD9A72891F38EE1BB5F1F26128C6 /* ZBarCVImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 11346C32A7DFA9D1A254176B85E5E41B /* ZBarCVImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8FE07DD5CAF3FC80CA4844BC49BF79A /* i25.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A944D25F7DEBDE286E683F1D10C56AE /* i25.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F9EE22AB03E01ACA06290898929CE2ED /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		FBE9515C4A4BFF0AB0679683A7630B97 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		332CF34C4370BD14AA25F2E9ABCD4FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520C027DF92C27E5B426BB63D5649E6D;
+			remoteInfo = "Pods-FFScanCodeKit_Example";
+		};
+		39CA2B5F64749571F78293607C2CE653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		9561D9E0D8C283F36B01C93F49C9DDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		AB8EAFAEF5323982D70971CB514944BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07BCAC72F2436F23550828E3CCD21350;
+			remoteInfo = FFScanCodeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		059CEAE57A57EFC872CB3619CDD3114C /* Pods-FFScanCodeKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFScanCodeKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		0958729EFA3137AD793E305928C91863 /* Pods-FFScanCodeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFScanCodeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0967F0C307B4752D60BE6606C2B6C51D /* Pods-FFScanCodeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFScanCodeKit_Tests.modulemap"; sourceTree = "<group>"; };
+		09EF406B239A7115981B94A71DD01851 /* ZBarHelpController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		09F260020D57BA34AF21C0FADFA3517D /* zbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		0A944D25F7DEBDE286E683F1D10C56AE /* i25.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = i25.c; sourceTree = "<group>"; };
+		0BEAF41BD7C8F88ED689928C87842CAF /* ZBarImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		1025453BB15033A1051AAA1BDE7F7B0A /* databar.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = databar.c; sourceTree = "<group>"; };
+		11346C32A7DFA9D1A254176B85E5E41B /* ZBarCVImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarCVImage.h; sourceTree = "<group>"; };
+		12040EA9FE4652CA4D40682C696C2367 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		12514F7369ED74302A108D4865C52238 /* config.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
+		1281188BC311A203A670362AD2267D77 /* databar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = databar.h; sourceTree = "<group>"; };
+		1295540A2169540ADEA7AD70E812CAB5 /* Pods-FFScanCodeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFScanCodeKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		12958307B07668A92A972F564981F33D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		158C0258CD5DECF4F5E0C750F1C52DC6 /* code93.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = code93.h; sourceTree = "<group>"; };
+		17380FCB6B8DD5AEF8EDBEDAC5C0D4B8 /* refcnt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = refcnt.h; sourceTree = "<group>"; };
+		17CAECF1F4849DCE3FAA26F4B6D73716 /* Pods-FFScanCodeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFScanCodeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1817B7581A22AE9574428947D30D4776 /* Pods-FFScanCodeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFScanCodeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		19FE715FE5D8D80A739532CAA21A48FB /* FFScanCodeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFScanCodeKit-dummy.m"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210D4C96CAF6C36547B27D609BC08766 /* debug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		23B49D33D73CD1EE8F25F998215E3ACC /* FFScanCodeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFScanCodeKit.release.xcconfig; sourceTree = "<group>"; };
+		23C234FA588F06C6975E87AE7AA9ED1B /* rs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rs.h; sourceTree = "<group>"; };
+		23E7D243056102E37061D1DDFFCA2A6C /* zbar-help.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		273998909B472A2CD95CE212E56D5E9C /* ZBarReaderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderViewController.m; sourceTree = "<group>"; };
+		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		29FA8B71C8240FCF9DE20E6F67AC4415 /* posix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = posix.h; sourceTree = "<group>"; };
+		2D86F7CFC9DB272B34BD3BC8A94EEB02 /* error.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		2F48A05F6C003531064039DFFC85B189 /* Pods-FFScanCodeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFScanCodeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FE915167F18E23EAF084E70CAFBE802 /* FFScanningViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanningViewController.h; path = FFScanCodeKit/Controller/FFScanningViewController.h; sourceTree = "<group>"; };
+		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		31343993976C5AF625300D2EDC02FC09 /* FFScanCodeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFScanCodeKit.debug.xcconfig; sourceTree = "<group>"; };
+		3144F001B8651D262AF19C7E68A6C1C6 /* symbol.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = symbol.c; sourceTree = "<group>"; };
+		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		37626B8B6CE5B6E965623DD12F13EF66 /* ZBarReaderController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderController.m; sourceTree = "<group>"; };
+		3768AC7EDDD07F287CB3D90E291A6890 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		37E426A9D60275763E11E5FD90229B10 /* codabar.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = codabar.c; sourceTree = "<group>"; };
+		38C79980E3B4065F69117BCCCA9B8097 /* zbar-helpicons.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		394F5CBB16D5FCFEDA3C5030A572457D /* image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		39E0A1E95779290D22A3DF8410ED751D /* window.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
+		3A8125B912352C6C4E0E2C2AA61A39A8 /* Pods_FFScanCodeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFScanCodeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		40F67047ACB9594E005F2CFC04459857 /* FFScanCodeKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FFScanCodeKit.bundle; path = FFScanCodeKit/FFScanCodeKit.bundle; sourceTree = "<group>"; };
+		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		43F2145B9284BE17DEAA6D7E077C5428 /* FFScanCodeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FFScanCodeKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44F7B0E9043F3BB765D742FDD6A8C81B /* code39.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = code39.c; sourceTree = "<group>"; };
+		45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4755687C6D4E21A41A1247002290FBD5 /* ZBarSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		47B9635746CFED6146DA5DE6DA062471 /* x.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x.h; sourceTree = "<group>"; };
+		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		4B14995AA847D64C9AA692F5F9309B29 /* image.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = image.c; sourceTree = "<group>"; };
+		4EC5C4E786EF024A9EA4FE49B758C7AF /* bch15_5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bch15_5.h; sourceTree = "<group>"; };
+		4F4108E05EFB8C600CF834D3D0E54AF7 /* ean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ean.h; sourceTree = "<group>"; };
+		534293734E8EBE5A7FE10E1BC1073457 /* qrdec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qrdec.h; sourceTree = "<group>"; };
+		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		578CD1D153967067BDB4360D43D6B7ED /* FFScanningViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanningViewController.m; path = FFScanCodeKit/Controller/FFScanningViewController.m; sourceTree = "<group>"; };
+		580830170475DDB67C7C96C148D5DD70 /* ZBarSymbol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarSymbol.m; sourceTree = "<group>"; };
+		592575A7115F81E3B3E06128CDBFD9D3 /* Pods-FFScanCodeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFScanCodeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5B527A01D6562609B3051CD713A29C1B /* pdf417_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pdf417_hash.h; sourceTree = "<group>"; };
+		5F4732498AA77FA09CD39F1FCBCE3361 /* Pods-FFScanCodeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFScanCodeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		632FFEA18291DBA915D7E68CFDBE22AF /* isaac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = isaac.h; sourceTree = "<group>"; };
+		638E0842177F413F91DA4F72E34F63C4 /* qr_finder.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = qr_finder.c; sourceTree = "<group>"; };
+		68E51CC03C18FA235C85F4A2112E2141 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		6AE35823060735FA80D725FEFACB46CD /* scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
+		6C916A6A03D25680AB1039C5BABFB57C /* symbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = symbol.h; sourceTree = "<group>"; };
+		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6D2093668AE7AC0D1F40823E96782788 /* refcnt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = refcnt.c; sourceTree = "<group>"; };
+		6D3A2FC97AD04A606ED4A1635CF61E4C /* Pods-FFScanCodeKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFScanCodeKit_Example-Info.plist"; sourceTree = "<group>"; };
+		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		7051F3CD7AB8330815CE8E21EA5FE9CD /* ZBarReaderController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		7221DC0654561A05A078D19CC001CF69 /* FFScanCodeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFScanCodeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		7324113F82828EDE4619C051A7D05F1A /* code39.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = code39.h; sourceTree = "<group>"; };
+		73A4AF856852D513A7252436774E0B82 /* img_scanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = img_scanner.h; sourceTree = "<group>"; };
+		773635A74BC8BA4614A24A2A764C28A8 /* bch15_5.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = bch15_5.c; sourceTree = "<group>"; };
+		798C37CEC23B2D8277439837C892DF72 /* processor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = processor.h; sourceTree = "<group>"; };
+		7E9C5872C14BC88C3843A0466AC284AA /* zbar-samples.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		80E8091B42F9A92C2800FDBB1299BC3A /* codabar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = codabar.h; sourceTree = "<group>"; };
+		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		8484EA9EEB162DAD2312C7A4B4AC7EC4 /* FFScanningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanningView.h; path = FFScanCodeKit/View/FFScanningView.h; sourceTree = "<group>"; };
+		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		880FB1E329E2490C147E20D1CEE2DFAB /* ZBarImageScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		8A6E176D9C708F6202FCF47B7A18349B /* ZBarCaptureReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarCaptureReader.m; sourceTree = "<group>"; };
+		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		8BED35028A7020CB4F75005ADCAEC6B5 /* video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = video.h; sourceTree = "<group>"; };
+		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		929FD29348B9D74DB3CE9C8EA32081E6 /* FFScanCodeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFScanCodeKit.modulemap; sourceTree = "<group>"; };
+		95AC182B385FF87ABEEFF2A681055A42 /* qrcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qrcode.h; sourceTree = "<group>"; };
+		966FE139CC4244A14507AC47B878581A /* binarize.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = binarize.c; sourceTree = "<group>"; };
+		96796C9C76F96888F40140E5703A0CD2 /* isaac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = isaac.c; sourceTree = "<group>"; };
+		96BC3EF8D1B5586F46DAB39DBD1383AD /* qr_finder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qr_finder.h; sourceTree = "<group>"; };
+		98F771301976FCC5BA306D44F76A9465 /* FFScanningPermissions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanningPermissions.m; path = FFScanCodeKit/Controller/FFScanningPermissions.m; sourceTree = "<group>"; };
+		9BFF7F62CA39EA9594F8984693B6B64C /* code93.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = code93.c; sourceTree = "<group>"; };
+		9D6F0F5D94E507E0C7F75E2DD23C2638 /* FFScanWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanWrapper.m; path = FFScanCodeKit/View/FFScanWrapper.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE236E6EDDAB37C44778CC437794F69 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2EE77FFB5F5C62EF8D87504CCC10DA /* FFScanningPermissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanningPermissions.h; path = FFScanCodeKit/Controller/FFScanningPermissions.h; sourceTree = "<group>"; };
+		9E407083D5DE078A48365892478A9932 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9EA06A1BB1E7BFB9D98089D6BB743A62 /* debug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		A17790E3C790823EB51DBD56CF70E81A /* FFScanRelative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanRelative.m; path = FFScanCodeKit/Relative/FFScanRelative.m; sourceTree = "<group>"; };
+		A2439BA5EA8756E27E8BB1D945140527 /* ZBarImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarImage.m; sourceTree = "<group>"; };
+		A47BF4A92DE322C9AAB9C28DDC1B4174 /* Pods-FFScanCodeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFScanCodeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A7BAD7508A7B28AEB3BD9652BF08C8C0 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		A7D676391D9B5AC2F935BEB5EE16E28D /* binarize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = binarize.h; sourceTree = "<group>"; };
+		A8387A5EAC48C0F7334FA5EBFE5A65F6 /* rs.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = rs.c; sourceTree = "<group>"; };
+		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		AA0129A71142923949D7A17BE5085B48 /* mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mutex.h; sourceTree = "<group>"; };
+		AA4A205ACB419E51FE924826355FA5E8 /* thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		AAA9172F0D984C8E35E6D07ED6813470 /* code128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = code128.h; sourceTree = "<group>"; };
+		ACDE3416C33956B593792BEC87AE7CB6 /* event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		ACF01472FD290B9454E9E0BB42C8D286 /* FFScanningView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFScanningView.m; path = FFScanCodeKit/View/FFScanningView.m; sourceTree = "<group>"; };
+		ADDE582CB7453C699E45A9180C0F83FE /* ZBarCaptureReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		AEE1CBF0994692EDB2F18B9F03C7C708 /* FFScanCodeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFScanCodeKit-prefix.pch"; sourceTree = "<group>"; };
+		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		B4D28387E79F45B88B667B1DF0170BAE /* ZBarReaderViewImpl_Capture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderViewImpl_Capture.m; sourceTree = "<group>"; };
+		B7AA7535703FF4D980589954B232C01E /* ZBarReaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarReaderView.m; sourceTree = "<group>"; };
+		B8D52DB9B596A5227DB3B553D77D15E4 /* prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		B96E2EBA25E3348C046F7DACA5830892 /* FFScanWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanWrapper.h; path = FFScanCodeKit/View/FFScanWrapper.h; sourceTree = "<group>"; };
+		B9EFB8CB9023A15DD061D9836E7ED93F /* Pods-FFScanCodeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFScanCodeKit_Example.modulemap"; sourceTree = "<group>"; };
+		BBA4EC7658F87361DC81C8CE5051DA91 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		BC262D18A4FA7C341D8DD4D6EB7A0692 /* FFScanCodeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFScanCodeKit-Info.plist"; sourceTree = "<group>"; };
+		BCC6C5F98284BD30CF94793A060839ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		BEE9282D1575525A978EFDC76DB5DC83 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		BF8A4EBA115C47D39CBED1957554717B /* win.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = win.h; sourceTree = "<group>"; };
+		C0C91267CAA3A601D223D78B65F7814A /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		C305ADD25194FD25B1B5C33BA408A496 /* decoder.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = decoder.c; sourceTree = "<group>"; };
+		C3B15277B8085AE4A2CA2378A9F2494F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		C568E92935B3443B6799C1424199FEDA /* Pods-FFScanCodeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFScanCodeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7273D5DE2374A07DACA1685E858F248 /* svg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = svg.h; sourceTree = "<group>"; };
+		C7554A0A65C9422949D28631677D64EF /* code128.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = code128.c; sourceTree = "<group>"; };
+		CB639464B044D834D67C52A33B22969D /* decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = decoder.h; sourceTree = "<group>"; };
+		CEDB7023B70E2313842F1ADCCC771A33 /* ean.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = ean.c; sourceTree = "<group>"; };
+		D0F8FB83080F2D254F2CD2ED1088E723 /* Pods-FFScanCodeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFScanCodeKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D303E0598DB5EC303AF29747861BDC3D /* ZBarImageScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarImageScanner.m; sourceTree = "<group>"; };
+		D33C39B74FEF1C4259E4843D5690E517 /* img_scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = img_scanner.c; sourceTree = "<group>"; };
+		D694F4F1634ABA5CE6835F11A63C3D81 /* FFScanRelative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFScanRelative.h; path = FFScanCodeKit/Relative/FFScanRelative.h; sourceTree = "<group>"; };
+		D6AA915E744CF5C267B78D19CD96642A /* Pods-FFScanCodeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFScanCodeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DB0F635EFBFF5AC0C6E85F2AAB549E5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		DD2D0526D12DF49AB9E76B813AACD80B /* zbar-back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E6A5ECFC9E0430A606855A9C6646C8FC /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EA238FF16DAFB18C68C670344BE1C3A0 /* ZBarCVImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarCVImage.m; sourceTree = "<group>"; };
+		EAA224F243428410308982EC9C54E9B9 /* qrdec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = qrdec.c; sourceTree = "<group>"; };
+		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EB97710155933A15E8FAB9393D8305DF /* ZBarHelpController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZBarHelpController.m; sourceTree = "<group>"; };
+		EC6518DAF1DE3BAFA542E142C98A8711 /* ZBarSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EDDAA49CB47496004FF6CC00EE190E0A /* util.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		EFABEBC7184FDC42DAAECC7800AC9597 /* ZBarReaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		F0E72260BB4E08092225FD377CDC3C0E /* Pods-FFScanCodeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFScanCodeKit_Example-dummy.m"; sourceTree = "<group>"; };
+		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		F2F66AFE38350A7BA0828731E6E29111 /* qrdectxt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = qrdectxt.c; sourceTree = "<group>"; };
+		F53F11D1C467C4440B17C2A42A5812B1 /* i25.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = i25.h; sourceTree = "<group>"; };
+		F5A64B1BDDC63B4014CC66D6BDB10630 /* Pods_FFScanCodeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFScanCodeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BBA2653A9EA5BB9E1208E6C9EC2584 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F6F6B4A61C77C98983EB1025BD1E6BF1 /* Pods-FFScanCodeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFScanCodeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F97027006EC583E29C7DBE28A0AC734A /* FFScanCodeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFScanCodeKit-umbrella.h"; sourceTree = "<group>"; };
+		FF8013D23404E1949ADA4A391E4A4A8C /* pdf417.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pdf417.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195FE31198A342D667649BD953211C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73C8E875332BD771F3BA9738E8F76E2 /* Foundation.framework in Frameworks */,
+				D3BD6D95A6C1A11C380DA6C9B65BC5A8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A8C751A73B41317B7DEACE890925E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0725FB65F768339942C1D4EA27565F /* AVFoundation.framework in Frameworks */,
+				7A4206AD1D147C9C870B25CD51DF3153 /* CoreGraphics.framework in Frameworks */,
+				47EF65B23501B5785E8DD62C69E233C4 /* CoreMedia.framework in Frameworks */,
+				F2DCB1E1A0BD854187A41C61C8A1CF0E /* CoreVideo.framework in Frameworks */,
+				DCA5F978B0CAA543D1C204236D537553 /* Foundation.framework in Frameworks */,
+				859FD5F224293315E32D17493D2854CD /* Masonry.framework in Frameworks */,
+				D3502921A2CF1EE3FAAA3A776F8EF23C /* QuartzCore.framework in Frameworks */,
+				0888D68BC72E1A1DAC6154FF9D5C2833 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB00FBA1E0211BCBD3EC50B4FE81AE0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FA248DDAA474736446C8A1D6DEDC6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E3FEF056E5657509C39C23B1E2D4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709E15AFCFF89A2A54E3A8CBE4E65412 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0507D6E0BE19CC013DFBF0826CA6CFF2 /* ZBar */ = {
+			isa = PBXGroup;
+			children = (
+				967A260003DADDB68C97CF38CFA9AB67 /* include */,
+				B302A0544C01B99F1773432FE67C9669 /* iphone */,
+				8B9E39112D93B21EA120296B90DD52ED /* zbar */,
+			);
+			name = ZBar;
+			sourceTree = "<group>";
+		};
+		07641929CB12E749F3C1DB5AB0995830 /* FFScanCodeKit */ = {
+			isa = PBXGroup;
+			children = (
+				666BF257FC187A853A78F684BC362442 /* Controller */,
+				6C371252EF0D5BD753A543D570B2FC4D /* Pod */,
+				30F01B6A2DD65A2B19A38E4BBD4B7320 /* Relative */,
+				1389B9B028993E66ECCC93E93F823F29 /* Resources */,
+				F53CE94BFA9C9B9BD9A83DA5B033CF2E /* Support Files */,
+				498122C7922A016628279F1D6B08AC76 /* View */,
+				0507D6E0BE19CC013DFBF0826CA6CFF2 /* ZBar */,
+			);
+			name = FFScanCodeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */,
+				EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */,
+				02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */,
+				9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */,
+				837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */,
+				B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */,
+				470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */,
+				6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */,
+				6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */,
+				EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */,
+				607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */,
+				A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */,
+				A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */,
+				D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */,
+				72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */,
+				30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */,
+				8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */,
+				27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */,
+				E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */,
+				AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */,
+				86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */,
+				55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */,
+				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
+				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		1389B9B028993E66ECCC93E93F823F29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40F67047ACB9594E005F2CFC04459857 /* FFScanCodeKit.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2DD8DB5993ABA3F0EBF63BF6B12AB822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE236E6EDDAB37C44778CC437794F69 /* Masonry.framework */,
+				B1FC3C29193B3D2C15B7E63AE860AF54 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F01B6A2DD65A2B19A38E4BBD4B7320 /* Relative */ = {
+			isa = PBXGroup;
+			children = (
+				D694F4F1634ABA5CE6835F11A63C3D81 /* FFScanRelative.h */,
+				A17790E3C790823EB51DBD56CF70E81A /* FFScanRelative.m */,
+			);
+			name = Relative;
+			sourceTree = "<group>";
+		};
+		3DC334941C505F41A222014CB5EA9A6E /* qrcode */ = {
+			isa = PBXGroup;
+			children = (
+				773635A74BC8BA4614A24A2A764C28A8 /* bch15_5.c */,
+				4EC5C4E786EF024A9EA4FE49B758C7AF /* bch15_5.h */,
+				966FE139CC4244A14507AC47B878581A /* binarize.c */,
+				A7D676391D9B5AC2F935BEB5EE16E28D /* binarize.h */,
+				96796C9C76F96888F40140E5703A0CD2 /* isaac.c */,
+				632FFEA18291DBA915D7E68CFDBE22AF /* isaac.h */,
+				EAA224F243428410308982EC9C54E9B9 /* qrdec.c */,
+				534293734E8EBE5A7FE10E1BC1073457 /* qrdec.h */,
+				F2F66AFE38350A7BA0828731E6E29111 /* qrdectxt.c */,
+				A8387A5EAC48C0F7334FA5EBFE5A65F6 /* rs.c */,
+				23C234FA588F06C6975E87AE7AA9ED1B /* rs.h */,
+				EDDAA49CB47496004FF6CC00EE190E0A /* util.c */,
+				A7BAD7508A7B28AEB3BD9652BF08C8C0 /* util.h */,
+			);
+			path = qrcode;
+			sourceTree = "<group>";
+		};
+		414365D05E5E6E647DF1C46A69DA2E60 /* Pods-FFScanCodeKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B9EFB8CB9023A15DD061D9836E7ED93F /* Pods-FFScanCodeKit_Example.modulemap */,
+				0958729EFA3137AD793E305928C91863 /* Pods-FFScanCodeKit_Example-acknowledgements.markdown */,
+				1817B7581A22AE9574428947D30D4776 /* Pods-FFScanCodeKit_Example-acknowledgements.plist */,
+				F0E72260BB4E08092225FD377CDC3C0E /* Pods-FFScanCodeKit_Example-dummy.m */,
+				5F4732498AA77FA09CD39F1FCBCE3361 /* Pods-FFScanCodeKit_Example-frameworks.sh */,
+				6D3A2FC97AD04A606ED4A1635CF61E4C /* Pods-FFScanCodeKit_Example-Info.plist */,
+				D0F8FB83080F2D254F2CD2ED1088E723 /* Pods-FFScanCodeKit_Example-umbrella.h */,
+				592575A7115F81E3B3E06128CDBFD9D3 /* Pods-FFScanCodeKit_Example.debug.xcconfig */,
+				D6AA915E744CF5C267B78D19CD96642A /* Pods-FFScanCodeKit_Example.release.xcconfig */,
+			);
+			name = "Pods-FFScanCodeKit_Example";
+			path = "Target Support Files/Pods-FFScanCodeKit_Example";
+			sourceTree = "<group>";
+		};
+		498122C7922A016628279F1D6B08AC76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8484EA9EEB162DAD2312C7A4B4AC7EC4 /* FFScanningView.h */,
+				ACF01472FD290B9454E9E0BB42C8D286 /* FFScanningView.m */,
+				B96E2EBA25E3348C046F7DACA5830892 /* FFScanWrapper.h */,
+				9D6F0F5D94E507E0C7F75E2DD23C2638 /* FFScanWrapper.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4EF627768C8FAD3E18244DDB8AE6E6D8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BBA4EC7658F87361DC81C8CE5051DA91 /* config.h */,
+				B8D52DB9B596A5227DB3B553D77D15E4 /* prefix.pch */,
+				8F5791D6AE552387A632E4F7DF05BE2C /* ZBarSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		5360B01595CBE8CBCF01A38BB03BECC8 /* processor */ = {
+			isa = PBXGroup;
+			children = (
+				29FA8B71C8240FCF9DE20E6F67AC4415 /* posix.h */,
+			);
+			path = processor;
+			sourceTree = "<group>";
+		};
+		666BF257FC187A853A78F684BC362442 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E2EE77FFB5F5C62EF8D87504CCC10DA /* FFScanningPermissions.h */,
+				98F771301976FCC5BA306D44F76A9465 /* FFScanningPermissions.m */,
+				2FE915167F18E23EAF084E70CAFBE802 /* FFScanningViewController.h */,
+				578CD1D153967067BDB4360D43D6B7ED /* FFScanningViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6C371252EF0D5BD753A543D570B2FC4D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				43F2145B9284BE17DEAA6D7E077C5428 /* FFScanCodeKit.podspec */,
+				12040EA9FE4652CA4D40682C696C2367 /* LICENSE */,
+				BCC6C5F98284BD30CF94793A060839ED /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A07D53DD037DBFF73C322B3D4B4598E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				414365D05E5E6E647DF1C46A69DA2E60 /* Pods-FFScanCodeKit_Example */,
+				7E279DAEE0148F6044BCE06DEBA04FE8 /* Pods-FFScanCodeKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7E279DAEE0148F6044BCE06DEBA04FE8 /* Pods-FFScanCodeKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0967F0C307B4752D60BE6606C2B6C51D /* Pods-FFScanCodeKit_Tests.modulemap */,
+				F6F6B4A61C77C98983EB1025BD1E6BF1 /* Pods-FFScanCodeKit_Tests-acknowledgements.markdown */,
+				C568E92935B3443B6799C1424199FEDA /* Pods-FFScanCodeKit_Tests-acknowledgements.plist */,
+				1295540A2169540ADEA7AD70E812CAB5 /* Pods-FFScanCodeKit_Tests-dummy.m */,
+				059CEAE57A57EFC872CB3619CDD3114C /* Pods-FFScanCodeKit_Tests-Info.plist */,
+				17CAECF1F4849DCE3FAA26F4B6D73716 /* Pods-FFScanCodeKit_Tests-umbrella.h */,
+				2F48A05F6C003531064039DFFC85B189 /* Pods-FFScanCodeKit_Tests.debug.xcconfig */,
+				A47BF4A92DE322C9AAB9C28DDC1B4174 /* Pods-FFScanCodeKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-FFScanCodeKit_Tests";
+			path = "Target Support Files/Pods-FFScanCodeKit_Tests";
+			sourceTree = "<group>";
+		};
+		7F15B6BDB0A734BF69CA7E6C3773C364 /* window */ = {
+			isa = PBXGroup;
+			children = (
+				BF8A4EBA115C47D39CBED1957554717B /* win.h */,
+				47B9635746CFED6146DA5DE6DA062471 /* x.h */,
+			);
+			path = window;
+			sourceTree = "<group>";
+		};
+		8B9E39112D93B21EA120296B90DD52ED /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				12514F7369ED74302A108D4865C52238 /* config.c */,
+				9EA06A1BB1E7BFB9D98089D6BB743A62 /* debug.h */,
+				C305ADD25194FD25B1B5C33BA408A496 /* decoder.c */,
+				CB639464B044D834D67C52A33B22969D /* decoder.h */,
+				2D86F7CFC9DB272B34BD3BC8A94EEB02 /* error.c */,
+				C0C91267CAA3A601D223D78B65F7814A /* error.h */,
+				ACDE3416C33956B593792BEC87AE7CB6 /* event.h */,
+				4B14995AA847D64C9AA692F5F9309B29 /* image.c */,
+				394F5CBB16D5FCFEDA3C5030A572457D /* image.h */,
+				D33C39B74FEF1C4259E4843D5690E517 /* img_scanner.c */,
+				73A4AF856852D513A7252436774E0B82 /* img_scanner.h */,
+				AA0129A71142923949D7A17BE5085B48 /* mutex.h */,
+				798C37CEC23B2D8277439837C892DF72 /* processor.h */,
+				95AC182B385FF87ABEEFF2A681055A42 /* qrcode.h */,
+				6D2093668AE7AC0D1F40823E96782788 /* refcnt.c */,
+				17380FCB6B8DD5AEF8EDBEDAC5C0D4B8 /* refcnt.h */,
+				6AE35823060735FA80D725FEFACB46CD /* scanner.c */,
+				C7273D5DE2374A07DACA1685E858F248 /* svg.h */,
+				3144F001B8651D262AF19C7E68A6C1C6 /* symbol.c */,
+				6C916A6A03D25680AB1039C5BABFB57C /* symbol.h */,
+				AA4A205ACB419E51FE924826355FA5E8 /* thread.h */,
+				E6A5ECFC9E0430A606855A9C6646C8FC /* timer.h */,
+				8BED35028A7020CB4F75005ADCAEC6B5 /* video.h */,
+				39E0A1E95779290D22A3DF8410ED751D /* window.h */,
+				C54E2F3CF144E0F2F8F5B9A95011B6C8 /* decoder */,
+				5360B01595CBE8CBCF01A38BB03BECC8 /* processor */,
+				3DC334941C505F41A222014CB5EA9A6E /* qrcode */,
+				7F15B6BDB0A734BF69CA7E6C3773C364 /* window */,
+			);
+			name = zbar;
+			path = FFScanCodeKit/Classes/ZBarSDK/zbar;
+			sourceTree = "<group>";
+		};
+		8F5791D6AE552387A632E4F7DF05BE2C /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3768AC7EDDD07F287CB3D90E291A6890 /* ZBarCameraSimulator.h */,
+				ADDE582CB7453C699E45A9180C0F83FE /* ZBarCaptureReader.h */,
+				09EF406B239A7115981B94A71DD01851 /* ZBarHelpController.h */,
+				0BEAF41BD7C8F88ED689928C87842CAF /* ZBarImage.h */,
+				880FB1E329E2490C147E20D1CEE2DFAB /* ZBarImageScanner.h */,
+				7051F3CD7AB8330815CE8E21EA5FE9CD /* ZBarReaderController.h */,
+				EFABEBC7184FDC42DAAECC7800AC9597 /* ZBarReaderView.h */,
+				68E51CC03C18FA235C85F4A2112E2141 /* ZBarReaderViewController.h */,
+				EC6518DAF1DE3BAFA542E142C98A8711 /* ZBarSDK.h */,
+				4755687C6D4E21A41A1247002290FBD5 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		967A260003DADDB68C97CF38CFA9AB67 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				09F260020D57BA34AF21C0FADFA3517D /* zbar.h */,
+			);
+			name = include;
+			path = FFScanCodeKit/Classes/ZBarSDK/include;
+			sourceTree = "<group>";
+		};
+		A1666E2141890F7FD7B8585ECA60C974 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D0526D12DF49AB9E76B813AACD80B /* zbar-back.png */,
+				23E7D243056102E37061D1DDFFCA2A6C /* zbar-help.html */,
+				38C79980E3B4065F69117BCCCA9B8097 /* zbar-helpicons.png */,
+				7E9C5872C14BC88C3843A0466AC284AA /* zbar-samples.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		A9E8061A778F3C97EC2A7E2BD19B2894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7221DC0654561A05A078D19CC001CF69 /* FFScanCodeKit.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				3A8125B912352C6C4E0E2C2AA61A39A8 /* Pods_FFScanCodeKit_Example.framework */,
+				F5A64B1BDDC63B4014CC66D6BDB10630 /* Pods_FFScanCodeKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1FC3C29193B3D2C15B7E63AE860AF54 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C3B15277B8085AE4A2CA2378A9F2494F /* AVFoundation.framework */,
+				DB0F635EFBFF5AC0C6E85F2AAB549E5E /* CoreGraphics.framework */,
+				BEE9282D1575525A978EFDC76DB5DC83 /* CoreMedia.framework */,
+				12958307B07668A92A972F564981F33D /* CoreVideo.framework */,
+				45764758FF5B7BD68A0DFB915781AC44 /* Foundation.framework */,
+				F6BBA2653A9EA5BB9E1208E6C9EC2584 /* QuartzCore.framework */,
+				9E407083D5DE078A48365892478A9932 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B302A0544C01B99F1773432FE67C9669 /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				210D4C96CAF6C36547B27D609BC08766 /* debug.h */,
+				8A6E176D9C708F6202FCF47B7A18349B /* ZBarCaptureReader.m */,
+				11346C32A7DFA9D1A254176B85E5E41B /* ZBarCVImage.h */,
+				EA238FF16DAFB18C68C670344BE1C3A0 /* ZBarCVImage.m */,
+				EB97710155933A15E8FAB9393D8305DF /* ZBarHelpController.m */,
+				A2439BA5EA8756E27E8BB1D945140527 /* ZBarImage.m */,
+				D303E0598DB5EC303AF29747861BDC3D /* ZBarImageScanner.m */,
+				37626B8B6CE5B6E965623DD12F13EF66 /* ZBarReaderController.m */,
+				B7AA7535703FF4D980589954B232C01E /* ZBarReaderView.m */,
+				273998909B472A2CD95CE212E56D5E9C /* ZBarReaderViewController.m */,
+				B4D28387E79F45B88B667B1DF0170BAE /* ZBarReaderViewImpl_Capture.m */,
+				580830170475DDB67C7C96C148D5DD70 /* ZBarSymbol.m */,
+				4EF627768C8FAD3E18244DDB8AE6E6D8 /* include */,
+				A1666E2141890F7FD7B8585ECA60C974 /* res */,
+			);
+			name = iphone;
+			path = FFScanCodeKit/Classes/ZBarSDK/iphone;
+			sourceTree = "<group>";
+		};
+		C54E2F3CF144E0F2F8F5B9A95011B6C8 /* decoder */ = {
+			isa = PBXGroup;
+			children = (
+				37E426A9D60275763E11E5FD90229B10 /* codabar.c */,
+				80E8091B42F9A92C2800FDBB1299BC3A /* codabar.h */,
+				C7554A0A65C9422949D28631677D64EF /* code128.c */,
+				AAA9172F0D984C8E35E6D07ED6813470 /* code128.h */,
+				44F7B0E9043F3BB765D742FDD6A8C81B /* code39.c */,
+				7324113F82828EDE4619C051A7D05F1A /* code39.h */,
+				9BFF7F62CA39EA9594F8984693B6B64C /* code93.c */,
+				158C0258CD5DECF4F5E0C750F1C52DC6 /* code93.h */,
+				1025453BB15033A1051AAA1BDE7F7B0A /* databar.c */,
+				1281188BC311A203A670362AD2267D77 /* databar.h */,
+				CEDB7023B70E2313842F1ADCCC771A33 /* ean.c */,
+				4F4108E05EFB8C600CF834D3D0E54AF7 /* ean.h */,
+				0A944D25F7DEBDE286E683F1D10C56AE /* i25.c */,
+				F53F11D1C467C4440B17C2A42A5812B1 /* i25.h */,
+				FF8013D23404E1949ADA4A391E4A4A8C /* pdf417.h */,
+				5B527A01D6562609B3051CD713A29C1B /* pdf417_hash.h */,
+				638E0842177F413F91DA4F72E34F63C4 /* qr_finder.c */,
+				96BC3EF8D1B5586F46DAB39DBD1383AD /* qr_finder.h */,
+			);
+			path = decoder;
+			sourceTree = "<group>";
+		};
+		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */,
+				A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */,
+				DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */,
+				BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */,
+				6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */,
+				F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */,
+				419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DF568B4769C26AD2AAFD3427028EC247 /* Development Pods */,
+				2DD8DB5993ABA3F0EBF63BF6B12AB822 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				A9E8061A778F3C97EC2A7E2BD19B2894 /* Products */,
+				7A07D53DD037DBFF73C322B3D4B4598E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF568B4769C26AD2AAFD3427028EC247 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07641929CB12E749F3C1DB5AB0995830 /* FFScanCodeKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F53CE94BFA9C9B9BD9A83DA5B033CF2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				929FD29348B9D74DB3CE9C8EA32081E6 /* FFScanCodeKit.modulemap */,
+				19FE715FE5D8D80A739532CAA21A48FB /* FFScanCodeKit-dummy.m */,
+				BC262D18A4FA7C341D8DD4D6EB7A0692 /* FFScanCodeKit-Info.plist */,
+				AEE1CBF0994692EDB2F18B9F03C7C708 /* FFScanCodeKit-prefix.pch */,
+				F97027006EC583E29C7DBE28A0AC734A /* FFScanCodeKit-umbrella.h */,
+				31343993976C5AF625300D2EDC02FC09 /* FFScanCodeKit.debug.xcconfig */,
+				23B49D33D73CD1EE8F25F998215E3ACC /* FFScanCodeKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FFScanCodeKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28EA4A9370C09702FF6A124B3EF48396 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02070DDAD50D2F85CE830EC765879A24 /* Pods-FFScanCodeKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA217F7B37089BBE0736948258E5090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769C8DE0E0842AD40C35BE0F88E0567D /* MASCompositeConstraint.h in Headers */,
+				CEC929FB8144A4E6D05C4876DC7311F3 /* MASConstraint+Private.h in Headers */,
+				8DF2CDC875613B36867CDAC97A239D83 /* MASConstraint.h in Headers */,
+				029BAF609517740AEACD203072B93975 /* MASConstraintMaker.h in Headers */,
+				C6D584CD182690F69EC549446CE120F0 /* MASLayoutConstraint.h in Headers */,
+				5959D64155AA1A82FB8889F690DD857A /* Masonry-umbrella.h in Headers */,
+				2B3CEB58EA4586C36B41DC7C32851AAE /* Masonry.h in Headers */,
+				DEE0536B9434C8574F7B18BBB003AA50 /* MASUtilities.h in Headers */,
+				820AE8B0F860AED756D05C31051A9B00 /* MASViewAttribute.h in Headers */,
+				AEB52352E1C53B8C32C4FF9162AE83E3 /* MASViewConstraint.h in Headers */,
+				826F2F7D24426BA99B658CE750A46125 /* NSArray+MASAdditions.h in Headers */,
+				70F7ABACF19BD54A7C69241CDF034177 /* NSArray+MASShorthandAdditions.h in Headers */,
+				58F0157F304B741FCAA249636BBDD90F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				B417E5D1D2421EF8557916FD2CF37835 /* View+MASAdditions.h in Headers */,
+				F58584883C8E14602644846234493C8F /* View+MASShorthandAdditions.h in Headers */,
+				8C46165794AFC7231DB4301B62A024A0 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713A1F378D5EAFB7665A63D53BDFEC58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2E08CA791452D26D0C17351D0443BC /* bch15_5.h in Headers */,
+				9EBD0E022633C49BBCF6F8D624ECE6FD /* binarize.h in Headers */,
+				CD73A4CE07E52B666DDB70DE7687FA8F /* codabar.h in Headers */,
+				7657E598DD2853EBE62A6744C370932D /* code128.h in Headers */,
+				6475B561D0677AF2198EC81F97A349F0 /* code39.h in Headers */,
+				BB1C0E96ABA7CCDF8E47994680CB6E41 /* code93.h in Headers */,
+				281A8E18D7F885F612C4444A1863E85F /* config.h in Headers */,
+				923669E1356BAACB947494CD67FFB351 /* databar.h in Headers */,
+				A58FC3F7277A483C0BF2750EC7A78A8B /* debug.h in Headers */,
+				A58FC3F7277A483C0BF2750EC7A78A8B /* debug.h in Headers */,
+				8EF4150C098985FE3884DE6C18613462 /* decoder.h in Headers */,
+				F14803FBBF650578089781400FAE0C7C /* ean.h in Headers */,
+				54102D4C77DAE0DDE4A31D03A40693D7 /* error.h in Headers */,
+				5E66417E1702FE3807D6312AB803CDF9 /* event.h in Headers */,
+				524C8A730EF7740CDAD2FF10E18C2691 /* FFScanCodeKit-umbrella.h in Headers */,
+				1D788C0CF6C66FC122FF6FA0A7368774 /* FFScanningPermissions.h in Headers */,
+				AA8F60BC5854480DD532287500E6B415 /* FFScanningView.h in Headers */,
+				75D31C7FC935BB9CB5AB3B07EF54BC43 /* FFScanningViewController.h in Headers */,
+				42398F1EAB8D40AD8DCB964268B799A1 /* FFScanRelative.h in Headers */,
+				F256916459D5719DD7D2B44A0EB1F7CF /* FFScanWrapper.h in Headers */,
+				11051AC46D38431A7320AF41511F3F1F /* i25.h in Headers */,
+				6FD83C2C3BD154EA0C7F1868D79CE85D /* image.h in Headers */,
+				1157A5760D13C6550B5D1B7EFCE1047C /* img_scanner.h in Headers */,
+				4807C05FC8C8CC708BDDB3759855663A /* isaac.h in Headers */,
+				3798D5A754CD0DB5D50BFCF0787A6D57 /* mutex.h in Headers */,
+				2BC51E68488EC03CC0377DBFB620062A /* pdf417.h in Headers */,
+				3B5EFC1EFF7B6F9B578ACF3505D0EDEB /* pdf417_hash.h in Headers */,
+				DF0BB7C3966CA5085860407FEA29C1D6 /* posix.h in Headers */,
+				96D687AB18754FC73A46FA63F7127514 /* processor.h in Headers */,
+				64ACCCAF0FD913849305B00DAD526C6A /* qr_finder.h in Headers */,
+				7CED151A47288092C1A4CCC6C79D2B4E /* qrcode.h in Headers */,
+				851BC7F9E145B2FE559285F33A900A02 /* qrdec.h in Headers */,
+				58CAF3B55B17FA5E571BE7132C3E5C3A /* refcnt.h in Headers */,
+				81E81BA33D083D8AA3CCA8C0AC2930D5 /* rs.h in Headers */,
+				41BF7713D1624F069B8DE897C984411F /* svg.h in Headers */,
+				C74E1E127D81B645FC33762526A72126 /* symbol.h in Headers */,
+				441B13904E9B4804F2FC28E04B51F899 /* thread.h in Headers */,
+				25AB668E9CE90B9FDF0982688AC56D1A /* timer.h in Headers */,
+				BB370A4759A5C44C8AED44BAD99AEED7 /* util.h in Headers */,
+				E9E5C26B38AF9887184C66177245C59D /* video.h in Headers */,
+				302E562A66952B3F18AE923A10B080D6 /* win.h in Headers */,
+				C22414A9BD547F7F53A26DD44183D13B /* window.h in Headers */,
+				8FA47BA2BFDFAB6F4D6B1E1B2361EBA3 /* x.h in Headers */,
+				2F45756396C55CC001E6807E1381F308 /* zbar.h in Headers */,
+				C70DC004DFCB66E501FC6FAEAAEF9AAE /* ZBarCameraSimulator.h in Headers */,
+				90C216C10DBD3700C424C29592B4E6C8 /* ZBarCaptureReader.h in Headers */,
+				F84DBD9A72891F38EE1BB5F1F26128C6 /* ZBarCVImage.h in Headers */,
+				BBAC905B1274DDB9F3CB4EB2FC4096A8 /* ZBarHelpController.h in Headers */,
+				89F091AF99EF8022700728A3F64B6A86 /* ZBarImage.h in Headers */,
+				0389A44083F9982BF557D5731DC1748D /* ZBarImageScanner.h in Headers */,
+				CF6F99BE1ADAF9B2BD261B32D99490E1 /* ZBarReaderController.h in Headers */,
+				7BC8AFDCA52B7894A9E0FF2E9BB8AA1F /* ZBarReaderView.h in Headers */,
+				4A07111A54A12D8007B7D6F880D63D18 /* ZBarReaderViewController.h in Headers */,
+				260215AE86A6862B3857788D92A23846 /* ZBarSDK.h in Headers */,
+				B2A0CE6C6F2021EE655F44D5DA8973E1 /* ZBarSymbol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BE524B2459EB70CA4A6B2E686DF142 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472FA20F701418FB9236D0F28BBC2624 /* Pods-FFScanCodeKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07BCAC72F2436F23550828E3CCD21350 /* FFScanCodeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D97B5C24928C4C63ACB1FA7C24B4A4 /* Build configuration list for PBXNativeTarget "FFScanCodeKit" */;
+			buildPhases = (
+				713A1F378D5EAFB7665A63D53BDFEC58 /* Headers */,
+				60937209B6282655FABF4BCADFE45AD8 /* Sources */,
+				56A8C751A73B41317B7DEACE890925E4 /* Frameworks */,
+				BDCAA045F953433C661BD8D261100A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6B3E5666ABE006F3E4E45AD60CA7F3 /* PBXTargetDependency */,
+			);
+			name = FFScanCodeKit;
+			productName = FFScanCodeKit;
+			productReference = 7221DC0654561A05A078D19CC001CF69 /* FFScanCodeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		520C027DF92C27E5B426BB63D5649E6D /* Pods-FFScanCodeKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4259854AF25AEDFA9D7698C02C27B54 /* Build configuration list for PBXNativeTarget "Pods-FFScanCodeKit_Example" */;
+			buildPhases = (
+				28EA4A9370C09702FF6A124B3EF48396 /* Headers */,
+				E6ABDEB4B038DEBC66773748AB1895EB /* Sources */,
+				EB00FBA1E0211BCBD3EC50B4FE81AE0C /* Frameworks */,
+				48C8F400ED6EB5A3533B5609227347AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528E841459A6D70D0363B93F4B6AE3C3 /* PBXTargetDependency */,
+				99F28E35C6845D461C5959EA6B280AD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FFScanCodeKit_Example";
+			productName = "Pods-FFScanCodeKit_Example";
+			productReference = 3A8125B912352C6C4E0E2C2AA61A39A8 /* Pods_FFScanCodeKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3818B61E61165962E09FEEB876B2112 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				4CA217F7B37089BBE0736948258E5090 /* Headers */,
+				1A5C1DBFB8F1AB3A9E74DF2DEECA0823 /* Sources */,
+				195FE31198A342D667649BD953211C03 /* Frameworks */,
+				116C1AB7F8A1320D2D86B8913C4F400B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD1DF38FFAB1C2007F26BE2CE342FFD7 /* Pods-FFScanCodeKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2FC6C09075CCE86B6FA651DA947C29 /* Build configuration list for PBXNativeTarget "Pods-FFScanCodeKit_Tests" */;
+			buildPhases = (
+				E5BE524B2459EB70CA4A6B2E686DF142 /* Headers */,
+				EDC98EBE5F141FF4FFBA7685843A17AB /* Sources */,
+				F5E3FEF056E5657509C39C23B1E2D4BF /* Frameworks */,
+				336052A032245340B73263D92D759282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DD9E1543F841E19E68189E73A93D9FD /* PBXTargetDependency */,
+			);
+			name = "Pods-FFScanCodeKit_Tests";
+			productName = "Pods-FFScanCodeKit_Tests";
+			productReference = F5A64B1BDDC63B4014CC66D6BDB10630 /* Pods_FFScanCodeKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A9E8061A778F3C97EC2A7E2BD19B2894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07BCAC72F2436F23550828E3CCD21350 /* FFScanCodeKit */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				520C027DF92C27E5B426BB63D5649E6D /* Pods-FFScanCodeKit_Example */,
+				BD1DF38FFAB1C2007F26BE2CE342FFD7 /* Pods-FFScanCodeKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116C1AB7F8A1320D2D86B8913C4F400B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336052A032245340B73263D92D759282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C8F400ED6EB5A3533B5609227347AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCAA045F953433C661BD8D261100A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EED9534AE480FBB871D75E9017EC71 /* FFScanCodeKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5C1DBFB8F1AB3A9E74DF2DEECA0823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB60B1D678525574EA1FAC1F0C967AC /* MASCompositeConstraint.m in Sources */,
+				ED470060BFB0C2E5C2BF8B2AD1D0B2ED /* MASConstraint.m in Sources */,
+				EF5BEB3D251F7E61C861B77C9665E47D /* MASConstraintMaker.m in Sources */,
+				D2992703A3E05B97E97C9C6BDB54F148 /* MASLayoutConstraint.m in Sources */,
+				EF2F999A5AB2F9F97B2BAA1DCFC3A51D /* Masonry-dummy.m in Sources */,
+				F673B433557C55F0071FAC71FE06366E /* MASViewAttribute.m in Sources */,
+				E5CC218E5D7A699B3C01E9D071307733 /* MASViewConstraint.m in Sources */,
+				F9EE22AB03E01ACA06290898929CE2ED /* NSArray+MASAdditions.m in Sources */,
+				2D8B116EE6E15D74266AF5B48E92DE52 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FBE9515C4A4BFF0AB0679683A7630B97 /* View+MASAdditions.m in Sources */,
+				BD8852817DFD14D3B60BAA37C5BFD741 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60937209B6282655FABF4BCADFE45AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDDBFE99CB0720573C26B0F7DBAD6F1 /* bch15_5.c in Sources */,
+				BC82C857B6C9D8379979D4650DDC4C83 /* binarize.c in Sources */,
+				44FB49C36B79CFE0B80DF3A312085C8C /* codabar.c in Sources */,
+				8231AE5DB2123D09097B0C682E4CC913 /* code128.c in Sources */,
+				F0EA3B1F7018520525881572D83F61C7 /* code39.c in Sources */,
+				57744529FAC851F6903F961F718932A5 /* code93.c in Sources */,
+				E55D2497DE1F6717490DBD636D423FD9 /* config.c in Sources */,
+				BF7D5C80C90ACDCAE6EB23A88EA5AF40 /* databar.c in Sources */,
+				714E6D777930FA03D8B52213F5A47715 /* decoder.c in Sources */,
+				84D329AA5FBDDBC1FE18C195E14F6B68 /* ean.c in Sources */,
+				E9C891A137BAE6900DDF95481543254E /* error.c in Sources */,
+				0E4D11BFB33E4A21FFE51C67EEA4662B /* FFScanCodeKit-dummy.m in Sources */,
+				A046CE7F82F34FBDE8A8B2E3E95E4BD5 /* FFScanningPermissions.m in Sources */,
+				CEC8CB515CDBBF774E69813C5E504717 /* FFScanningView.m in Sources */,
+				28BC23D99ED237F63523CBBBCFE55AD8 /* FFScanningViewController.m in Sources */,
+				2368E8A34D0555ABA0A395BF43B89D8E /* FFScanRelative.m in Sources */,
+				976E1CC03E814B41986CB9C8FE7274BA /* FFScanWrapper.m in Sources */,
+				F8FE07DD5CAF3FC80CA4844BC49BF79A /* i25.c in Sources */,
+				A67F9103CCBF687DA5FE40E15F7B07A9 /* image.c in Sources */,
+				37B5752E7076D2DE5A5542D9EAB52C76 /* img_scanner.c in Sources */,
+				8F59F3722F826B93C3BC9D67D3F20480 /* isaac.c in Sources */,
+				4FF912A89430AC6CD21154B6122CC745 /* prefix.pch in Sources */,
+				D3C8DD1ACC84EE4C0FAAFC5F191170CB /* qr_finder.c in Sources */,
+				6C17485C3AA73E86BC9F4D96C923F844 /* qrdec.c in Sources */,
+				27C280CE37DCCB3B53EFC5F5AD4FBD0D /* qrdectxt.c in Sources */,
+				DE4DEB387E6A7CABAED94F5E8392A7A4 /* refcnt.c in Sources */,
+				A807D4A0DD94085A4447034AE6CCC98F /* rs.c in Sources */,
+				57C9BB4AE6286DF0BB7D099B36AE017B /* scanner.c in Sources */,
+				6724EF043C6DB7B968D286930D908F0D /* symbol.c in Sources */,
+				E22D3F66D346CBB8936C3F675A5C51E2 /* util.c in Sources */,
+				2BEA2C7E93EF0D76F397CE561DB556E4 /* zbar-back.png in Sources */,
+				71E04583FC5D5E719F7313D77E0E85E4 /* zbar-help.html in Sources */,
+				B9F21A9CB9B87153FDCB4B81B8C8D302 /* zbar-helpicons.png in Sources */,
+				3F53C434FEA8E5F373DB4D3014EAD794 /* zbar-samples.png in Sources */,
+				30CC2FD3637C192B226943879394BA2B /* ZBarCaptureReader.m in Sources */,
+				81DCBA0C673B6D52BDE96A6F5303FDC2 /* ZBarCVImage.m in Sources */,
+				A6B2111E2E8D3CCB23030562C5F3204E /* ZBarHelpController.m in Sources */,
+				F00706FCC5471D22D384EF1325591912 /* ZBarImage.m in Sources */,
+				8ADE2856E5C171D4B52BA1D3D59C1409 /* ZBarImageScanner.m in Sources */,
+				58F842E34C4E5DAB6C0541FB20EB7374 /* ZBarReaderController.m in Sources */,
+				F5E6D26239A5E6B76C038ABE6A597EED /* ZBarReaderView.m in Sources */,
+				ADFD38685660A501922A103884C978DE /* ZBarReaderViewController.m in Sources */,
+				C6503F4358419F8715E275C97821D8B7 /* ZBarReaderViewImpl_Capture.m in Sources */,
+				00C7EE3249C7C72307EDC16176DA896C /* ZBarSymbol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ABDEB4B038DEBC66773748AB1895EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D78FD569CDF2AFBECC2079778AAE8C /* Pods-FFScanCodeKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC98EBE5F141FF4FFBA7685843A17AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94624E1B9F6B7B1540F5F024A2E42914 /* Pods-FFScanCodeKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A6B3E5666ABE006F3E4E45AD60CA7F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 9561D9E0D8C283F36B01C93F49C9DDBB /* PBXContainerItemProxy */;
+		};
+		528E841459A6D70D0363B93F4B6AE3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFScanCodeKit;
+			target = 07BCAC72F2436F23550828E3CCD21350 /* FFScanCodeKit */;
+			targetProxy = AB8EAFAEF5323982D70971CB514944BA /* PBXContainerItemProxy */;
+		};
+		8DD9E1543F841E19E68189E73A93D9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FFScanCodeKit_Example";
+			target = 520C027DF92C27E5B426BB63D5649E6D /* Pods-FFScanCodeKit_Example */;
+			targetProxy = 332CF34C4370BD14AA25F2E9ABCD4FDD /* PBXContainerItemProxy */;
+		};
+		99F28E35C6845D461C5959EA6B280AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 39CA2B5F64749571F78293607C2CE653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17DA92ADC195E62540EFCF2B410A1392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B49D33D73CD1EE8F25F998215E3ACC /* FFScanCodeKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFScanCodeKit/FFScanCodeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit.modulemap";
+				PRODUCT_MODULE_NAME = FFScanCodeKit;
+				PRODUCT_NAME = FFScanCodeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D3B4492D7C2C847186979B8D6A580A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6AA915E744CF5C267B78D19CD96642A /* Pods-FFScanCodeKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFScanCodeKit_Example/Pods-FFScanCodeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFScanCodeKit_Example/Pods-FFScanCodeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47B7061761D319206E9A0003E1C44DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31343993976C5AF625300D2EDC02FC09 /* FFScanCodeKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFScanCodeKit/FFScanCodeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFScanCodeKit/FFScanCodeKit.modulemap";
+				PRODUCT_MODULE_NAME = FFScanCodeKit;
+				PRODUCT_NAME = FFScanCodeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75E141C73B74545B57B0B46BA0B196FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AA5074F3DFEDA736F18FF98B6DF80871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592575A7115F81E3B3E06128CDBFD9D3 /* Pods-FFScanCodeKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFScanCodeKit_Example/Pods-FFScanCodeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFScanCodeKit_Example/Pods-FFScanCodeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7C9BF73D5F83A3494AB53CC7069EBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47BF4A92DE322C9AAB9C28DDC1B4174 /* Pods-FFScanCodeKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFScanCodeKit_Tests/Pods-FFScanCodeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFScanCodeKit_Tests/Pods-FFScanCodeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8019BFBC78D3B968A2CB1419CDA0736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F94854F234471D28F408F7D5C5DDBEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F48A05F6C003531064039DFFC85B189 /* Pods-FFScanCodeKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FFScanCodeKit_Tests/Pods-FFScanCodeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FFScanCodeKit_Tests/Pods-FFScanCodeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2FC6C09075CCE86B6FA651DA947C29 /* Build configuration list for PBXNativeTarget "Pods-FFScanCodeKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94854F234471D28F408F7D5C5DDBEA1 /* Debug */,
+				B7C9BF73D5F83A3494AB53CC7069EBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4259854AF25AEDFA9D7698C02C27B54 /* Build configuration list for PBXNativeTarget "Pods-FFScanCodeKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5074F3DFEDA736F18FF98B6DF80871 /* Debug */,
+				1D3B4492D7C2C847186979B8D6A580A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D97B5C24928C4C63ACB1FA7C24B4A4 /* Build configuration list for PBXNativeTarget "FFScanCodeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B7061761D319206E9A0003E1C44DE4 /* Debug */,
+				17DA92ADC195E62540EFCF2B410A1392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3818B61E61165962E09FEEB876B2112 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E141C73B74545B57B0B46BA0B196FD /* Debug */,
+				C8019BFBC78D3B968A2CB1419CDA0736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

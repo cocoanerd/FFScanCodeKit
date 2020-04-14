@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FFScanCodeKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FFScanCodeKit.'
+  s.summary          = 'FFScanCodeKit.扫码组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'FFScanCodeKit是手动集成ZBar后自定义的扫码组件，包含二维码、条形码'
 
   s.homepage         = 'https://github.com/Cocoanerd/FFScanCodeKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,15 +26,40 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Cocoanerd/FFScanCodeKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'FFScanCodeKit/Classes/**/*'
+  s.ios.deployment_target = '9.0'
   
-  # s.resource_bundles = {
-  #   'FFScanCodeKit' => ['FFScanCodeKit/Assets/*.png']
-  # }
+  s.public_header_files = 'FFScanCodeKit/FFScanningViewController.h'
+  
+  s.subspec 'ZBar' do |ss|
+    ss.source_files = 'FFScanCodeKit/Classes/**/*'
+    ss.requires_arc = false
+  end
+  
+  s.subspec 'View' do |ss|
+    ss.source_files = 'FFScanCodeKit/View/FFScanningView.{h,m}','FFScanCodeKit/View/FFScanWrapper.{h,m}'
+    ss.dependency 'FFScanCodeKit/Relative'
+    ss.dependency 'FFScanCodeKit/ZBar'
+    ss.requires_arc = true
+  end
+  
+  s.subspec 'Controller' do |ss|
+    ss.source_files = 'FFScanCodeKit/Controller/FFScanningPermissions.{h,m}','FFScanCodeKit/Controller/FFScanningViewController.{h,m}'
+    ss.dependency 'FFScanCodeKit/View'
+    ss.requires_arc = true
+  end
+  
+  s.subspec 'Relative' do |ss|
+      ss.source_files = 'FFScanCodeKit/Relative/FFScanRelative.{h,m}'
+      ss.requires_arc = true
+  end
+  
+  
+  s.resource = 'FFScanCodeKit/FFScanCodeKit.bundle'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics', 'AVFoundation', 'CoreMedia', 'CoreVideo', 'QuartzCore'
+  
+  s.libraries = 'iconv'
+  
+  s.dependency 'Masonry'
+  
 end
