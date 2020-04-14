@@ -9,8 +9,8 @@
 #import "FFScanWrapper.h"
 #import "FFScanningPermissions.h"
 #import "FFScanRelative.h"
-#import <AVFoundation/AVFoundation.h>
 #import "ZBarSDK.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface FFScanWrapper () <AVCaptureVideoDataOutputSampleBufferDelegate>
 

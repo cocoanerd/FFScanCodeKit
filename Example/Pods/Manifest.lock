@@ -1,18 +1,18 @@
 PODS:
   - FFScanCodeKit (0.1.0):
     - FFScanCodeKit/Controller (= 0.1.0)
-    - FFScanCodeKit/Model (= 0.1.0)
     - FFScanCodeKit/Relative (= 0.1.0)
     - FFScanCodeKit/View (= 0.1.0)
     - FFScanCodeKit/ZBar (= 0.1.0)
     - Masonry
   - FFScanCodeKit/Controller (0.1.0):
-    - Masonry
-  - FFScanCodeKit/Model (0.1.0):
+    - FFScanCodeKit/View
     - Masonry
   - FFScanCodeKit/Relative (0.1.0):
     - Masonry
   - FFScanCodeKit/View (0.1.0):
+    - FFScanCodeKit/Relative
+    - FFScanCodeKit/ZBar
     - Masonry
   - FFScanCodeKit/ZBar (0.1.0):
     - Masonry
@@ -30,9 +30,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFScanCodeKit: db694b7d930be92206b06b155da60dff6cce9496
+  FFScanCodeKit: 151abe9caa3d2e4e4cb40bd72f46a827e55817bd
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: c17ebaeff96a48ce637e30298db3af41b78d1989
+PODFILE CHECKSUM: 6adca4f6ffbbfe542fb965119323f92173331661
 
 COCOAPODS: 1.9.1

@@ -27,34 +27,37 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  
-  s.public_header_files = 'FFScanCodeKit/FFScanningViewController.h'
-  
+    
   s.subspec 'ZBar' do |ss|
+    ss.public_header_files = 'FFScanCodeKit/Classes/ZBarSDK/ZBarSDK.h'
     ss.source_files = 'FFScanCodeKit/Classes/**/*'
+    ss.resource_bundles = {
+       'FFScanCodeKit' => ['FFScanCodeKit/Assets/*']
+     }
     ss.requires_arc = false
   end
   
   s.subspec 'View' do |ss|
-    ss.source_files = 'FFScanCodeKit/View/FFScanningView.{h,m}','FFScanCodeKit/View/FFScanWrapper.{h,m}'
+    ss.public_header_files = 'FFScanCodeKit/View/FFScanningView.h', 'FFScanCodeKit/View/FFScanWrapper.h', 'FFScanCodeKit/View/FFScanningPermissions.h'
+    ss.source_files = 'FFScanCodeKit/View/FFScanningView.{h,m}','FFScanCodeKit/View/FFScanWrapper.{h,m}','FFScanCodeKit/View/FFScanningPermissions.{h,m}'
     ss.dependency 'FFScanCodeKit/Relative'
     ss.dependency 'FFScanCodeKit/ZBar'
     ss.requires_arc = true
   end
   
   s.subspec 'Controller' do |ss|
-    ss.source_files = 'FFScanCodeKit/Controller/FFScanningPermissions.{h,m}','FFScanCodeKit/Controller/FFScanningViewController.{h,m}'
+    ss.public_header_files = 'FFScanCodeKit/Controller/FFScanningViewController.h'
+    ss.source_files = 'FFScanCodeKit/Controller/FFScanningViewController.{h,m}'
     ss.dependency 'FFScanCodeKit/View'
     ss.requires_arc = true
   end
   
   s.subspec 'Relative' do |ss|
+      ss.public_header_files = 'FFScanCodeKit/Relative/FFScanRelative.h'
       ss.source_files = 'FFScanCodeKit/Relative/FFScanRelative.{h,m}'
+      ss.resource = 'FFScanCodeKit/FFScanCodeKit.bundle'
       ss.requires_arc = true
   end
-  
-  
-  s.resource = 'FFScanCodeKit/FFScanCodeKit.bundle'
 
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics', 'AVFoundation', 'CoreMedia', 'CoreVideo', 'QuartzCore'
   

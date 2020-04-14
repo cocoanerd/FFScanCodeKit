@@ -10,12 +10,11 @@
 #endif
 #endif
 
-#import "FFScanningPermissions.h"
 #import "FFScanningViewController.h"
-#import "FFScanningCodeModel.h"
 #import "FFScanRelative.h"
 #import "FFScanningView.h"
 #import "FFScanWrapper.h"
+#import "FFScanningPermissions.h"
 #import "zbar.h"
 #import "debug.h"
 #import "config.h"

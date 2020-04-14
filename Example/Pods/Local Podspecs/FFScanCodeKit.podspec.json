@@ -18,8 +18,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "public_header_files": "FFScanCodeKit/FFScanningViewController.h",
-  "resources": "FFScanCodeKit/FFScanCodeKit.bundle",
   "frameworks": [
     "UIKit",
     "Foundation",
@@ -38,33 +36,53 @@
   "subspecs": [
     {
       "name": "ZBar",
+      "public_header_files": "FFScanCodeKit/Classes/ZBarSDK/ZBarSDK.h",
       "source_files": "FFScanCodeKit/Classes/**/*",
+      "resource_bundles": {
+        "FFScanCodeKit": [
+          "FFScanCodeKit/Assets/*"
+        ]
+      },
       "requires_arc": false
     },
     {
-      "name": "Model",
-      "source_files": "FFScanCodeKit/Model/FFScanningCodeModel.{h,m}",
-      "requires_arc": true
-    },
-    {
       "name": "View",
+      "public_header_files": [
+        "FFScanCodeKit/View/FFScanningView.h",
+        "FFScanCodeKit/View/FFScanWrapper.h",
+        "FFScanCodeKit/View/FFScanningPermissions.h"
+      ],
       "source_files": [
         "FFScanCodeKit/View/FFScanningView.{h,m}",
-        "FFScanCodeKit/View/FFScanWrapper.{h,m}"
+        "FFScanCodeKit/View/FFScanWrapper.{h,m}",
+        "FFScanCodeKit/View/FFScanningPermissions.{h,m}"
       ],
+      "dependencies": {
+        "FFScanCodeKit/Relative": [
+
+        ],
+        "FFScanCodeKit/ZBar": [
+
+        ]
+      },
       "requires_arc": true
     },
     {
       "name": "Controller",
-      "source_files": [
-        "FFScanCodeKit/Controller/FFScanningPermissions.{h,m}",
-        "FFScanCodeKit/Controller/FFScanningViewController.{h,m}"
-      ],
+      "public_header_files": "FFScanCodeKit/Controller/FFScanningViewController.h",
+      "source_files": "FFScanCodeKit/Controller/FFScanningViewController.{h,m}",
+      "dependencies": {
+        "FFScanCodeKit/View": [
+
+        ]
+      },
       "requires_arc": true
     },
     {
       "name": "Relative",
+      "public_header_files": "FFScanCodeKit/Relative/FFScanRelative.h",
       "source_files": "FFScanCodeKit/Relative/FFScanRelative.{h,m}",
+      "resources": "FFScanCodeKit/FFScanCodeKit.bundle",
       "requires_arc": true
     }
   ]

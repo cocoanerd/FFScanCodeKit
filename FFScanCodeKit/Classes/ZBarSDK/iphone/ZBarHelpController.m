@@ -112,9 +112,10 @@
                   initWithBarButtonSystemItem: UIBarButtonSystemItemDone
                   target: self
                   action: @selector(dismiss)];
-
+    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"zbar-back" ofType:@"png"];
+    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
     backBtn = [[UIBarButtonItem alloc]
-                  initWithImage: [UIImage imageNamed: @"zbar-back.png"]
+                  initWithImage: image
                   style: UIBarButtonItemStylePlain
                   target: webView
                   action: @selector(goBack)];
