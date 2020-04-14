@@ -29,4 +29,4 @@ Cocoanerd, huifang@mamahao.com
 FFScanCodeKit is available under the MIT license. See the LICENSE file for more info.
 
 ## gif
-[!Image](https://github.com/cocoanerd/FFScanCodeKit/blob/master/gif/scanCode.gif)
+![image]https://github.com/cocoanerd/FFScanCodeKit/blob/master/gif/scanCode.gif)
