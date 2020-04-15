@@ -23,7 +23,7 @@
 
 #import "ZBarCVImage.h"
 #define MODULE ZBarCVImage
-#import "debug.h"
+#import "debug_iphone.h"
 
 static NSOperationQueue *conversionQueue;
 

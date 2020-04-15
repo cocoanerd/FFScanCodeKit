@@ -23,7 +23,7 @@
 
 #import "ZBarReaderController.h"
 #import "ZBarHelpController.h"
-#import "debug.h"
+#import "debug_iphone.h"
 
 /* the use of UIGetScreenImage() may no longer be sanctioned, even
  * though it was previously "allowed".  define this to 0 to rip it out

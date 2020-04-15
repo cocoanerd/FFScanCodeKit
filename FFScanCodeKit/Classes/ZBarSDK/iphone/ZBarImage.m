@@ -23,7 +23,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ZBarImage.h"
-#import "debug.h"
+#import "debug_iphone.h"
 
 static void image_cleanup(zbar_image_t *zimg)
 {

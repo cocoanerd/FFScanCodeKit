@@ -24,7 +24,7 @@
 #import "ZBarReaderView.h"
 
 #define MODULE ZBarReaderView
-#import "debug.h"
+#import "debug_iphone.h"
 
 // silence warning
 @interface ZBarReaderViewImpl : NSObject

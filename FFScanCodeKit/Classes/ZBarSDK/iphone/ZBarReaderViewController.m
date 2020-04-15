@@ -27,7 +27,7 @@
 #import "ZBarHelpController.h"
 
 #define MODULE ZBarReaderViewController
-#import "debug.h"
+#import "debug_iphone.h"
 
 #import <AVFoundation/AVFoundation.h>
 static inline AVCaptureDevicePosition

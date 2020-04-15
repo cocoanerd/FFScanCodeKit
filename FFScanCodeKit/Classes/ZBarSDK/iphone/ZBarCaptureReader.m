@@ -30,7 +30,7 @@
 #import "ZBarCVImage.h"
 
 #define MODULE ZBarCaptureReader
-#import "debug.h"
+#import "debug_iphone.h"
 
 enum {
     STOPPED = 0,

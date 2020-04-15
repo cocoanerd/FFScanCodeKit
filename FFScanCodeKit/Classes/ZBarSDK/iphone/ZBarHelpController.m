@@ -24,7 +24,7 @@
 #import "ZBarHelpController.h"
 
 #define MODULE ZBarHelpController
-#import "debug.h"
+#import "debug_iphone.h"
 
 @implementation ZBarHelpController
 

@@ -28,7 +28,7 @@
 #import "ZBarCaptureReader.h"
 
 #define MODULE ZBarReaderView
-#import "debug.h"
+#import "debug_iphone.h"
 
 // protected APIs
 @interface ZBarReaderView()

@@ -16,7 +16,7 @@
 #import "FFScanWrapper.h"
 #import "FFScanningPermissions.h"
 #import "zbar.h"
-#import "debug.h"
+#import "debug_iphone.h"
 #import "config.h"
 #import "ZBarCameraSimulator.h"
 #import "ZBarCaptureReader.h"
